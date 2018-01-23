@@ -1,20 +1,16 @@
 """
 Full spectrum of hsla colors for font
 """
-try:
-    from defaults import *
-except:
 
-from utils import CssModule, Style
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SPECTRUM
+from ...core import CssModule
 
 
 mdl = CssModule(
     'Color',
     BREAKPOINTS,
     [FULL],
-    dynamic={'c.': ['color']},
-    values={'Colors': (
-        [c.suffix for c in SPECTRUM],
-        [str(c) for c in SPECTRUM])},
+    dynamic={'.': ['color']},
+    values={'Colors': [(c.get_selector(), str(c)) for c in SPECTRUM]},
     docstring=__doc__
 )

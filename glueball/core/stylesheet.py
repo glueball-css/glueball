@@ -31,11 +31,10 @@ class StyleSheet:
         """
         fname = 'mdl'
         for dirslug in MODULES:
-            try:
-                self.add_module(importlib.import_module(MODULE_ROOT + '.' + dirslug + '.' + fname).mdl)
-            except AttributeError:
-                print("Skipped module %s: no 'mdl' variable found." % dirslug)
-                continue
+            self.add_module(importlib.import_module(MODULE_ROOT + '.' + dirslug + '.' + fname).mdl)
+            # except AttributeError:
+            #     print("Skipped module %s: no 'mdl' variable found." % dirslug)
+            #     continue
 
     def __getitem__(self, slug):
         """Get the module by its slug"""

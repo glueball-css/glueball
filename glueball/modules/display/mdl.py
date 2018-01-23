@@ -2,22 +2,30 @@
 Controls display property
 """
 
-from defaults import *
-from utils import CssModule, Style
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
 
-values = {
-    'Display options': (
-        ('n', 'i', 'b', 'ib', 'it', 't', 'tcell', 'trow', 'trowg', 'tcol', 'tcolg', 'f', 'if',),
-        ('none', 'inline', 'block', 'inline-block', 'inline-table', 'table', 'table-cell', 'table-row',
-            'table-row-group', 'table-column', 'table-column-group', 'flex', 'inline-flex',)
-    )
-}
+values = [
+    ('n',       'none'),
+    ('i',       'inline'),
+    ('b',       'block'),
+    ('ib',      'inline-block'),
+    ('it',      'inline-table'),
+    ('t',       'table'),
+    ('tcell',   'table-cell'),
+    ('trow',    'table-row'),
+    ('trowg',   'table-row-group'),
+    ('tcol',    'table-column'),
+    ('tcolg',   'table-column-group'),
+    ('f',       'flex'),
+    ('if',      'inline-flex')
+]
 
 mdl = CssModule(
     'Display',
     BREAKPOINTS,
     [UP, DOWN],
     dynamic={'.d': ['display']},
-    values=values,
+    values={'Display options': values},
     docstring=__doc__
 )

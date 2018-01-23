@@ -20,65 +20,57 @@ ONLY = BREAKPOINTS.media_only  # Only specific breakpoints: 'tt', 'ss', 'mm', 'l
 UP = BREAKPOINTS.media_up      # Lower bound queries: 'tx', 'sx', 'mx', 'lx', 'xx'
 DOWN = BREAKPOINTS.media_down  # Upper bound queries: 'tx', 'tl', 'tm', 'ts', 'tt'
 
-SIZING = (
-    [str(v) for v in range(10)],
-    ('0',
-     '1rem',
-     '2rem',
-     '4rem',
-     '8rem',
-     '16rem',
-     '32rem',
-     '48rem',
-     '64rem',
-     '96rem',)
-)
+SIZING = list(zip(range(10), (
+    '0',
+    '1rem',
+    '2rem',
+    '4rem',
+    '8rem',
+    '16rem',
+    '32rem',
+    '48rem',
+    '64rem',
+    '96rem',
+)))
 
-SPACING = (
-    [str(v) for v in range(10)],
-    ['0',
-     '0.125rem',
-     '0.25rem',
-     '0.5rem',
-     '1rem',
-     '2rem',
-     '4rem',
-     '8rem',
-     '16rem',
-     '999rem',]
-)
+SPACING = list(zip(range(10), (
+    '0',
+    '0.125rem',
+    '0.25rem',
+    '0.5rem',
+    '1rem',
+    '2rem',
+    '4rem',
+    '8rem',
+    '16rem',
+    '999rem',
+)))
 
-NEGATIVE_SPACING = (
-    [str(v) for v in range(-1, -10, -1)],
-    ('-0.125rem',
-     '-0.25rem',
-     '-0.5rem',
-     '-1rem',
-     '-2rem',
-     '-4rem',
-     '-8rem',
-     '-16rem',
-     '-999rem',)
-)
+NEGATIVE_SPACING = list(zip(range(-1, -10, -1), (
+    '-0.125rem',
+    '-0.25rem',
+    '-0.5rem',
+    '-1rem',
+    '-2rem',
+    '-4rem',
+    '-8rem',
+    '-16rem',
+    '-999rem',
+)))
 
-P_RANGE = range(10, 101, 10)
-PERCENTAGES = (
-    ['%dp' % i for i in P_RANGE],
-    ['%d%%' % i for i in P_RANGE]
-)
+PERCENTAGES = [('%dp' % i, '%d%%' % i) for i in range(10, 101, 10)]
 
-TYPE_SCALE = (
-    [str(v) for v in range(1, 10)],
-    ('.625rem',
-     '.75rem',
-     '.875rem',
-     '1rem',
-     '1.25rem',
-     '1.5rem',
-     '2rem',
-     '2.5rem',
-     '3.5rem',)
-)
+TYPE_SCALE = list(zip(range(1, 10), (
+    '.625rem',
+    '.75rem',
+    '.875rem',
+    '1rem',
+    '1.25rem',
+    '1.5rem',
+    '2rem',
+    '2.5rem',
+    '3.5rem',
+)))
 
 # For use in width and height fractions and flex-order values.
 # This allows for a detailed and versatile grid system.

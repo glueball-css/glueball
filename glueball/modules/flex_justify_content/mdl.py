@@ -3,17 +3,24 @@ Defines the alignment along the main axis.
 It distributes extra free space leftover when the flex items on a line are inflexible,
 or have reached their maximum size.
 """
-from defaults import *
-from utils import CssModule, Style
 
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+vals = [
+    ('fxs', 'flex-start'),
+    ('fxe', 'flex-end'),
+    ('c', 'center'),
+    ('sb', 'space-between'),
+    ('sa', 'space-around'),
+    ('se', 'space-evenly')
+]
 
 mdl = CssModule(
     'Flex justify content',
     BREAKPOINTS,
     [FULL],
     dynamic={'.fxjc': ['justify_content']},
-    values={'Distributions': [
-        ('fxs', 'fxe', 'c', 'sb', 'sa', 'se'),
-        ('flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'space-evenly')]},
+    values={'Distributions': vals},
     docstring=__doc__
 )

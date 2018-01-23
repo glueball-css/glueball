@@ -1,18 +1,29 @@
 """
 Options for repeating background images
 """
-from defaults import *
-from utils import CssModule, Style
 
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+styles = [
+    ('.c-fix', {'*zoom': '1'}),
+    ('.c-fix:before, .c-fix:after', {'content': '" "', 'display': 'table'}),
+    ('.c-fix:after', {'clear': 'both'})
+]
+
+vals = [
+    ('l',   'left'),
+    ('r',   'right'),
+    ('b',   'bottom'),
+    ('n',   'none'),
+]
 
 mdl = CssModule(
     'Clear',
     BREAKPOINTS,
     [FULL],
-    styles=[Style('.c-fix', {'*zoom': '1'}),
-            Style('.c-fix:before, .c-fix:after', {'content': '" "', 'display': 'table'}),
-            Style('.c-fix:after', {'clear': 'both'})],
+    styles=styles,
     dynamic={'.c': ['clear']},
-    values={'Options': [('l', 'r', 'b', 'n'), ('left', 'right', 'bottom', 'none')]},
+    values={'Options': vals},
     docstring=__doc__
 )

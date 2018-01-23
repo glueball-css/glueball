@@ -1,9 +1,16 @@
 """
 Style for all borders and individual borders
 """
-from defaults import *
-from utils import CssModule, Style
 
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+values = [
+    ('n',       'none'),
+    ('dashed',  'dashed'),
+    ('dotted',  'dotted'),
+    ('solid',   'solid'),
+]
 
 mdl = CssModule(
     'Border style',
@@ -15,6 +22,6 @@ mdl = CssModule(
         '.brs': ['border-right-style'],
         '.bbs': ['border-bottom-style'],
         '.bls': ['border-left-style']},
-    values={'Styles': [('n', 'dashed', 'dotted', 'solid'), ('none', 'dashed', 'dotted', 'solid')]},
+    values={'Styles': values},
     docstring=__doc__
 )

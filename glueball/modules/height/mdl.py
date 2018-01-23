@@ -1,8 +1,9 @@
 """
 Percentages and values for height
 """
-from defaults import *
-from utils import CssModule, Style
+
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SIZING, PERCENTAGES
+from ...core import CssModule
 
 
 mdl = CssModule(

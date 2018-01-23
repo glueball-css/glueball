@@ -1,8 +1,9 @@
 """
 Width for all borders and individual borders
 """
-from defaults import *
-from utils import CssModule, Style
+
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SPACING
+from ...core import CssModule
 
 
 mdl = CssModule(

@@ -5,8 +5,9 @@ Various padding properties:
 * padding (shorthand for all margins)
 * padding horizontal and vertical (x & y)
 """
-from defaults import *
-from utils import CssModule, Style
+
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SPACING
+from ...core import CssModule
 
 
 mdl = CssModule(

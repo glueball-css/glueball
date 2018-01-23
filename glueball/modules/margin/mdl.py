@@ -5,8 +5,9 @@ Various margin properties:
 * margin (shorthand for all margins)
 * margin horizontal and vertical (x & y)
 """
-from defaults import *
-from utils import CssModule, Style
+
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SPACING, NEGATIVE_SPACING
+from ...core import CssModule
 
 
 mdl = CssModule(

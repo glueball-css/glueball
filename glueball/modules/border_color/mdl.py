@@ -2,8 +2,8 @@
 Full spectrum of hsla colors for border
 """
 
-from defaults import *
-from utils import CssModule, Style
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SPECTRUM
+from ...core import CssModule
 
 
 mdl = CssModule(
@@ -11,8 +11,6 @@ mdl = CssModule(
     BREAKPOINTS,
     [FULL],
     dynamic={'.bc': ['border-color']},
-    values={'Border colors': (
-        [c.suffix for c in SPECTRUM]+['t'],
-        [str(c) for c in SPECTRUM]+['transparent'])},
+    values={'Colors': [(c.get_selector(), str(c)) for c in SPECTRUM]},
     docstring=__doc__
 )

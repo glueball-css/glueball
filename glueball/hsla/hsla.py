@@ -49,7 +49,6 @@ class Hsla:
     Colors 'black', 'white' and 'gray' have a hue and saturation of 0.
     A luminisity of 0 defaults to 'black' and 100 to 'white'; anything in between is treated as `gray`.
 
-    suffix      The suffix attribute for use in selectors: <hue>[<sat>][-<lum>][-<alpha>a]
     _h          Hue - The value (0 to 360)
     _s          Saturation - The percentage as a value 0-100, defaults to 100
     _l          Luminosity - The percentage as a value 0-100, defaults to 50
@@ -78,13 +77,15 @@ class Hsla:
         """Return color component for selector: <h>[<s>][-<l>][-<a>a]"""
         s = str(self._s) if self._s < 100 else ""
         l = "-"+str(self._l) if self._l != 50 else ""
-        a = '-{:.2f}a'.format(self._a) if self._a < 100 else ""
+        a = "-%sa" % str(self._a) if self._a < 100 else ""
         if self._s == 0:
             s = ""
             if self._l == 0:
                 h = 'black'
+                l = ''
             elif self._l == 100:
                 h = 'white'
+                l = ''
             else:
                 h = 'gray'
         else:
