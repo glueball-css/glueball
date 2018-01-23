@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<h2>{{ mdl.name }}</h2>
+{% block intro %}
+  {{ mdl.docstring }}
+{% endblock %}
+
+{% if mdl.styles %}
+  <h3>Basic styles</h3>
+  <pre><code>{% for style in mdl.styles %}
+  {{ style.__str__() }}{% endfor %}</code></pre>
+  <p>
+    The basic styles do not depend on the provided values.
+    They do however adhere to the breakpoints and pseudo selectors.
+  </p>
+{% endif %}
+
+
+{% if mdl.static %}
+  <h3>Static declarations</h3>
+  <ul>
+    {% for prop, val in mdl.static.items() %}
+      <li><code>{{ prop }}: {{ val }};</code></li>
+    {% endfor %}
+  </ul>
+  <p>A static declaration is not altered by the provided values.</p>
+{% endif %}
+
+
+{% if mdl.dynamic %}
+  <h3>Dynamic properties</h3>
+  <ul>
+  {% for base, props in mdl.dynamic.items() %}
+    <li>
+      <code>{{ base }}</code>
+      <ul>
+        {% for prop in props %}
+          <li><code>{{ prop }}</code></li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+  <p>The value of a dynamic property is determined by the provided values.</p>
+{% endif %}
+
+
+{% if mdl.values %}
+  <h3>Provided values</h3>
+  {% for name, vals in mdl.values.items() %}
+    <h4>{{ name }}</h4>
+    {% for sel in vals[0] %}
+      <div><code>{{ sel }}</code></div>
+    {% endfor %}
+    {% for val in vals[1] %}
+      <div><code>{{ val }}</code></div>
+    {% endfor %}
+    {% for val in vals[1] %}
+      {% if val[:3] == 'hsl' %}
+        <div>
+          <div style="display:inline-block; height: 1rem; width: 1rem;
+              background-color: {{ val }}; border: 1px solid black;"></div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+
+<h3>Examples</h3>
+{% block examples %}
+  <p>No examples yet.</p>
+{% endblock %}
+
+
+<h3>Media</h3>
+{% set media = mdl._breakpoints.media_table() %}
+{% set bps = mdl._breakpoints.bp_table(mdl.media) %}
+<div>{% include 'includes/media.html' %}</div>
+
+
+{% if mdl.pseudos %}
+  <h3>Pseudo selectors</h3>
+  {% for pseudo, pseudo_media in mdl.pseudos.items() %}
+    <h4>{{ pseudo }}</h4>
+    {% set bps = mdl._breakpoints.bp_table(pseudo_media) %}
+    <div>{% include 'includes/media.html' %}</div>
+  {% endfor %}
+{% endif %}
+
+
+<h3>CSS rules</h3>
+<pre><code>{% for rule in mdl.get_all_rules() %}
+{{ rule.__str__() }}
+{% endfor %}</code></pre>
+{% endblock %}

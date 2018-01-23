@@ -1,0 +1,28 @@
+<table>
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    {% for m, low, up in media %}
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">{{ low }}</span></th>
+    {% endfor %}
+  </tr>
+  {% for bp, min, max in bps %}
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      {% if bp %}
+        <code>{{ bp }}</code>
+      {% else %}
+        (none)
+      {% endif %}
+    </td>
+    {% for m, low, up in media %}
+    <td>
+      {% if min <= low and max >= up %}
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      {% if min == low %}border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;{% endif %}
+      {% if max == up %}border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;{% endif %}"></div>
+      {% endif %}
+    </td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
