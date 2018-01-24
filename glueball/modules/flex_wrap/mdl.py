@@ -15,7 +15,7 @@ vals = [
 mdl = CssModule(
     'Flex wrap',
     [FULL],
-    dynamic={'.fxw': ['flex-wrap']},
+    dynamic={'.fw': ['flex-wrap']},
     values={'Directions': vals},
     docstring=__doc__
 )

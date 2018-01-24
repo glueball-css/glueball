@@ -1,22 +1,22 @@
 """
-Overrides the align-items value for specific flex items.
+Defines the default behaviour for how flex items are laid out along the cross axis on the current line.
 """
 
 from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
 vals = [
-    ('fxs', 'flex-start'),
-    ('fxe', 'flex-end'),
+    ('fs', 'flex-start'),
+    ('fe', 'flex-end'),
     ('c', 'center'),
     ('b', 'baseline'),
     ('s', 'stretch')
 ]
 
 mdl = CssModule(
-    'Flex align self',
+    'Align items',
     [FULL],
-    dynamic={'.fxas': ['align-self']},
+    dynamic={'.ai': ['align-items']},
     values={'Alignment options': vals},
     docstring=__doc__
 )

@@ -8,7 +8,7 @@ from ...core import CssModule
 mdl = CssModule(
     'Font style',
     [UP],
-    dynamic={'.fs': ['font-style']},
+    dynamic={'.': ['font-style']},
     values={'Styles': [('n', 'normal'), ('i', 'italic')]},
     docstring=__doc__
 )

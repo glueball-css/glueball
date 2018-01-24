@@ -103,5 +103,5 @@ ENV/
 # custom
 .idea/
 .DS_Store
-temp.py
+localscripts.py
 

@@ -6,8 +6,8 @@ from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
 vals = [
-    ('fxs', 'flex-start'),
-    ('fxe', 'flex-end'),
+    ('fs', 'flex-start'),
+    ('fe', 'flex-end'),
     ('c', 'center'),
     ('sb', 'space-between'),
     ('sa', 'space-around'),
@@ -15,9 +15,9 @@ vals = [
 ]
 
 mdl = CssModule(
-    'Flex align content',
+    'Align content',
     [FULL],
-    dynamic={'.fxac': ['align-content']},
+    dynamic={'.ac': ['align-content']},
     values={'Alignment options': vals},
     docstring=__doc__
 )

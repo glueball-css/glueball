@@ -7,9 +7,9 @@ from ...core import CssModule
 
 values = [
     ('n',       'none'),
-    ('dashed',  'dashed'),
-    ('dotted',  'dotted'),
-    ('solid',   'solid'),
+    ('dash',    'dashed'),
+    ('dot',     'dotted'),
+    ('s',   '   solid'),
 ]
 
 mdl = CssModule(

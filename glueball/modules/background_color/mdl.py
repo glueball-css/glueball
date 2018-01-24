@@ -8,8 +8,9 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Background color',
-    [FULL],
+    [UP],
     dynamic={'.bgc': ['background-color']},
     values={'Colors': [(c.get_selector(), str(c)) for c in SPECTRUM]},
-    docstring=__doc__
+    pseudos={'hover': [UP]},
+    docstring=__doc__,
 )

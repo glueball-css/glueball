@@ -9,7 +9,7 @@ from ...core import CssModule
 mdl = CssModule(
     'Font size',
     [UP],
-    dynamic={'.fs': ['font-size']},
+    dynamic={'.size': ['font-size']},
     values={'Type scales': TYPE_SCALE},
     pseudos={'hover': [UP], 'focus': [UP]},
     docstring=__doc__

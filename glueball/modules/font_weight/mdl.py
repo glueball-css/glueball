@@ -8,7 +8,7 @@ from ...core import CssModule
 mdl = CssModule(
     'Font weight',
     [UP],
-    dynamic={'.fw': ['font-weight']},
+    dynamic={'.weight': ['font-weight']},
     values={'Weights': zip(range(1, 10), range(100, 901, 100))},
     docstring=__doc__
 )

@@ -5,17 +5,17 @@ Options
 from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
-vals = [
-    ('s', 'static'),
-    ('r', 'relative'),
-    ('a', 'absolute'),
-    ('f', 'fixed')
-]
+vals = (
+    'static',
+    'relative',
+    'absolute',
+    'fixed'
+)
 
 mdl = CssModule(
     'Position',
     [UP],
-    dynamic={'.p': ['position']},
-    values={'Values': vals},
+    dynamic={'.': ['position']},
+    values={'Values': list(zip(vals, vals))},
     docstring=__doc__
 )

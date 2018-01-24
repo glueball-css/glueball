@@ -22,12 +22,12 @@ MODULES = (
     'float',
     'clear',
     'table',
-    'flex_align_items',
-    'flex_align_content',
-    'flex_align_self',
-    'flex_justify_content',
+    'align_items',
+    'align_content',
+    'align_self',
+    'justify_content',
     'flex_direction',
-    'flex_order',
+    'order',
     'flex_wrap',
     'box_sizing',
     'height',
@@ -55,5 +55,5 @@ MODULES = (
 # CSS files to include at the top of the generated CSS file
 INCLUDES_DIR = os.path.join(DIRNAME, 'includes')
 INCLUDES = (
-    # 'normalize.css',
+    'normalize.css',
 )

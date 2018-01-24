@@ -29,7 +29,7 @@ class CssModule:
                  styles=None,
                  static=None,
                  dynamic=None,
-                 values=None,
+                 values={},
                  pseudos=None,
                  docstring=''):
         self.name = name
@@ -42,7 +42,7 @@ class CssModule:
         self.styles = styles or []
         self.static = static or {}
         self.dynamic = dynamic or {}
-        self.values = values or {}
+        self.values = {k: [(str(t[0]), str(t[1])) for t in v] for k, v in values.items()}
         self.pseudos = pseudos or {}
         self.docstring = docstring
 

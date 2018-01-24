@@ -9,9 +9,9 @@ from ...core import CssModule
 vals = list(range(max(DENOMINATORS+[10])+1)) + [99, 999, 9999, 99999]
 
 mdl = CssModule(
-    'Flex order',
+    'Order',
     [UP],
-    dynamic={'.fxo': ['order']},
+    dynamic={'.order': ['order']},
     values={'Order options': zip(vals, vals)},
     docstring=__doc__
 )

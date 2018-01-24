@@ -12,8 +12,8 @@ mdl = CssModule(
     [UP],
     dynamic={
         '.o': ['overflow'],
-        'ox': ['overflow-x'],
-        'oy': ['overflow-y']},
+        '.ox': ['overflow-x'],
+        '.oy': ['overflow-y']},
     values={'Values': vals},
     docstring=__doc__
 )

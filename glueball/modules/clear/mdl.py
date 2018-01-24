@@ -6,9 +6,9 @@ from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
 styles = [
-    ('.c-fix', {'*zoom': '1'}),
-    ('.c-fix:before, .c-fix:after', {'content': '" "', 'display': 'table'}),
-    ('.c-fix:after', {'clear': 'both'})
+    ('.clear-fix', {'*zoom': '1'}),
+    ('.clear-fix:before, .c-fix:after', {'content': '" "', 'display': 'table'}),
+    ('.clear-fix:after', {'clear': 'both'})
 ]
 
 vals = [
@@ -22,7 +22,7 @@ mdl = CssModule(
     'Clear',
     [FULL],
     styles=styles,
-    dynamic={'.c': ['clear']},
+    dynamic={'.clear': ['clear']},
     values={'Options': vals},
     docstring=__doc__
 )

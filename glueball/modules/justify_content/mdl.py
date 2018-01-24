@@ -8,8 +8,8 @@ from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
 vals = [
-    ('fxs', 'flex-start'),
-    ('fxe', 'flex-end'),
+    ('fs', 'flex-start'),
+    ('fe', 'flex-end'),
     ('c', 'center'),
     ('sb', 'space-between'),
     ('sa', 'space-around'),
@@ -17,9 +17,9 @@ vals = [
 ]
 
 mdl = CssModule(
-    'Flex justify content',
+    'Justify content',
     [FULL],
-    dynamic={'.fxjc': ['justify-content']},
+    dynamic={'.jc': ['justify-content']},
     values={'Distributions': vals},
     docstring=__doc__
 )
