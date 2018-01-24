@@ -14,7 +14,6 @@ values = [
 
 mdl = CssModule(
     'Border style',
-    BREAKPOINTS,
     [UP],
     dynamic={
         '.bs': ['border-style'],

@@ -8,7 +8,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Font size',
-    BREAKPOINTS,
     [UP],
     dynamic={'.fs': ['font-size']},
     values={'Type scales': TYPE_SCALE},

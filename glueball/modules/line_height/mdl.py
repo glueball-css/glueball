@@ -17,7 +17,6 @@ vals = [
 
 mdl = CssModule(
     'Line height',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.lh': ['line-height']},
     values={'Heights': vals},

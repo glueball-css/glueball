@@ -7,7 +7,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Font weight',
-    BREAKPOINTS,
     [UP],
     dynamic={'.fw': ['font-weight']},
     values={'Weights': zip(range(1, 10), range(100, 901, 100))},

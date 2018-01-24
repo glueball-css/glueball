@@ -7,7 +7,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Font style',
-    BREAKPOINTS,
     [UP],
     dynamic={'.fs': ['font-style']},
     values={'Styles': [('n', 'normal'), ('i', 'italic')]},

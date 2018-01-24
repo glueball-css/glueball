@@ -14,7 +14,6 @@ vals = [
 
 mdl = CssModule(
     'Float',
-    BREAKPOINTS,
     [UP],
     dynamic={'.f': ['float']},
     values={'Values': vals},

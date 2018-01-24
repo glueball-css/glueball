@@ -9,7 +9,6 @@ values = SPACING + [('100p', '100%')]
 
 mdl = CssModule(
     'Border radius',
-    BREAKPOINTS,
     [FULL],
     dynamic={
         '.br': ['border-radius'],

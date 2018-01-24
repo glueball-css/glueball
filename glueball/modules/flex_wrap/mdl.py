@@ -14,7 +14,6 @@ vals = [
 
 mdl = CssModule(
     'Flex wrap',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.fxw': ['flex-wrap']},
     values={'Directions': vals},

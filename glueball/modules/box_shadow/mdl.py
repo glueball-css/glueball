@@ -15,7 +15,6 @@ vals = [
 
 mdl = CssModule(
     'Box shadow',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.shadow': ['box-shadow']},
     values={'Shadows': vals},

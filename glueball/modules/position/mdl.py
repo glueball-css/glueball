@@ -12,11 +12,9 @@ vals = [
     ('f', 'fixed')
 ]
 
-
 mdl = CssModule(
     'Position',
-    # BREAKPOINTS,
-    media=[UP],
+    [UP],
     dynamic={'.p': ['position']},
     values={'Values': vals},
     docstring=__doc__

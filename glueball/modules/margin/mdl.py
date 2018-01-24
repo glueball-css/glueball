@@ -12,7 +12,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Margin',
-    BREAKPOINTS,
     [UP],
     dynamic={
         '.m': ['margin'],

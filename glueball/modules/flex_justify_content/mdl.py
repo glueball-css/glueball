@@ -18,7 +18,6 @@ vals = [
 
 mdl = CssModule(
     'Flex justify content',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.fxjc': ['justify-content']},
     values={'Distributions': vals},

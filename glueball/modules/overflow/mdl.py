@@ -9,7 +9,6 @@ vals = [('v', 'visible'), ('h', 'hidden'), ('s', 'scroll'), ('a', 'auto')]
 
 mdl = CssModule(
     'Overflow',
-    BREAKPOINTS,
     [UP],
     dynamic={
         '.o': ['overflow'],

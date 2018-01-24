@@ -16,7 +16,6 @@ vals = [
 
 mdl = CssModule(
     'Flex align content',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.fxac': ['align-content']},
     values={'Alignment options': vals},

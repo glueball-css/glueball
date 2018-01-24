@@ -19,7 +19,6 @@ vals = [
 
 mdl = CssModule(
     'Transition',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.t': ['transition']},
     values={'Speeds': vals},

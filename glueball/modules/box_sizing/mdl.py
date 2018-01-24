@@ -13,7 +13,6 @@ styles = [
 
 mdl = CssModule(
     'Border box',
-    BREAKPOINTS,
     [FULL],
     styles=styles,
     docstring=__doc__

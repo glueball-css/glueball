@@ -26,7 +26,6 @@ families = {
 
 mdl = CssModule(
     'Font family',
-    BREAKPOINTS,
     [FULL],
     styles=[(k, {'font-family': v}) for k, v in families.items()],
     docstring=__doc__

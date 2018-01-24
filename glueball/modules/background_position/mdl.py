@@ -20,7 +20,6 @@ values = (
 
 mdl = CssModule(
     'Background position',
-    BREAKPOINTS,
     [UP],
     static={'background-repeat': 'no-repeat'},
     dynamic={'.bgp': ['background-position']},

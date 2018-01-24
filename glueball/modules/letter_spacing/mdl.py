@@ -18,7 +18,6 @@ vals = [
 
 mdl = CssModule(
     'Letter spacing',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.ls': ['letter-spacing']},
     values={'Spacings': vals},

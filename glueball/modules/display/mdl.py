@@ -23,7 +23,6 @@ values = [
 
 mdl = CssModule(
     'Display',
-    BREAKPOINTS,
     [UP, DOWN],
     dynamic={'.d': ['display']},
     values={'Display options': values},

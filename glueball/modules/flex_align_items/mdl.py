@@ -15,7 +15,6 @@ vals = [
 
 mdl = CssModule(
     'Flex align items',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.fxai': ['align-items']},
     values={'Alignment options': vals},

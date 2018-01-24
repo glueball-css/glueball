@@ -26,7 +26,6 @@ vals = [
 
 mdl = CssModule(
     'List style type',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.lst': ['list-style-type']},
     values={'Types': vals},

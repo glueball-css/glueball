@@ -12,7 +12,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Padding',
-    BREAKPOINTS,
     [UP],
     dynamic={
         '.p': ['padding'],

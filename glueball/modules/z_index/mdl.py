@@ -9,7 +9,6 @@ vals = list(range(10)) + [99, 999, 9999, 99999]
 
 mdl = CssModule(
     'Z index',
-    BREAKPOINTS,
     [UP],
     dynamic={'.z': ['z-index']},
     values={'Values': zip(vals, vals)},

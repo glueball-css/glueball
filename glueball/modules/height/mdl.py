@@ -8,7 +8,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Height',
-    BREAKPOINTS,
     [UP],
     dynamic={'.h': ['height']},
     values={'Modifiers': SIZING, 'Percentages': PERCENTAGES},

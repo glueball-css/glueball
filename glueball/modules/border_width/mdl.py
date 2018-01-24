@@ -8,7 +8,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Border width',
-    BREAKPOINTS,
     [UP],
     dynamic={
         '.bw': ['border-width'],

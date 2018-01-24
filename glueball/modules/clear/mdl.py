@@ -20,7 +20,6 @@ vals = [
 
 mdl = CssModule(
     'Clear',
-    BREAKPOINTS,
     [FULL],
     styles=styles,
     dynamic={'.c': ['clear']},

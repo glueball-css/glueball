@@ -1,7 +1,11 @@
 import re
 
+from ..settings import DOCSITE
 from .stylerule import StyleRule
-from ..modules.defaults import BREAKPOINTS
+try:
+    from ..modules.defaults import BREAKPOINTS
+except ImportError:
+    BREAKPOINTS = None
 
 
 class CssModule:
@@ -10,8 +14,8 @@ class CssModule:
     Instance attributes
     -------------------
     name:           Module name, also used for filename slugs
-    breakpoints:    Instance of Breakpoints
     media:          List of media modifiers (query strings like 'ml' or shortcut methods from Breakpoints instance)
+    breakpoints:    Instance of Breakpoints, defaults to BREAKPOINTS from module-defaults if not provided
     styles:         Iterable of arguments to create StyleRules (that will be used without modification)
     static:         Dict of declations which will be applied unchanged to the dynamic selector
     dynamic:        Dict of base selector + list of props which form declarations with the different values
@@ -21,7 +25,7 @@ class CssModule:
     def __init__(self,
                  name,
                  media,
-                 breakpoints=BREAKPOINTS,
+                 breakpoints=None,
                  styles=None,
                  static=None,
                  dynamic=None,
@@ -31,6 +35,10 @@ class CssModule:
         self.name = name
         self._breakpoints = breakpoints
         self.media = media
+        if breakpoints:
+            self._breakpoints = breakpoints
+        else:
+            self._breakpoints = BREAKPOINTS
         self.styles = styles or []
         self.static = static or {}
         self.dynamic = dynamic or {}
@@ -83,5 +91,5 @@ module %s
 documentation: %s
 */
 
-""" % (self.name.upper(), self.docstring, "DOC_ROOT"+self.get_slug())
+""" % (self.name.upper(), self.docstring, DOCSITE+'modules/'+self.get_slug())
         return header + '\n'.join([str(r) for r in self.get_all_rules()])

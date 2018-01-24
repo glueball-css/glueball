@@ -18,7 +18,6 @@ styles = [
 
 mdl = CssModule(
     'Table',
-    BREAKPOINTS,
     [FULL],
     styles=styles,
     dynamic={'.tbs': ['border-spacing']},

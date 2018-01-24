@@ -16,7 +16,6 @@ fractions = [('%d-%d' % (num, den), '{:.5%}'.format(num/den)) for den in DENOMIN
 
 mdl = CssModule(
     'Width',
-    BREAKPOINTS,
     [UP],
     dynamic={'.w': ['width']},
     values={'Modifiers': SIZING, 'Percentages': PERCENTAGES, 'Fractions': fractions},

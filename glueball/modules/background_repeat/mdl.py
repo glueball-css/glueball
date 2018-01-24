@@ -13,7 +13,6 @@ values = (
 
 mdl = CssModule(
     'Background repeat',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.bgr': ['background-repeat']},
     values={'Values': values},

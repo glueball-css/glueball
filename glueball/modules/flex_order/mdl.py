@@ -10,7 +10,6 @@ vals = list(range(max(DENOMINATORS+[10])+1)) + [99, 999, 9999, 99999]
 
 mdl = CssModule(
     'Flex order',
-    BREAKPOINTS,
     [UP],
     dynamic={'.fxo': ['order']},
     values={'Order options': zip(vals, vals)},

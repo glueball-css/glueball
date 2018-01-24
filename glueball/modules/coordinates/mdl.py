@@ -15,7 +15,6 @@ vals = [
 
 mdl = CssModule(
     'Coordinates',
-    BREAKPOINTS,
     [UP],
     dynamic={
         '.top':     ['top'],

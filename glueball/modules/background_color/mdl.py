@@ -8,7 +8,6 @@ from ...core import CssModule
 
 mdl = CssModule(
     'Background color',
-    BREAKPOINTS,
     [FULL],
     dynamic={'.bgc': ['background-color']},
     values={'Colors': [(c.get_selector(), str(c)) for c in SPECTRUM]},
