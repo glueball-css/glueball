@@ -2,15 +2,22 @@
 Options
 """
 
-from defaults import *
-from utils import CssModule, Style
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+vals = [
+    ('s', 'static'),
+    ('r', 'relative'),
+    ('a', 'absolute'),
+    ('f', 'fixed')
+]
 
 
 mdl = CssModule(
     'Position',
-    BREAKPOINTS,
-    [UP],
+    # BREAKPOINTS,
+    media=[UP],
     dynamic={'.p': ['position']},
-    values={'Values': [('s', 'r', 'a', 'f'), ('static', 'relative', 'absolute', 'fixed')]},
+    values={'Values': vals},
     docstring=__doc__
 )

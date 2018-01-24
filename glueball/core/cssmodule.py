@@ -1,6 +1,7 @@
 import re
 
 from .stylerule import StyleRule
+from ..modules.defaults import BREAKPOINTS
 
 
 class CssModule:
@@ -19,8 +20,8 @@ class CssModule:
     """
     def __init__(self,
                  name,
-                 breakpoints,
                  media,
+                 breakpoints=BREAKPOINTS,
                  styles=None,
                  static=None,
                  dynamic=None,

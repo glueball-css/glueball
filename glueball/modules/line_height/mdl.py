@@ -1,13 +1,19 @@
 """
-Modifiers
+Line height settings
 """
-from defaults import *
-from utils import CssModule, Style
 
-vals = (
-    ['-2', '-1', 'n', '1', '2', '3', '4'],
-    ['0.75', '0.875', 'normal', '1', '1.125', '1.25', '1.5', '2']
-)
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+vals = [
+    (-2,    '0.75'),
+    (-1,    '0.875'),
+    (1,     '1'),
+    (2,     '1.125'),
+    (3,     '1.25'),
+    (4,     '1.5'),
+    ('n',   'normal'),
+]
 
 mdl = CssModule(
     'Line height',

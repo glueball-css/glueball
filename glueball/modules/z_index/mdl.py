@@ -1,16 +1,17 @@
 """
 Place
 """
-from defaults import *
-from utils import CssModule, Style
 
-val = [str(i) for i in range(10)] + ['99', '999', '9999', '99999']
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+vals = list(range(10)) + [99, 999, 9999, 99999]
 
 mdl = CssModule(
     'Z index',
     BREAKPOINTS,
     [UP],
     dynamic={'.z': ['z-index']},
-    values={'Values': (val, val)},
+    values={'Values': zip(vals, vals)},
     docstring=__doc__
 )

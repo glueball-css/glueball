@@ -2,8 +2,8 @@
 Progressively larger font sizes.
 """
 
-from defaults import *
-from utils import CssModule, Style
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, TYPE_SCALE
+from ...core import CssModule
 
 
 mdl = CssModule(

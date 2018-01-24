@@ -2,8 +2,8 @@
 System fonts with appropriate fallbacks.
 """
 
-from defaults import *
-from utils import CssModule, Style
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
 
 families = {
     '.sans': "-apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, "
@@ -28,6 +28,6 @@ mdl = CssModule(
     'Font family',
     BREAKPOINTS,
     [FULL],
-    styles=[Style(k, {'font-family': v}) for k, v in families.items()],
+    styles=[(k, {'font-family': v}) for k, v in families.items()],
     docstring=__doc__
 )

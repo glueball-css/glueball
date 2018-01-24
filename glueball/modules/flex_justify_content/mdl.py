@@ -20,7 +20,7 @@ mdl = CssModule(
     'Flex justify content',
     BREAKPOINTS,
     [FULL],
-    dynamic={'.fxjc': ['justify_content']},
+    dynamic={'.fxjc': ['justify-content']},
     values={'Distributions': vals},
     docstring=__doc__
 )

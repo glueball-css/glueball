@@ -1,33 +1,34 @@
 """
 Selection of list style types
 """
-from defaults import *
-from utils import CssModule, Style
 
-vals = (
-    ['disc', 'n', 'circle', 'square', 'deci', 'cjkdeci', 'decilz', 'lowa', 'lowg', 'lowl', 'lowr', 'upa', 'upg', 'upl', 'upr'],
-    ['disc',
-        'none',
-        'circle',
-        'square',
-        'decimal',
-        'cjk-decimal',
-        'decimal-leading-zero',
-        'lower-alpha',
-        'lower-greek',
-        'lower-latin',
-        'lower-roman',
-        'upper-alpha',
-        'upper-greek',
-        'upper-latin',
-        'upper-roman']
-)
+from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
+from ...core import CssModule
+
+vals = [
+    ('disc', 'disc'),
+    ('n', 'none'),
+    ('circle', 'circle'),
+    ('square', 'square'),
+    ('deci', 'decimal'),
+    ('cjkdeci', 'cjk-decimal'),
+    ('decilz', 'decimal-leading-zero'),
+    ('lowa', 'lower-alpha'),
+    ('lowg', 'lower-greek'),
+    ('lowl', 'lower-latin'),
+    ('lowr', 'lower-roman'),
+    ('upa', 'upper-alpha'),
+    ('upg', 'upper-greek'),
+    ('upl', 'upper-latin'),
+    ('upr', 'upper-roman')
+]
+
 
 mdl = CssModule(
     'List style type',
     BREAKPOINTS,
     [FULL],
-    dynamic={'.lst': ['letter-style-type']},
+    dynamic={'.lst': ['list-style-type']},
     values={'Types': vals},
     docstring=__doc__
 )
