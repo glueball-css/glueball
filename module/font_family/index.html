@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glueball</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
+</head>
+<body>
+<div style="max-width: 48em; margin-left: auto; margin-right: auto;">
+
+<a href="/">HOME</a>
+
+<h2>Font family</h2>
+
+  
+  
+System fonts with appropriate fallbacks.
+
+
+
+
+
+  <h3>Basic styles</h3>
+  <pre><code>
+  (&#39;.sans&#39;, {&#39;font-family&#39;: &#34;-apple-system, BlinkMacSystemFont, &#39;avenir next&#39;, avenir, &#39;helvetica neue&#39;, helvetica, ubuntu, roboto, noto, &#39;segoe ui&#39;, arial, sans-serif&#34;})
+  (&#39;.serif&#39;, {&#39;font-family&#39;: &#39;georgia, times, serif&#39;})
+  (&#39;.system-sans&#39;, {&#39;font-family&#39;: &#39;sans-serif&#39;})
+  (&#39;.system-serif&#39;, {&#39;font-family&#39;: &#39;serif&#39;})
+  (&#39;code, .code&#39;, {&#39;font-family&#39;: &#39;Consolas, monaco, monospace&#39;})
+  (&#39;.courier&#39;, {&#39;font-family&#39;: &#34;&#39;Courier Next&#39;, courier, monospace&#34;})
+  (&#39;.helvetica&#39;, {&#39;font-family&#39;: &#34;&#39;helvetica neue&#39;, helvertica, sans-serif&#34;})
+  (&#39;.avenir&#39;, {&#39;font-family&#39;: &#34;&#39;avenir next&#39;, avenir, sans-serif&#34;})
+  (&#39;.athelas&#39;, {&#39;font-family&#39;: &#39;athelas, georgia, serif&#39;})
+  (&#39;.georgia&#39;, {&#39;font-family&#39;: &#39;georgia, serif&#39;})
+  (&#39;.times&#39;, {&#39;font-family&#39;: &#39;times, serif&#39;})
+  (&#39;.bodoni&#39;, {&#39;font-family&#39;: &#34;&#39;Bodoni MT&#39;, serif&#34;})
+  (&#39;.calisto&#39;, {&#39;font-family&#39;: &#39;calisto, serif&#39;})
+  (&#39;.garamond&#39;, {&#39;font-family&#39;: &#39;garamond, serif&#39;})
+  (&#39;.baskerville&#39;, {&#39;font-family&#39;: &#39;baskerville, serif&#39;})</code></pre>
+  <p>
+    The basic styles do not depend on the provided values.
+    They do however adhere to the breakpoints and pseudo selectors.
+  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Examples</h3>
+
+  
+  <p>No examples yet.</p>
+
+
+
+
+<h3>Media</h3>
+
+
+<div><table>
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        (none)
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+</table></div>
+
+
+
+
+
+<h3>CSS rules</h3>
+<pre><code>
+.sans { font-family: -apple-system, BlinkMacSystemFont, &#39;avenir next&#39;, avenir, &#39;helvetica neue&#39;, helvetica, ubuntu, roboto, noto, &#39;segoe ui&#39;, arial, sans-serif; }
+.serif { font-family: georgia, times, serif; }
+.system-sans { font-family: sans-serif; }
+.system-serif { font-family: serif; }
+code, .code { font-family: Consolas, monaco, monospace; }
+.courier { font-family: &#39;Courier Next&#39;, courier, monospace; }
+.helvetica { font-family: &#39;helvetica neue&#39;, helvertica, sans-serif; }
+.avenir { font-family: &#39;avenir next&#39;, avenir, sans-serif; }
+.athelas { font-family: athelas, georgia, serif; }
+.georgia { font-family: georgia, serif; }
+.times { font-family: times, serif; }
+.bodoni { font-family: &#39;Bodoni MT&#39;, serif; }
+.calisto { font-family: calisto, serif; }
+.garamond { font-family: garamond, serif; }
+.baskerville { font-family: baskerville, serif; }
+</code></pre>
+
+</div>
+</body>
+</html>
