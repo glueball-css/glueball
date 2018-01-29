@@ -454,7 +454,7 @@ template {
  
  
  */
- 
+
 /*
 module POSITION
 
@@ -5216,6 +5216,20 @@ documentation: http://glueball.io/docs/module/letter_spacing
 .ls3 { letter-spacing: 0.25em; }
 .ls4 { letter-spacing: 0.5em; }
 .ls-n { letter-spacing: normal; }
+
+/*
+module TEXT TRANSFORM
+
+Control text case.
+
+
+documentation: http://glueball.io/docs/module/text_transform
+*/
+
+.tt-n { text-transform: none; }
+.tt-c { text-transform: capitalize; }
+.tt-u { text-transform: uppercase; }
+.tt-l { text-transform: lowercase; }
 
 /*
 module TRANSITION
