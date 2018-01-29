@@ -72,6 +72,8 @@ TYPE_SCALE = list(zip(range(1, 10), (
     '3.5rem',
 )))
 
+WEIGHT = list(zip(range(1, 10), range(100, 901, 100)))
+
 # For use in width and height fractions and flex-order values.
 # This allows for a detailed and versatile grid system.
 # Beware: the number of CSS rules increases with the provided values.

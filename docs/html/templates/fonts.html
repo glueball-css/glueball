@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  {% for s in styles %}
+  <section class="{{ s.selectors[0].base }}">
+    <h3>{{ s.selectors[0].base }}</h3>
+    <p >
+      The prediction that glueballs exist is one of the most important predictions of the Standard Model
+      of particle physics that has not yet been confirmed experimentally.
+    </p>
+    <p><a href="{{ url_for('font', font_url=s.selectors[0].base) }}">view</a></p>
+    </section>
+
+  {% endfor %}
+{% endblock %}

@@ -3,6 +3,16 @@ import importlib
 
 from ..settings import MODULES, MODULE_ROOT, CSS_ROOT, INCLUDES_DIR, INCLUDES
 
+CSS_HEADER = """
+/*
+  ___  __    _  _  ____  ____   __   __    __   
+ / __)(  )  / )( \(  __)(  _ \ / _\ (  )  (  )  
+( (_ \/ (_/\) \/ ( ) _)  ) _ (/    \/ (_/\/ (_/\ 
+ \___/\____/\____/(____)(____/\_/\_/\____/\____/
+ 
+ 
+ */
+"""
 
 class StyleSheet:
     """Create a stylesheet
@@ -17,12 +27,12 @@ class StyleSheet:
     def __init__(self, name="glueball"):
         self.name = name
         self.modules = []
-        self.module_dict = {}  # For convenience; to access modules from their slug
+        self.module_dict = {}  # For convenience; to access modules from their url
         self.load_modules()
 
     def add_module(self, mdl):
         self.modules.append(mdl)
-        self.module_dict[mdl.get_slug()] = mdl
+        self.module_dict[mdl.get_url()] = mdl
 
     def load_modules(self):
         """
@@ -36,9 +46,9 @@ class StyleSheet:
             #     print("Skipped module %s: no 'mdl' variable found." % dirslug)
             #     continue
 
-    def __getitem__(self, slug):
-        """Get the module by its slug"""
-        return self.module_dict[slug]
+    def __getitem__(self, url):
+        """Get the module by its url"""
+        return self.module_dict[url]
 
     def write_css(self):
         """Create a .css stylesheet file"""
@@ -59,16 +69,7 @@ class StyleSheet:
 
     def __str__(self):
         version = "/*! GLUEBALL 0.0.1 | http://glueball.io */"
-        header = """
-/*
-  ___  __    _  _  ____  ____   __   __    __   
- / __)(  )  / )( \(  __)(  _ \ / _\ (  )  (  )  
-( (_ \/ (_/\) \/ ( ) _)  ) _ (/    \/ (_/\/ (_/\ 
- \___/\____/\____/(____)(____/\_/\_/\____/\____/
- 
- 
- */
- """
+        header = CSS_HEADER
         includes = ''
         index = ''
         modules = "\n".join([str(mdl) for mdl in self.modules])

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block body %}
+<h1>Glueball docs</h1>
+  <h2>Modules</h2>
+<table>
+  <tr>
+    <th>Base selector</th>
+    <th>Name</th>
+  </tr>
+  {% for mdl in sheet.modules %}
+  <tr>
+    <td>
+      {% if mdl.dynamic %}
+        {% for base in mdl.dynamic.keys() %}
+          {{ base }}
+        {% endfor %}
+      {% endif %}
+    </td>
+    <td>
+      <a href="{{ url_for('mdl', mdlurl=mdl.get_url()) }}">{{ mdl.name }}</a>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+  <h2>Fonts</h2>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <article class="{{ style.selectors[0].base }}">
+    <h3 class="tt-c">{{ style.selectors[0].base }}</h3>
+    {% for specimen in [
+      string.ascii_lowercase,
+      string.ascii_uppercase,
+      string.digits,
+      string.punctuation
+    ] %}
+      <p class="ls3 size5">{{ specimen }}</p>
+      <p class="ls3 size5 i">{{ specimen }}</p>
+    {% endfor %}
+    {% for wt in weights %}
+      <table class="">
+        <caption>{{ wt[0] }}: {{ wt[1] }}</caption>
+        <tr class="weight{{ wt[0] }}">
+          {% for sz in sizes %}
+            <td class="size{{ sz[0] }}">A</td>
+          {% endfor %}
+        </tr>
+        <tr>
+          {% for sz in sizes %}
+            <td class="size1 w2">{{ sz[1] }}</td>
+          {% endfor %}
+        </tr>
+      </table>
+    {% endfor %}
+
+  </article>
+{% endblock %}

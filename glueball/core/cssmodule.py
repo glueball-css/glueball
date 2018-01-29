@@ -35,11 +35,17 @@ class CssModule:
         self.name = name
         self._breakpoints = breakpoints
         self.media = media
+
         if breakpoints:
             self._breakpoints = breakpoints
         else:
             self._breakpoints = BREAKPOINTS
-        self.styles = styles or []
+
+        self.styles = []
+        if styles:
+            for args in styles:
+                self.styles.append(StyleRule(*args))
+
         self.static = static or {}
         self.dynamic = dynamic or {}
         self.values = {k: [(str(t[0]), str(t[1])) for t in v] for k, v in values.items()}
@@ -50,13 +56,16 @@ class CssModule:
         s = str(self.name).strip().replace(' ', '_').lower()
         return re.sub(r'(?u)[^-\w.]', '', s)
 
+    def get_url(self):
+        return self.get_slug().replace('_', '-')
+
     def _make_root_rules(self, pseudo=None):
         """Generate a list of style-rules, without media modifier"""
         root_rules = []
 
         # Include the rules that are not dependent on values
-        for args in self.styles:
-            root_rules.append(StyleRule(*args))
+        for style in self.styles:
+            root_rules.append(style)
 
         # Generate the dynamic rules
         for sel, props in self.dynamic.items():
@@ -91,5 +100,5 @@ module %s
 documentation: %s
 */
 
-""" % (self.name.upper(), self.docstring, DOCSITE+'modules/'+self.get_slug())
+""" % (self.name.upper(), self.docstring, DOCSITE+'module/'+self.get_slug())
         return header + '\n'.join([str(r) for r in self.get_all_rules()])

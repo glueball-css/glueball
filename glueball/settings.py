@@ -1,6 +1,6 @@
 import os
 
-DOCSITE = "http://docs.glueball.io/"
+DOCSITE = "http://glueball.io/docs/"
 
 DIRNAME = os.path.dirname(__file__)
 
@@ -49,6 +49,7 @@ MODULES = (
     'font_size',
     'font_style',
     'letter_spacing',
+    'text_transform',
     'transition',
 )
 
