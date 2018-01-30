@@ -61,15 +61,15 @@ NEGATIVE_SPACING = list(zip(range(-1, -10, -1), (
 PERCENTAGES = [('%dp' % i, '%d%%' % i) for i in range(10, 101, 10)]
 
 TYPE_SCALE = list(zip(range(1, 10), (
-    '.625rem',
     '.75rem',
     '.875rem',
     '1rem',
     '1.25rem',
     '1.5rem',
     '2rem',
-    '2.5rem',
-    '3.5rem',
+    '2.75rem',
+    '3.75rem',
+    '5rem',
 )))
 
 WEIGHT = list(zip(range(1, 10), range(100, 901, 100)))

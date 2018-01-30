@@ -55,7 +55,7 @@
     {% for sel, value in vals %}
       <div>
         {% if value[:3] == 'hsl' %}
-          <div style="display:inline-block; height: 1rem; width: 1rem; margin-right: 1rem; background-color: {{ value }}; border: 1px solid black;"></div>
+          <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: {{ value }}"></div>
         {% endif %}
         <div style="display: inline-block; width: 30%"><code>{{ sel }}</code></div>
         <div style="display: inline-block; width: 30%"><code>{{ value }}</code></div>

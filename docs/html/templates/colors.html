@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h3>Colors</h3>
+  <table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>
+        color
+      </th>
+      <th>
+        hue
+      </th>
+      <th>
+        sat
+      </th>
+      <th>
+        lum
+      </th>
+      <th>
+        alpha
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for hsla in spectrum %}
+    <tr>
+      <td>
+        <div class="d-ib h1 w1 bs-s bw1 bc-black" style="background-color: {{ hsla }}"></div>
+      </td>
+      <td>
+        <a href="{{ url_for('color', color_url=hsla.get_selector()) }}">{{ hsla.get_selector() }}</a>
+      </td>
+      <td class="ta-r">
+        {{ hsla._h }}
+      </td>
+      <td class="ta-r">
+        {{ hsla._s }}
+      </td>
+      <td class="ta-r">
+        {{ hsla._l }}
+      </td>
+      <td class="ta-r">
+        {{ hsla._a }}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+
+{% endblock %}

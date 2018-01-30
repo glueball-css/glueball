@@ -8,8 +8,8 @@ from ...core import CssModule
 styles = [
     ('.tcs-t', {'caption-side': 'top'}),
     ('.tcs-b', {'caption-side': 'bottom'}),
-    ('.tbc-s', {'border-collapse': 'separate'}),
-    ('.tbc-c', {'border-collapse': 'collapse'}),
+    ('.tbc', {'border-collapse': 'separate'}),
+    ('.tbc', {'border-collapse': 'collapse'}),
     ('.tl-a', {'table-layout': 'auto'}),
     ('.tl-f', {'table-layout': 'fixed'}),
     ('.tec-s', {'empty-cells': 'show'}),

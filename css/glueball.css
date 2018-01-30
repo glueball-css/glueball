@@ -793,6 +793,38 @@ documentation: http://glueball.io/docs/module/background_repeat
 .bgr-y { background-repeat: repeat-y; }
 
 /*
+module BACKGROUND SIZE
+
+Contain or cover
+
+
+documentation: http://glueball.io/docs/module/background_size
+*/
+
+.contain { background-size: contain; }
+.cover { background-size: cover; }
+
+@media (min-width: 36em) {
+.s_contain { background-size: contain; }
+.s_cover { background-size: cover; }
+}
+
+@media (min-width: 48em) {
+.m_contain { background-size: contain; }
+.m_cover { background-size: cover; }
+}
+
+@media (min-width: 62em) {
+.l_contain { background-size: contain; }
+.l_cover { background-size: cover; }
+}
+
+@media (min-width: 75em) {
+.x_contain { background-size: contain; }
+.x_cover { background-size: cover; }
+}
+
+/*
 module DISPLAY
 
 Controls display property
@@ -1075,8 +1107,8 @@ documentation: http://glueball.io/docs/module/table
 
 .tcs-t { caption-side: top; }
 .tcs-b { caption-side: bottom; }
-.tbc-s { border-collapse: separate; }
-.tbc-c { border-collapse: collapse; }
+.tbc { border-collapse: separate; }
+.tbc { border-collapse: collapse; }
 .tl-a { table-layout: auto; }
 .tl-f { table-layout: fixed; }
 .tec-s { empty-cells: show; }
@@ -2758,21 +2790,21 @@ Selection of list style types
 documentation: http://glueball.io/docs/module/list_style_type
 */
 
-.lst-d { ('disc', 'disc'): i; ('none', 'none'): i; ('circle', 'circle'): i; ('square', 'square'): i; ('decimal', 'decimal'): i; ('cjk-decimal', 'cjk-decimal'): i; ('decimal-leading-zero', 'decimal-leading-zero'): i; ('lower-alpha', 'lower-alpha'): i; ('lower-greek', 'lower-greek'): i; ('lower-latin', 'lower-latin'): i; ('lower-roman', 'lower-roman'): i; ('upper-alpha', 'upper-alpha'): i; ('upper-greek', 'upper-greek'): i; ('upper-latin', 'upper-latin'): i; ('upper-roman', 'upper-roman'): i; }
-.lst-n { ('disc', 'disc'): o; ('none', 'none'): o; ('circle', 'circle'): o; ('square', 'square'): o; ('decimal', 'decimal'): o; ('cjk-decimal', 'cjk-decimal'): o; ('decimal-leading-zero', 'decimal-leading-zero'): o; ('lower-alpha', 'lower-alpha'): o; ('lower-greek', 'lower-greek'): o; ('lower-latin', 'lower-latin'): o; ('lower-roman', 'lower-roman'): o; ('upper-alpha', 'upper-alpha'): o; ('upper-greek', 'upper-greek'): o; ('upper-latin', 'upper-latin'): o; ('upper-roman', 'upper-roman'): o; }
-.lst-c { ('disc', 'disc'): i; ('none', 'none'): i; ('circle', 'circle'): i; ('square', 'square'): i; ('decimal', 'decimal'): i; ('cjk-decimal', 'cjk-decimal'): i; ('decimal-leading-zero', 'decimal-leading-zero'): i; ('lower-alpha', 'lower-alpha'): i; ('lower-greek', 'lower-greek'): i; ('lower-latin', 'lower-latin'): i; ('lower-roman', 'lower-roman'): i; ('upper-alpha', 'upper-alpha'): i; ('upper-greek', 'upper-greek'): i; ('upper-latin', 'upper-latin'): i; ('upper-roman', 'upper-roman'): i; }
-.lst-s { ('disc', 'disc'): q; ('none', 'none'): q; ('circle', 'circle'): q; ('square', 'square'): q; ('decimal', 'decimal'): q; ('cjk-decimal', 'cjk-decimal'): q; ('decimal-leading-zero', 'decimal-leading-zero'): q; ('lower-alpha', 'lower-alpha'): q; ('lower-greek', 'lower-greek'): q; ('lower-latin', 'lower-latin'): q; ('lower-roman', 'lower-roman'): q; ('upper-alpha', 'upper-alpha'): q; ('upper-greek', 'upper-greek'): q; ('upper-latin', 'upper-latin'): q; ('upper-roman', 'upper-roman'): q; }
-.lst-d { ('disc', 'disc'): e; ('none', 'none'): e; ('circle', 'circle'): e; ('square', 'square'): e; ('decimal', 'decimal'): e; ('cjk-decimal', 'cjk-decimal'): e; ('decimal-leading-zero', 'decimal-leading-zero'): e; ('lower-alpha', 'lower-alpha'): e; ('lower-greek', 'lower-greek'): e; ('lower-latin', 'lower-latin'): e; ('lower-roman', 'lower-roman'): e; ('upper-alpha', 'upper-alpha'): e; ('upper-greek', 'upper-greek'): e; ('upper-latin', 'upper-latin'): e; ('upper-roman', 'upper-roman'): e; }
-.lst-c { ('disc', 'disc'): j; ('none', 'none'): j; ('circle', 'circle'): j; ('square', 'square'): j; ('decimal', 'decimal'): j; ('cjk-decimal', 'cjk-decimal'): j; ('decimal-leading-zero', 'decimal-leading-zero'): j; ('lower-alpha', 'lower-alpha'): j; ('lower-greek', 'lower-greek'): j; ('lower-latin', 'lower-latin'): j; ('lower-roman', 'lower-roman'): j; ('upper-alpha', 'upper-alpha'): j; ('upper-greek', 'upper-greek'): j; ('upper-latin', 'upper-latin'): j; ('upper-roman', 'upper-roman'): j; }
-.lst-d { ('disc', 'disc'): e; ('none', 'none'): e; ('circle', 'circle'): e; ('square', 'square'): e; ('decimal', 'decimal'): e; ('cjk-decimal', 'cjk-decimal'): e; ('decimal-leading-zero', 'decimal-leading-zero'): e; ('lower-alpha', 'lower-alpha'): e; ('lower-greek', 'lower-greek'): e; ('lower-latin', 'lower-latin'): e; ('lower-roman', 'lower-roman'): e; ('upper-alpha', 'upper-alpha'): e; ('upper-greek', 'upper-greek'): e; ('upper-latin', 'upper-latin'): e; ('upper-roman', 'upper-roman'): e; }
-.lst-l { ('disc', 'disc'): o; ('none', 'none'): o; ('circle', 'circle'): o; ('square', 'square'): o; ('decimal', 'decimal'): o; ('cjk-decimal', 'cjk-decimal'): o; ('decimal-leading-zero', 'decimal-leading-zero'): o; ('lower-alpha', 'lower-alpha'): o; ('lower-greek', 'lower-greek'): o; ('lower-latin', 'lower-latin'): o; ('lower-roman', 'lower-roman'): o; ('upper-alpha', 'upper-alpha'): o; ('upper-greek', 'upper-greek'): o; ('upper-latin', 'upper-latin'): o; ('upper-roman', 'upper-roman'): o; }
-.lst-l { ('disc', 'disc'): o; ('none', 'none'): o; ('circle', 'circle'): o; ('square', 'square'): o; ('decimal', 'decimal'): o; ('cjk-decimal', 'cjk-decimal'): o; ('decimal-leading-zero', 'decimal-leading-zero'): o; ('lower-alpha', 'lower-alpha'): o; ('lower-greek', 'lower-greek'): o; ('lower-latin', 'lower-latin'): o; ('lower-roman', 'lower-roman'): o; ('upper-alpha', 'upper-alpha'): o; ('upper-greek', 'upper-greek'): o; ('upper-latin', 'upper-latin'): o; ('upper-roman', 'upper-roman'): o; }
-.lst-l { ('disc', 'disc'): o; ('none', 'none'): o; ('circle', 'circle'): o; ('square', 'square'): o; ('decimal', 'decimal'): o; ('cjk-decimal', 'cjk-decimal'): o; ('decimal-leading-zero', 'decimal-leading-zero'): o; ('lower-alpha', 'lower-alpha'): o; ('lower-greek', 'lower-greek'): o; ('lower-latin', 'lower-latin'): o; ('lower-roman', 'lower-roman'): o; ('upper-alpha', 'upper-alpha'): o; ('upper-greek', 'upper-greek'): o; ('upper-latin', 'upper-latin'): o; ('upper-roman', 'upper-roman'): o; }
-.lst-l { ('disc', 'disc'): o; ('none', 'none'): o; ('circle', 'circle'): o; ('square', 'square'): o; ('decimal', 'decimal'): o; ('cjk-decimal', 'cjk-decimal'): o; ('decimal-leading-zero', 'decimal-leading-zero'): o; ('lower-alpha', 'lower-alpha'): o; ('lower-greek', 'lower-greek'): o; ('lower-latin', 'lower-latin'): o; ('lower-roman', 'lower-roman'): o; ('upper-alpha', 'upper-alpha'): o; ('upper-greek', 'upper-greek'): o; ('upper-latin', 'upper-latin'): o; ('upper-roman', 'upper-roman'): o; }
-.lst-u { ('disc', 'disc'): p; ('none', 'none'): p; ('circle', 'circle'): p; ('square', 'square'): p; ('decimal', 'decimal'): p; ('cjk-decimal', 'cjk-decimal'): p; ('decimal-leading-zero', 'decimal-leading-zero'): p; ('lower-alpha', 'lower-alpha'): p; ('lower-greek', 'lower-greek'): p; ('lower-latin', 'lower-latin'): p; ('lower-roman', 'lower-roman'): p; ('upper-alpha', 'upper-alpha'): p; ('upper-greek', 'upper-greek'): p; ('upper-latin', 'upper-latin'): p; ('upper-roman', 'upper-roman'): p; }
-.lst-u { ('disc', 'disc'): p; ('none', 'none'): p; ('circle', 'circle'): p; ('square', 'square'): p; ('decimal', 'decimal'): p; ('cjk-decimal', 'cjk-decimal'): p; ('decimal-leading-zero', 'decimal-leading-zero'): p; ('lower-alpha', 'lower-alpha'): p; ('lower-greek', 'lower-greek'): p; ('lower-latin', 'lower-latin'): p; ('lower-roman', 'lower-roman'): p; ('upper-alpha', 'upper-alpha'): p; ('upper-greek', 'upper-greek'): p; ('upper-latin', 'upper-latin'): p; ('upper-roman', 'upper-roman'): p; }
-.lst-u { ('disc', 'disc'): p; ('none', 'none'): p; ('circle', 'circle'): p; ('square', 'square'): p; ('decimal', 'decimal'): p; ('cjk-decimal', 'cjk-decimal'): p; ('decimal-leading-zero', 'decimal-leading-zero'): p; ('lower-alpha', 'lower-alpha'): p; ('lower-greek', 'lower-greek'): p; ('lower-latin', 'lower-latin'): p; ('lower-roman', 'lower-roman'): p; ('upper-alpha', 'upper-alpha'): p; ('upper-greek', 'upper-greek'): p; ('upper-latin', 'upper-latin'): p; ('upper-roman', 'upper-roman'): p; }
-.lst-u { ('disc', 'disc'): p; ('none', 'none'): p; ('circle', 'circle'): p; ('square', 'square'): p; ('decimal', 'decimal'): p; ('cjk-decimal', 'cjk-decimal'): p; ('decimal-leading-zero', 'decimal-leading-zero'): p; ('lower-alpha', 'lower-alpha'): p; ('lower-greek', 'lower-greek'): p; ('lower-latin', 'lower-latin'): p; ('lower-roman', 'lower-roman'): p; ('upper-alpha', 'upper-alpha'): p; ('upper-greek', 'upper-greek'): p; ('upper-latin', 'upper-latin'): p; ('upper-roman', 'upper-roman'): p; }
+.lst-disc { list-style-type: disc; }
+.lst-none { list-style-type: none; }
+.lst-circle { list-style-type: circle; }
+.lst-square { list-style-type: square; }
+.lst-decimal { list-style-type: decimal; }
+.lst-cjk-decimal { list-style-type: cjk-decimal; }
+.lst-decimal-leading-zero { list-style-type: decimal-leading-zero; }
+.lst-lower-alpha { list-style-type: lower-alpha; }
+.lst-lower-greek { list-style-type: lower-greek; }
+.lst-lower-latin { list-style-type: lower-latin; }
+.lst-lower-roman { list-style-type: lower-roman; }
+.lst-upper-alpha { list-style-type: upper-alpha; }
+.lst-upper-greek { list-style-type: upper-greek; }
+.lst-upper-latin { list-style-type: upper-latin; }
+.lst-upper-roman { list-style-type: upper-roman; }
 
 /*
 module COLOR
@@ -4945,6 +4977,52 @@ documentation: http://glueball.io/docs/module/border_color
 .bc-white-2a { border-color: hsla(0, 0%, 100%, 0.02); }
 
 /*
+module TEXT TRANSFORM
+
+Control text case.
+
+
+documentation: http://glueball.io/docs/module/text_transform
+*/
+
+.tt-n { text-transform: none; }
+.tt-c { text-transform: capitalize; }
+.tt-u { text-transform: uppercase; }
+.tt-l { text-transform: lowercase; }
+
+/*
+module TEXT ALIGN
+
+Horizontal alignment of inline and inline-blocks inside a block-element.
+
+
+documentation: http://glueball.io/docs/module/text_align
+*/
+
+.ta-l { text-align: left; }
+.ta-r { text-align: right; }
+.ta-c { text-align: center; }
+.ta-j { text-align: justify; }
+
+/*
+module VERTICAL ALIGN
+
+Vertical alignment of inline and inline-blocks inside a block-element.
+
+
+documentation: http://glueball.io/docs/module/vertical_align
+*/
+
+.va-t { vertical-align: top; }
+.va-b { vertical-align: bottom; }
+.va-tt { vertical-align: text-top; }
+.va-tb { vertical-align: text-bottom; }
+.va-m { vertical-align: middle; }
+.va-sup { vertical-align: super; }
+.va-sub { vertical-align: sub; }
+.va-base { vertical-align: baseline; }
+
+/*
 module LINE HEIGHT
 
 Line height settings
@@ -4995,176 +5073,176 @@ Progressively larger font sizes.
 documentation: http://glueball.io/docs/module/font_size
 */
 
-.size1 { font-size: .625rem; }
-.size2 { font-size: .75rem; }
-.size3 { font-size: .875rem; }
-.size4 { font-size: 1rem; }
-.size5 { font-size: 1.25rem; }
-.size6 { font-size: 1.5rem; }
-.size7 { font-size: 2rem; }
-.size8 { font-size: 2.5rem; }
-.size9 { font-size: 3.5rem; }
+.size1 { font-size: .75rem; }
+.size2 { font-size: .875rem; }
+.size3 { font-size: 1rem; }
+.size4 { font-size: 1.25rem; }
+.size5 { font-size: 1.5rem; }
+.size6 { font-size: 2rem; }
+.size7 { font-size: 2.75rem; }
+.size8 { font-size: 3.75rem; }
+.size9 { font-size: 5rem; }
 
 @media (min-width: 36em) {
-.s_size1 { font-size: .625rem; }
-.s_size2 { font-size: .75rem; }
-.s_size3 { font-size: .875rem; }
-.s_size4 { font-size: 1rem; }
-.s_size5 { font-size: 1.25rem; }
-.s_size6 { font-size: 1.5rem; }
-.s_size7 { font-size: 2rem; }
-.s_size8 { font-size: 2.5rem; }
-.s_size9 { font-size: 3.5rem; }
+.s_size1 { font-size: .75rem; }
+.s_size2 { font-size: .875rem; }
+.s_size3 { font-size: 1rem; }
+.s_size4 { font-size: 1.25rem; }
+.s_size5 { font-size: 1.5rem; }
+.s_size6 { font-size: 2rem; }
+.s_size7 { font-size: 2.75rem; }
+.s_size8 { font-size: 3.75rem; }
+.s_size9 { font-size: 5rem; }
 }
 
 @media (min-width: 48em) {
-.m_size1 { font-size: .625rem; }
-.m_size2 { font-size: .75rem; }
-.m_size3 { font-size: .875rem; }
-.m_size4 { font-size: 1rem; }
-.m_size5 { font-size: 1.25rem; }
-.m_size6 { font-size: 1.5rem; }
-.m_size7 { font-size: 2rem; }
-.m_size8 { font-size: 2.5rem; }
-.m_size9 { font-size: 3.5rem; }
+.m_size1 { font-size: .75rem; }
+.m_size2 { font-size: .875rem; }
+.m_size3 { font-size: 1rem; }
+.m_size4 { font-size: 1.25rem; }
+.m_size5 { font-size: 1.5rem; }
+.m_size6 { font-size: 2rem; }
+.m_size7 { font-size: 2.75rem; }
+.m_size8 { font-size: 3.75rem; }
+.m_size9 { font-size: 5rem; }
 }
 
 @media (min-width: 62em) {
-.l_size1 { font-size: .625rem; }
-.l_size2 { font-size: .75rem; }
-.l_size3 { font-size: .875rem; }
-.l_size4 { font-size: 1rem; }
-.l_size5 { font-size: 1.25rem; }
-.l_size6 { font-size: 1.5rem; }
-.l_size7 { font-size: 2rem; }
-.l_size8 { font-size: 2.5rem; }
-.l_size9 { font-size: 3.5rem; }
+.l_size1 { font-size: .75rem; }
+.l_size2 { font-size: .875rem; }
+.l_size3 { font-size: 1rem; }
+.l_size4 { font-size: 1.25rem; }
+.l_size5 { font-size: 1.5rem; }
+.l_size6 { font-size: 2rem; }
+.l_size7 { font-size: 2.75rem; }
+.l_size8 { font-size: 3.75rem; }
+.l_size9 { font-size: 5rem; }
 }
 
 @media (min-width: 75em) {
-.x_size1 { font-size: .625rem; }
-.x_size2 { font-size: .75rem; }
-.x_size3 { font-size: .875rem; }
-.x_size4 { font-size: 1rem; }
-.x_size5 { font-size: 1.25rem; }
-.x_size6 { font-size: 1.5rem; }
-.x_size7 { font-size: 2rem; }
-.x_size8 { font-size: 2.5rem; }
-.x_size9 { font-size: 3.5rem; }
+.x_size1 { font-size: .75rem; }
+.x_size2 { font-size: .875rem; }
+.x_size3 { font-size: 1rem; }
+.x_size4 { font-size: 1.25rem; }
+.x_size5 { font-size: 1.5rem; }
+.x_size6 { font-size: 2rem; }
+.x_size7 { font-size: 2.75rem; }
+.x_size8 { font-size: 3.75rem; }
+.x_size9 { font-size: 5rem; }
 }
-.hover_size1:hover { font-size: .625rem; }
-.hover_size2:hover { font-size: .75rem; }
-.hover_size3:hover { font-size: .875rem; }
-.hover_size4:hover { font-size: 1rem; }
-.hover_size5:hover { font-size: 1.25rem; }
-.hover_size6:hover { font-size: 1.5rem; }
-.hover_size7:hover { font-size: 2rem; }
-.hover_size8:hover { font-size: 2.5rem; }
-.hover_size9:hover { font-size: 3.5rem; }
+.hover_size1:hover { font-size: .75rem; }
+.hover_size2:hover { font-size: .875rem; }
+.hover_size3:hover { font-size: 1rem; }
+.hover_size4:hover { font-size: 1.25rem; }
+.hover_size5:hover { font-size: 1.5rem; }
+.hover_size6:hover { font-size: 2rem; }
+.hover_size7:hover { font-size: 2.75rem; }
+.hover_size8:hover { font-size: 3.75rem; }
+.hover_size9:hover { font-size: 5rem; }
 
 @media (min-width: 36em) {
-.s_hover_size1:hover { font-size: .625rem; }
-.s_hover_size2:hover { font-size: .75rem; }
-.s_hover_size3:hover { font-size: .875rem; }
-.s_hover_size4:hover { font-size: 1rem; }
-.s_hover_size5:hover { font-size: 1.25rem; }
-.s_hover_size6:hover { font-size: 1.5rem; }
-.s_hover_size7:hover { font-size: 2rem; }
-.s_hover_size8:hover { font-size: 2.5rem; }
-.s_hover_size9:hover { font-size: 3.5rem; }
+.s_hover_size1:hover { font-size: .75rem; }
+.s_hover_size2:hover { font-size: .875rem; }
+.s_hover_size3:hover { font-size: 1rem; }
+.s_hover_size4:hover { font-size: 1.25rem; }
+.s_hover_size5:hover { font-size: 1.5rem; }
+.s_hover_size6:hover { font-size: 2rem; }
+.s_hover_size7:hover { font-size: 2.75rem; }
+.s_hover_size8:hover { font-size: 3.75rem; }
+.s_hover_size9:hover { font-size: 5rem; }
 }
 
 @media (min-width: 48em) {
-.m_hover_size1:hover { font-size: .625rem; }
-.m_hover_size2:hover { font-size: .75rem; }
-.m_hover_size3:hover { font-size: .875rem; }
-.m_hover_size4:hover { font-size: 1rem; }
-.m_hover_size5:hover { font-size: 1.25rem; }
-.m_hover_size6:hover { font-size: 1.5rem; }
-.m_hover_size7:hover { font-size: 2rem; }
-.m_hover_size8:hover { font-size: 2.5rem; }
-.m_hover_size9:hover { font-size: 3.5rem; }
+.m_hover_size1:hover { font-size: .75rem; }
+.m_hover_size2:hover { font-size: .875rem; }
+.m_hover_size3:hover { font-size: 1rem; }
+.m_hover_size4:hover { font-size: 1.25rem; }
+.m_hover_size5:hover { font-size: 1.5rem; }
+.m_hover_size6:hover { font-size: 2rem; }
+.m_hover_size7:hover { font-size: 2.75rem; }
+.m_hover_size8:hover { font-size: 3.75rem; }
+.m_hover_size9:hover { font-size: 5rem; }
 }
 
 @media (min-width: 62em) {
-.l_hover_size1:hover { font-size: .625rem; }
-.l_hover_size2:hover { font-size: .75rem; }
-.l_hover_size3:hover { font-size: .875rem; }
-.l_hover_size4:hover { font-size: 1rem; }
-.l_hover_size5:hover { font-size: 1.25rem; }
-.l_hover_size6:hover { font-size: 1.5rem; }
-.l_hover_size7:hover { font-size: 2rem; }
-.l_hover_size8:hover { font-size: 2.5rem; }
-.l_hover_size9:hover { font-size: 3.5rem; }
+.l_hover_size1:hover { font-size: .75rem; }
+.l_hover_size2:hover { font-size: .875rem; }
+.l_hover_size3:hover { font-size: 1rem; }
+.l_hover_size4:hover { font-size: 1.25rem; }
+.l_hover_size5:hover { font-size: 1.5rem; }
+.l_hover_size6:hover { font-size: 2rem; }
+.l_hover_size7:hover { font-size: 2.75rem; }
+.l_hover_size8:hover { font-size: 3.75rem; }
+.l_hover_size9:hover { font-size: 5rem; }
 }
 
 @media (min-width: 75em) {
-.x_hover_size1:hover { font-size: .625rem; }
-.x_hover_size2:hover { font-size: .75rem; }
-.x_hover_size3:hover { font-size: .875rem; }
-.x_hover_size4:hover { font-size: 1rem; }
-.x_hover_size5:hover { font-size: 1.25rem; }
-.x_hover_size6:hover { font-size: 1.5rem; }
-.x_hover_size7:hover { font-size: 2rem; }
-.x_hover_size8:hover { font-size: 2.5rem; }
-.x_hover_size9:hover { font-size: 3.5rem; }
+.x_hover_size1:hover { font-size: .75rem; }
+.x_hover_size2:hover { font-size: .875rem; }
+.x_hover_size3:hover { font-size: 1rem; }
+.x_hover_size4:hover { font-size: 1.25rem; }
+.x_hover_size5:hover { font-size: 1.5rem; }
+.x_hover_size6:hover { font-size: 2rem; }
+.x_hover_size7:hover { font-size: 2.75rem; }
+.x_hover_size8:hover { font-size: 3.75rem; }
+.x_hover_size9:hover { font-size: 5rem; }
 }
-.focus_size1:focus { font-size: .625rem; }
-.focus_size2:focus { font-size: .75rem; }
-.focus_size3:focus { font-size: .875rem; }
-.focus_size4:focus { font-size: 1rem; }
-.focus_size5:focus { font-size: 1.25rem; }
-.focus_size6:focus { font-size: 1.5rem; }
-.focus_size7:focus { font-size: 2rem; }
-.focus_size8:focus { font-size: 2.5rem; }
-.focus_size9:focus { font-size: 3.5rem; }
+.focus_size1:focus { font-size: .75rem; }
+.focus_size2:focus { font-size: .875rem; }
+.focus_size3:focus { font-size: 1rem; }
+.focus_size4:focus { font-size: 1.25rem; }
+.focus_size5:focus { font-size: 1.5rem; }
+.focus_size6:focus { font-size: 2rem; }
+.focus_size7:focus { font-size: 2.75rem; }
+.focus_size8:focus { font-size: 3.75rem; }
+.focus_size9:focus { font-size: 5rem; }
 
 @media (min-width: 36em) {
-.s_focus_size1:focus { font-size: .625rem; }
-.s_focus_size2:focus { font-size: .75rem; }
-.s_focus_size3:focus { font-size: .875rem; }
-.s_focus_size4:focus { font-size: 1rem; }
-.s_focus_size5:focus { font-size: 1.25rem; }
-.s_focus_size6:focus { font-size: 1.5rem; }
-.s_focus_size7:focus { font-size: 2rem; }
-.s_focus_size8:focus { font-size: 2.5rem; }
-.s_focus_size9:focus { font-size: 3.5rem; }
+.s_focus_size1:focus { font-size: .75rem; }
+.s_focus_size2:focus { font-size: .875rem; }
+.s_focus_size3:focus { font-size: 1rem; }
+.s_focus_size4:focus { font-size: 1.25rem; }
+.s_focus_size5:focus { font-size: 1.5rem; }
+.s_focus_size6:focus { font-size: 2rem; }
+.s_focus_size7:focus { font-size: 2.75rem; }
+.s_focus_size8:focus { font-size: 3.75rem; }
+.s_focus_size9:focus { font-size: 5rem; }
 }
 
 @media (min-width: 48em) {
-.m_focus_size1:focus { font-size: .625rem; }
-.m_focus_size2:focus { font-size: .75rem; }
-.m_focus_size3:focus { font-size: .875rem; }
-.m_focus_size4:focus { font-size: 1rem; }
-.m_focus_size5:focus { font-size: 1.25rem; }
-.m_focus_size6:focus { font-size: 1.5rem; }
-.m_focus_size7:focus { font-size: 2rem; }
-.m_focus_size8:focus { font-size: 2.5rem; }
-.m_focus_size9:focus { font-size: 3.5rem; }
+.m_focus_size1:focus { font-size: .75rem; }
+.m_focus_size2:focus { font-size: .875rem; }
+.m_focus_size3:focus { font-size: 1rem; }
+.m_focus_size4:focus { font-size: 1.25rem; }
+.m_focus_size5:focus { font-size: 1.5rem; }
+.m_focus_size6:focus { font-size: 2rem; }
+.m_focus_size7:focus { font-size: 2.75rem; }
+.m_focus_size8:focus { font-size: 3.75rem; }
+.m_focus_size9:focus { font-size: 5rem; }
 }
 
 @media (min-width: 62em) {
-.l_focus_size1:focus { font-size: .625rem; }
-.l_focus_size2:focus { font-size: .75rem; }
-.l_focus_size3:focus { font-size: .875rem; }
-.l_focus_size4:focus { font-size: 1rem; }
-.l_focus_size5:focus { font-size: 1.25rem; }
-.l_focus_size6:focus { font-size: 1.5rem; }
-.l_focus_size7:focus { font-size: 2rem; }
-.l_focus_size8:focus { font-size: 2.5rem; }
-.l_focus_size9:focus { font-size: 3.5rem; }
+.l_focus_size1:focus { font-size: .75rem; }
+.l_focus_size2:focus { font-size: .875rem; }
+.l_focus_size3:focus { font-size: 1rem; }
+.l_focus_size4:focus { font-size: 1.25rem; }
+.l_focus_size5:focus { font-size: 1.5rem; }
+.l_focus_size6:focus { font-size: 2rem; }
+.l_focus_size7:focus { font-size: 2.75rem; }
+.l_focus_size8:focus { font-size: 3.75rem; }
+.l_focus_size9:focus { font-size: 5rem; }
 }
 
 @media (min-width: 75em) {
-.x_focus_size1:focus { font-size: .625rem; }
-.x_focus_size2:focus { font-size: .75rem; }
-.x_focus_size3:focus { font-size: .875rem; }
-.x_focus_size4:focus { font-size: 1rem; }
-.x_focus_size5:focus { font-size: 1.25rem; }
-.x_focus_size6:focus { font-size: 1.5rem; }
-.x_focus_size7:focus { font-size: 2rem; }
-.x_focus_size8:focus { font-size: 2.5rem; }
-.x_focus_size9:focus { font-size: 3.5rem; }
+.x_focus_size1:focus { font-size: .75rem; }
+.x_focus_size2:focus { font-size: .875rem; }
+.x_focus_size3:focus { font-size: 1rem; }
+.x_focus_size4:focus { font-size: 1.25rem; }
+.x_focus_size5:focus { font-size: 1.5rem; }
+.x_focus_size6:focus { font-size: 2rem; }
+.x_focus_size7:focus { font-size: 2.75rem; }
+.x_focus_size8:focus { font-size: 3.75rem; }
+.x_focus_size9:focus { font-size: 5rem; }
 }
 
 /*
@@ -5216,20 +5294,6 @@ documentation: http://glueball.io/docs/module/letter_spacing
 .ls3 { letter-spacing: 0.25em; }
 .ls4 { letter-spacing: 0.5em; }
 .ls-n { letter-spacing: normal; }
-
-/*
-module TEXT TRANSFORM
-
-Control text case.
-
-
-documentation: http://glueball.io/docs/module/text_transform
-*/
-
-.tt-n { text-transform: none; }
-.tt-c { text-transform: capitalize; }
-.tt-u { text-transform: uppercase; }
-.tt-l { text-transform: lowercase; }
 
 /*
 module TRANSITION

@@ -9,20 +9,20 @@
       string.digits,
       string.punctuation
     ] %}
-      <p class="ls3 size5">{{ specimen }}</p>
-      <p class="ls3 size5 i">{{ specimen }}</p>
+      <p class="ls3 size7">{{ specimen }}</p>
+      <p class="ls3 size7 i">{{ specimen }}</p>
     {% endfor %}
     {% for wt in weights %}
-      <table class="">
-        <caption>{{ wt[0] }}: {{ wt[1] }}</caption>
-        <tr class="weight{{ wt[0] }}">
+      <table class="my6">
+        <caption class="ta-l">{{ wt[1] }}</caption>
+        <tr class="weight{{ wt[0] }} va-base">
           {% for sz in sizes %}
-            <td class="size{{ sz[0] }}">A</td>
+            <td class="size{{ sz[0] }} ta-c">A</td>
           {% endfor %}
         </tr>
         <tr>
           {% for sz in sizes %}
-            <td class="size1 w2">{{ sz[1] }}</td>
+            <td class="size2 w3 ta-c">{{ sz[1] }}</td>
           {% endfor %}
         </tr>
       </table>

@@ -11,12 +11,16 @@ MODULE_ROOT = 'glueball.modules'
 CSS_ROOT = os.path.join(DIRNAME, os.pardir, 'css')
 
 # List of slugs identifying the modules
+# The CSS file and documentation site are built from the modules
+# listed here.
+# Comment out the modules that are not desired for your project.
 MODULES = (
     'position',
     'coordinates',
     'z_index',
     'background_position',
     'background_repeat',
+    'background_size',
     'display',
     'font_weight',
     'float',
@@ -44,12 +48,14 @@ MODULES = (
     'border_width',
     'border_radius',
     'border_color',
+    'text_transform',
+    'text_align',
+    'vertical_align',
     'line_height',
     'font_family',
     'font_size',
     'font_style',
     'letter_spacing',
-    'text_transform',
     'transition',
 )
 

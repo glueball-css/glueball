@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h3>{{ hsla.get_selector() }}</h3>
+  <ul>
+    <li>hue: {{ hsla._h }}</li>
+    <li>saturation: {{ hsla._s }}</li>
+    <li>luminosity: {{ hsla._l }}</li>
+    <li>alpha: {{ hsla._a }}</li>
+  </ul>
+
+  <h4>Font color</h4>
+  <p class="size5 p3 {{ hsla.get_selector() }}">Lorem ipsum dolor sit amet</p>
+  <p class="size5 p3 bgc-gray {{ hsla.get_selector() }}">Lorem ipsum dolor sit amet</p>
+  <p class="size5 p3 bgc-black {{ hsla.get_selector() }}">Lorem ipsum dolor sit amet</p>
+
+  <h4>Background color</h4>
+  <p class="size5 p3 white bgc-{{ hsla.get_selector() }}">Lorem ipsum dolor sit amet</p>
+  <p class="size5 p3 gray bgc-{{ hsla.get_selector() }}">Lorem ipsum dolor sit amet</p>
+  <p class="size5 p3 black bgc-{{ hsla.get_selector() }}">Lorem ipsum dolor sit amet</p>
+
+  {% if hsla._a < 100 %}
+    <h4>Transparancy</h4>
+  {% endif %}
+{% endblock %}
