@@ -65,6 +65,10 @@ class Breakpoints:
                 [style.create_media(lower + upper) for style in styles]
             )
 
+    def media_full(self):
+        """List with single query string with max upper and min lower bound"""
+        return [self._index[0]+self._index[-1]]
+
     def media_up(self):
         """Return list of lower bound query strings (maximum upper bound)"""
         return [lower+self._index[-1] for lower in self._index]
@@ -77,9 +81,16 @@ class Breakpoints:
         """Return list of query strings only for every exact breakpoint"""
         return [bp+bp for bp in self._index]
 
-    def media_full(self):
-        """List with single query string with max upper and min lower bound"""
-        return [self._index[0]+self._index[-1]]
+    def media_other(self):
+        """Every query that was not covered by the other functions"""
+        results = []
+        if len(self._index) < 4:
+            return results
+        for lower in self._index[1:-2]:  # First and last covered by media_up and down
+            for upper in self._index[2:-1][::-1]:  # Reverse order to get largest first
+                if lower != upper:
+                    results.append(lower+upper)
+        return results
 
     def all_breakpoints(self, media):
         """Compile a single list of query strings from strings and methods"""
@@ -125,7 +136,7 @@ class Breakpoints:
             bp_item = []  # bp string, min, max
             lower, upper = bp[:int(len(bp) / 2)], bp[int(len(bp) / 2):]
             bp_string = ''
-            if lower != self._index[0]:
+            if not (lower == self._index[0] and upper == self._index[-1]):
                 bp_string += lower
             if upper != self._index[-1]:
                 bp_string += upper

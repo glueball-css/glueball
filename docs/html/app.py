@@ -3,7 +3,7 @@ from jinja2 import TemplateNotFound
 import string
 
 from glueball.glueball import sheet
-from glueball.modules.defaults import TYPE_SCALE, WEIGHT, SPECTRUM
+from glueball.modules.defaults import TYPE_SCALE, WEIGHT, SPECTRUM, BREAKPOINTS
 
 app = Flask(__name__)
 
@@ -33,7 +33,7 @@ def home():
 
 @app.route('/docs/')
 def docs():
-    return render_template('modules.html', sheet=sheet)
+    return render_template('docs.html', sheet=sheet)
 
 
 @app.route('/docs/fonts/')
@@ -45,6 +45,11 @@ def fonts():
 def font(font_url):
     style = style_from_url(font_url)
     return render_template('font.html', style=style, sizes=TYPE_SCALE, weights=WEIGHT, string=string)
+
+
+@app.route('/docs/breakpoints/')
+def breakpoints():
+    return render_template('breakpoints.html', breakpoints=BREAKPOINTS)
 
 
 @app.route('/docs/colors/')

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}{{ mdl.name }} /  modules / docs / {{ super() }}{% endblock %}
+
 {% block body %}
 <a href="{{ url_for('home') }}">HOME</a>
 
@@ -73,17 +75,23 @@
 
 
 <h3>Media</h3>
-{% set media = mdl._breakpoints.media_table() %}
-{% set bps = mdl._breakpoints.bp_table(mdl.media) %}
-<div>{% include 'includes/media.html' %}</div>
 
+<table>
+  <caption></caption>
+  {% set media = mdl._breakpoints.media_table() %}
+  {% set bps = mdl._breakpoints.bp_table(mdl.media) %}
+  {% include 'includes/media-table.html' %}
+</table>
 
 {% if mdl.pseudos %}
   <h3>Pseudo selectors</h3>
   {% for pseudo, pseudo_media in mdl.pseudos.items() %}
     <h4>{{ pseudo }}</h4>
-    {% set bps = mdl._breakpoints.bp_table(pseudo_media) %}
-    <div>{% include 'includes/media.html' %}</div>
+    <table>
+      <caption></caption>
+      {% set bps = mdl._breakpoints.bp_table(pseudo_media) %}
+      {% include 'includes/media-table.html' %}
+    </table>
   {% endfor %}
 {% endif %}
 

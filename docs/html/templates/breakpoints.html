@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+
+{% block title %}breakpoints / docs / {{ super() }}{% endblock %}
+
+{% block body %}
+
+  <h3>Breakpoints</h3>
+  <p>
+    Glueball offers a verstile system of breakpoints to optimize layouts and
+    interfaces for different viewport sizes.  We offer sensible defaults and
+    naming conventions, while full customization per module is made easy. Refer
+    to the module documentation or CSS code to see their settings.
+  </p>
+
+  <h3>Responsive webdesign</h3>
+  <p>
+    The unit for the (default) breakpoints is <code>{{ breakpoints._unit }}</code>.
+  </p>
+
+  <table>
+    <caption>List of breakpoints</caption>
+    <thead>
+      <tr>
+        <th>bp</th>
+        <th>from</th>
+      </tr>
+    </thead>
+    {% for bp in breakpoints.media_table() %}
+      <tbody>
+        <tr>
+          <td>{{ bp[0] }}</td>
+          <td class="ta-r">{{ bp[1] }}{{ breakpoints._unit }}</td>
+        </tr>
+      </tbody>
+    {% endfor %}
+  </table>
+
+  <p>
+    Breakpoints are applied by prefixing them to selectors. The breakpoints that form the
+    lower and upper bound are followed by an underscore.
+    To set <code>size5</code> only between breakpoints <code>m</code>
+    and <code>l</code>, the selector becomes:<code>ml_size5</code>. This corresponds to the
+    following CSS code:
+  </p>
+  <pre><code>
+@media (min-width: 48em) and (max-width: 74.99em) {
+    .ml_size5 { font-size: 1.5rem; }
+}
+  </code></pre>
+
+  <h4>Mobile first</h4>
+  <p>
+    The pattern above is not very common, as we rely mainly on media-queries with only lower
+    bounds. This "mobile first" approach is common modern CSS frameworks. We do not include
+    the top breakpoint <q>{{ breakpoints._index[-1] }}</q> as upper limit (it is implied). When
+    no media selector is given, full width is implied.
+  </p>
+<pre><code>
+.pr5 { padding-right: 1rem; }
+
+@media (min-width: 36em) {
+    .s_pr5 { padding-right: 1.5rem; }
+}
+</code></pre>
+
+  <p>This is an overview of all possible prefixes for the default breakpoints. The colored bar
+  shows in which range the styles are applied.</p>
+  {% set media = breakpoints.media_table() %}
+  {% set bps = breakpoints.bp_table(breakpoints.media_up()+breakpoints.media_down()+breakpoints.media_only()+breakpoints.media_other()) %}
+  <table>
+    <caption>Media prefixes</caption>
+    {% include 'includes/media-table.html' %}
+  </table>
+  
+  <h4>Pseudo selectors</h4>
+  <p>
+    Pseudo selectors can be styled independently and have the media prefixes applied
+    independently.
+  </p>
+  <pre><code>
+@media (min-width: 36em) {
+    .s_hover_red70:hover { color: hsl(0, 70%, 50%); }
+}
+  </code></pre>
+
+
+
+
+  <h3>Customize breakpoints</h3>
+  <p>
+    Glueball is much more flexible when it comes to breakpoints than Bootstrap or Tachyions.
+    It's simply a matter of editing settings to apply breakpoints to modules, to change the
+    name and number of breakpoints, their dimensions and their unit.
+    It is even possible to manage multiple sets of breakpoints throughout your project.
+  </p>
+
+  <h4>Module breakpoints</h4>
+  <p>
+    Breakpoints are applied to modules by passing them as a list of media queries.
+    The media query is a string composed of upper and lower breakpoint:
+    <code>["tx", "ss"]</code>.
+  </p>
+  <p>
+    This may stop working as expected when the name or number of breakpoints is altered.
+    We are also seeing recurring patterns of media queries, which would have to be typed
+    out for every module. For these reasons, the breakpoints class provides shortcut methods
+    for common breakpoint patterns:
+  </p>
+
+  <table>
+    <caption>media_full()</caption>
+    {% set bps = breakpoints.bp_table(breakpoints.media_full()) %}
+    {% include 'includes/media-table.html' %}
+  </table>
+
+  <table>
+    <caption>media_up()</caption>
+    {% set bps = breakpoints.bp_table(breakpoints.media_up()) %}
+    {% include 'includes/media-table.html' %}
+  </table>
+
+  <table>
+    <caption>media_down()</caption>
+    {% set bps = breakpoints.bp_table(breakpoints.media_down()) %}
+    {% include 'includes/media-table.html' %}
+  </table>
+
+  <table>
+    <caption>media_only()</caption>
+    {% set bps = breakpoints.bp_table(breakpoints.media_only()) %}
+    {% include 'includes/media-table.html' %}
+  </table>
+
+  <table>
+    <caption>media_other()</caption>
+    {% set bps = breakpoints.bp_table(breakpoints.media_other()) %}
+    {% include 'includes/media-table.html' %}
+  </table>
+
+  <h4>Breakpoint settings</h4>
+  <p>The defaults file contain a </p>
+
+
+{% endblock %}
