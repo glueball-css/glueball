@@ -24,12 +24,16 @@ Captions, border collapse, table layout, empty cells and table border spacing
   <pre><code>
   .tcs-t { caption-side: top; }
   .tcs-b { caption-side: bottom; }
-  .tbc { border-collapse: separate; }
-  .tbc { border-collapse: collapse; }
+  .separate { border-collapse: separate; }
+  .collapse { border-collapse: collapse; }
   .tl-a { table-layout: auto; }
   .tl-f { table-layout: fixed; }
   .tec-s { empty-cells: show; }
-  .tec-h { empty-cells: hide; }</code></pre>
+  .tec-h { empty-cells: hide; }
+  .odd_striped-gray-95:nth-child(odd) { background-color: hsl(0, 0%, 98%); }
+  .odd_striped-gray-90:nth-child(odd) { background-color: hsl(0, 0%, 95%); }
+  .even_striped-gray-95:nth-child(even) { background-color: hsl(0, 0%, 98%); }
+  .even_striped-gray-90:nth-child(even) { background-color: hsl(0, 0%, 95%); }</code></pre>
   <p>
     The basic styles do not depend on the provided values.
     They do however adhere to the breakpoints and pseudo selectors.
@@ -152,70 +156,93 @@ Captions, border collapse, table layout, empty cells and table border spacing
   
   
   
-  <tr>
-    <th style="padding-right: 1em;">prefix</th>
+
+<tbody>
+  <tr class="even_striped-gray-90">
+    <th class="pr5 w3">prefix</th>
     
-    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    <th class="ta-l w3">
+      <span class="ml-3">0</span>
+    </th>
     
-    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    <th class="ta-l w3">
+      <span class="ml-3">36</span>
+    </th>
     
-    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    <th class="ta-l w3">
+      <span class="ml-3">48</span>
+    </th>
     
-    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    <th class="ta-l w3">
+      <span class="ml-3">62</span>
+    </th>
     
-    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
-    
-  </tr>
-  
-  <tr>
-    <td style="text-align: right; padding-right: 1em;">
-      
-        (none)
-      
-    </td>
-    
-    <td>
-      
-      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
-      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
-      "></div>
-      
-    </td>
-    
-    <td>
-      
-      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
-      
-      "></div>
-      
-    </td>
-    
-    <td>
-      
-      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
-      
-      "></div>
-      
-    </td>
-    
-    <td>
-      
-      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
-      
-      "></div>
-      
-    </td>
-    
-    <td>
-      
-      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
-      
-      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
-      
-    </td>
+    <th class="ta-l w3">
+      <span class="ml-3">75</span>
+    </th>
     
   </tr>
   
+    <tr class="even_striped-gray-90">
+      <td class="ta-r pr4">
+        
+          (none)
+        
+      </td>
+      
+      <td>
+        
+        <div class="d-ib h1 w3 bgc-cobalt60 mt3
+            btlr9 bblr9 
+            
+        ">
+        </div>
+        
+      </td>
+      
+      <td>
+        
+        <div class="d-ib h1 w3 bgc-cobalt60 mt3
+            
+            
+        ">
+        </div>
+        
+      </td>
+      
+      <td>
+        
+        <div class="d-ib h1 w3 bgc-cobalt60 mt3
+            
+            
+        ">
+        </div>
+        
+      </td>
+      
+      <td>
+        
+        <div class="d-ib h1 w3 bgc-cobalt60 mt3
+            
+            
+        ">
+        </div>
+        
+      </td>
+      
+      <td>
+        
+        <div class="d-ib h1 w3 bgc-cobalt60 mt3
+            
+            btrr9 bbrr9
+        ">
+        </div>
+        
+      </td>
+      
+    </tr>
+  
+</tbody>
 </table>
 
 
@@ -225,12 +252,16 @@ Captions, border collapse, table layout, empty cells and table border spacing
 <pre><code>
 .tcs-t { caption-side: top; }
 .tcs-b { caption-side: bottom; }
-.tbc { border-collapse: separate; }
-.tbc { border-collapse: collapse; }
+.separate { border-collapse: separate; }
+.collapse { border-collapse: collapse; }
 .tl-a { table-layout: auto; }
 .tl-f { table-layout: fixed; }
 .tec-s { empty-cells: show; }
 .tec-h { empty-cells: hide; }
+.odd_striped-gray-95:nth-child(odd) { background-color: hsl(0, 0%, 98%); }
+.odd_striped-gray-90:nth-child(odd) { background-color: hsl(0, 0%, 95%); }
+.even_striped-gray-95:nth-child(even) { background-color: hsl(0, 0%, 98%); }
+.even_striped-gray-90:nth-child(even) { background-color: hsl(0, 0%, 95%); }
 .tbs0 { border-spacing: 0; }
 .tbs1 { border-spacing: 0.125rem; }
 .tbs2 { border-spacing: 0.25rem; }
