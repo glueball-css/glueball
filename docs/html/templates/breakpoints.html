@@ -107,35 +107,20 @@
     for common breakpoint patterns:
   </p>
 
-  <table>
-    <caption>media_full()</caption>
-    {% set bps = breakpoints.bp_table(breakpoints.media_full()) %}
-    {% include 'includes/media-table.html' %}
-  </table>
+  {% for cptn, mthd in [
+    ['media_full',  breakpoints.media_full],
+    ['media_up',    breakpoints.media_up],
+    ['media_down',  breakpoints.media_down],
+    ['media_other', breakpoints.media_other],
+  ] %}
 
-  <table>
-    <caption>media_up()</caption>
-    {% set bps = breakpoints.bp_table(breakpoints.media_up()) %}
-    {% include 'includes/media-table.html' %}
-  </table>
+    <table class="my6 collapse tbs0">
+      <caption class="tcs-b mt3 gray-35">{{ cptn }}</caption>
+      {% set bps = breakpoints.bp_table(mthd()) %}
+      {% include 'includes/media-table.html' %}
+    </table>
 
-  <table>
-    <caption>media_down()</caption>
-    {% set bps = breakpoints.bp_table(breakpoints.media_down()) %}
-    {% include 'includes/media-table.html' %}
-  </table>
-
-  <table>
-    <caption>media_only()</caption>
-    {% set bps = breakpoints.bp_table(breakpoints.media_only()) %}
-    {% include 'includes/media-table.html' %}
-  </table>
-
-  <table>
-    <caption>media_other()</caption>
-    {% set bps = breakpoints.bp_table(breakpoints.media_other()) %}
-    {% include 'includes/media-table.html' %}
-  </table>
+  {% endfor %}
 
   <h4>Breakpoint settings</h4>
   <p>The defaults file contain a </p>

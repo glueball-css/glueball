@@ -8,12 +8,16 @@ from ...core import CssModule
 styles = [
     ('.tcs-t', {'caption-side': 'top'}),
     ('.tcs-b', {'caption-side': 'bottom'}),
-    ('.tbc', {'border-collapse': 'separate'}),
-    ('.tbc', {'border-collapse': 'collapse'}),
+    ('.separate', {'border-collapse': 'separate'}),
+    ('.collapse', {'border-collapse': 'collapse'}),
     ('.tl-a', {'table-layout': 'auto'}),
     ('.tl-f', {'table-layout': 'fixed'}),
     ('.tec-s', {'empty-cells': 'show'}),
     ('.tec-h', {'empty-cells': 'hide'}),
+    ('.odd_striped-gray-95:nth-child(odd)', {'background-color': 'hsl(0, 0%, 98%)'}),
+    ('.odd_striped-gray-90:nth-child(odd)', {'background-color': 'hsl(0, 0%, 95%)'}),
+    ('.even_striped-gray-95:nth-child(even)', {'background-color': 'hsl(0, 0%, 98%)'}),
+    ('.even_striped-gray-90:nth-child(even)', {'background-color': 'hsl(0, 0%, 95%)'}),
 ]
 
 mdl = CssModule(

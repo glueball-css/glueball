@@ -1,27 +1,41 @@
+{# Include the tbody of a breakpoint diagram table.
 
-  <tr>
-    <th style="padding-right: 1em;">prefix</th>
+First column holds the prefixes and next columns the default breakpoints
+as defined in {{ media }}. Final column optionally has the query string.
+
+Each of the tbody rows corresponds with a media query (min and max). A colored
+bar represents the coverage of each query.
+#}
+
+<tbody>
+  <tr class="even_striped-gray-90">
+    <th class="pr5 w3">prefix</th>
     {% for m, low, up in media %}
-    <th style="text-align:left;"><span style="margin-left:-0.5rem;">{{ low }}</span></th>
+    <th class="ta-l w3">
+      <span class="ml-3">{{ low }}</span>
+    </th>
     {% endfor %}
   </tr>
   {% for bp, min, max in bps %}
-  <tr>
-    <td style="text-align: right; padding-right: 1em;">
-      {% if bp %}
-        <code>{{ bp }}</code>
-      {% else %}
-        (none)
-      {% endif %}
-    </td>
-    {% for m, low, up in media %}
-    <td>
-      {% if min <= low and max >= up %}
-      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
-      {% if min == low %}border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;{% endif %}
-      {% if max == up %}border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;{% endif %}"></div>
-      {% endif %}
-    </td>
-    {% endfor %}
-  </tr>
+    <tr class="even_striped-gray-90">
+      <td class="ta-r pr4">
+        {% if bp %}
+          <code>{{ bp }}</code>
+        {% else %}
+          (none)
+        {% endif %}
+      </td>
+      {% for m, low, up in media %}
+      <td>
+        {% if min <= low and max >= up %}
+        <div class="d-ib h1 w3 bgc-cobalt60 mt3
+            {% if min==low %}btlr9 bblr9 {% endif %}
+            {% if max==up %}btrr9 bbrr9{% endif %}
+        ">
+        </div>
+        {% endif %}
+      </td>
+      {% endfor %}
+    </tr>
   {% endfor %}
+</tbody>
