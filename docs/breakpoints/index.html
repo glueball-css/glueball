@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>breakpoints / docs / GLUEBALL</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
+</head>
+<body>
+<div style="max-width: 48em; margin-left: auto; margin-right: auto;">
+
+
+  <h3>Breakpoints</h3>
+  <p>
+    Glueball offers a verstile system of breakpoints to optimize layouts and
+    interfaces for different viewport sizes.  We offer sensible defaults and
+    naming conventions, while full customization per module is made easy. Refer
+    to the module documentation or CSS code to see their settings.
+  </p>
+
+  <h3>Responsive webdesign</h3>
+  <p>
+    The unit for the (default) breakpoints is <code>em</code>.
+  </p>
+
+  <table>
+    <caption>List of breakpoints</caption>
+    <thead>
+      <tr>
+        <th>bp</th>
+        <th>from</th>
+      </tr>
+    </thead>
+    
+      <tbody>
+        <tr>
+          <td>t</td>
+          <td class="ta-r">0em</td>
+        </tr>
+      </tbody>
+    
+      <tbody>
+        <tr>
+          <td>s</td>
+          <td class="ta-r">36em</td>
+        </tr>
+      </tbody>
+    
+      <tbody>
+        <tr>
+          <td>m</td>
+          <td class="ta-r">48em</td>
+        </tr>
+      </tbody>
+    
+      <tbody>
+        <tr>
+          <td>l</td>
+          <td class="ta-r">62em</td>
+        </tr>
+      </tbody>
+    
+      <tbody>
+        <tr>
+          <td>x</td>
+          <td class="ta-r">75em</td>
+        </tr>
+      </tbody>
+    
+  </table>
+
+  <p>
+    Breakpoints are applied by prefixing them to selectors. The breakpoints that form the
+    lower and upper bound are followed by an underscore.
+    To set <code>size5</code> only between breakpoints <code>m</code>
+    and <code>l</code>, the selector becomes:<code>ml_size5</code>. This corresponds to the
+    following CSS code:
+  </p>
+  <pre><code>
+@media (min-width: 48em) and (max-width: 74.99em) {
+    .ml_size5 { font-size: 1.5rem; }
+}
+  </code></pre>
+
+  <h4>Mobile first</h4>
+  <p>
+    The pattern above is not very common, as we rely mainly on media-queries with only lower
+    bounds. This "mobile first" approach is common modern CSS frameworks. We do not include
+    the top breakpoint <q>x</q> as upper limit (it is implied). When
+    no media selector is given, full width is implied.
+  </p>
+<pre><code>
+.pr5 { padding-right: 1rem; }
+
+@media (min-width: 36em) {
+    .s_pr5 { padding-right: 1.5rem; }
+}
+</code></pre>
+
+  <p>This is an overview of all possible prefixes for the default breakpoints. The colored bar
+  shows in which range the styles are applied.</p>
+  
+  
+  <table>
+    <caption>Media prefixes</caption>
+    
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        (none)
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>s</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>m</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>l</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>x</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tl</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tm</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ts</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tt</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ss</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>mm</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ll</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>sl</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>sm</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ml</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  </table>
+  
+  <h4>Pseudo selectors</h4>
+  <p>
+    Pseudo selectors can be styled independently and have the media prefixes applied
+    independently.
+  </p>
+  <pre><code>
+@media (min-width: 36em) {
+    .s_hover_red70:hover { color: hsl(0, 70%, 50%); }
+}
+  </code></pre>
+
+
+
+
+  <h3>Customize breakpoints</h3>
+  <p>
+    Glueball is much more flexible when it comes to breakpoints than Bootstrap or Tachyions.
+    It's simply a matter of editing settings to apply breakpoints to modules, to change the
+    name and number of breakpoints, their dimensions and their unit.
+    It is even possible to manage multiple sets of breakpoints throughout your project.
+  </p>
+
+  <h4>Module breakpoints</h4>
+  <p>
+    Breakpoints are applied to modules by passing them as a list of media queries.
+    The media query is a string composed of upper and lower breakpoint:
+    <code>["tx", "ss"]</code>.
+  </p>
+  <p>
+    This may stop working as expected when the name or number of breakpoints is altered.
+    We are also seeing recurring patterns of media queries, which would have to be typed
+    out for every module. For these reasons, the breakpoints class provides shortcut methods
+    for common breakpoint patterns:
+  </p>
+
+  <table>
+    <caption>media_full()</caption>
+    
+    
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        (none)
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  </table>
+
+  <table>
+    <caption>media_up()</caption>
+    
+    
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        (none)
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>s</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>m</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>l</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>x</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  </table>
+
+  <table>
+    <caption>media_down()</caption>
+    
+    
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        (none)
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tl</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tm</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ts</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tt</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  </table>
+
+  <table>
+    <caption>media_only()</caption>
+    
+    
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>tt</code>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ss</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>mm</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ll</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>x</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+  </tr>
+  
+  </table>
+
+  <table>
+    <caption>media_other()</caption>
+    
+    
+  <tr>
+    <th style="padding-right: 1em;">prefix</th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">0</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">36</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">48</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">62</span></th>
+    
+    <th style="text-align:left;"><span style="margin-left:-0.5rem;">75</span></th>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>sl</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>sm</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  <tr>
+    <td style="text-align: right; padding-right: 1em;">
+      
+        <code>ml</code>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      border-top-left-radius: 99rem; border-bottom-left-radius: 99rem;
+      "></div>
+      
+    </td>
+    
+    <td>
+      
+      <div style="display: inline-block; height: 0.75rem; width: 3rem; background-color: green; margin-top: 0.5rem;
+      
+      border-top-right-radius: 99rem; border-bottom-right-radius: 99rem;"></div>
+      
+    </td>
+    
+    <td>
+      
+    </td>
+    
+  </tr>
+  
+  </table>
+
+  <h4>Breakpoint settings</h4>
+  <p>The defaults file contain a </p>
+
+
+
+</div>
+</body>
+</html>
