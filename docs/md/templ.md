@@ -30,7 +30,8 @@ The value of a dynamic property is determined by the provided values.
 
 | Base selector | Dynamic props |
 | ------------- | ------------- |
-{% for base, props in mdl.dynamic.items() %}| `{{ base }}` |{% for prop in props %}`{{ prop }}`{{ ", " if not loop.last }}|{% endfor %}{% endfor %}
+{% for base, props in mdl.dynamic.items() %}| `{{ base }}` |{% for prop in props %}`{{ prop }}`{{ ", " if not loop.last }}|{% endfor %}
+{% endfor %}
 {% endif %}
 
 
@@ -76,4 +77,5 @@ The pseudo selector `{{ pseudo }}` has the following media queries available:
 ```
 
 - - - - -
->**note: This documentation was auto-generated from the source files.**
+_**note: This documentation was auto-generated from the source files.**_
+- - - - -

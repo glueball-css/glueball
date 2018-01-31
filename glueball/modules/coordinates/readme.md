@@ -14,7 +14,11 @@ The value of a dynamic property is determined by the provided values.
 
 | Base selector | Dynamic props |
 | ------------- | ------------- |
-| `.top` |`top`|| `.right` |`right`|| `.bottom` |`bottom`|| `.left` |`left`|
+| `.top` |`top`|
+| `.right` |`right`|
+| `.bottom` |`bottom`|
+| `.left` |`left`|
+
 
 
 
@@ -50,29 +54,6 @@ Selector  | Value
 |  `l`  ||||▒▒▒▒▒|▒▒▒▒▒|
 |  `x`  |||||▒▒▒▒▒|
 
-
-
-
-## Pseudo selectors
-The following pseudo selectors are available:
-
-### hover
-The pseudo selector `hover` has the following media queries available:
-
-
-
-
-| Prefix  |  >0 |  >36 |  >48 |  >62 |  >75 | 
-| :------:  |  :---------: |  :---------: |  :---------: |  :---------: |  :---------: | 
-|  (none)  |▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
-|  `s`  ||▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
-|  `m`  |||▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
-|  `l`  ||||▒▒▒▒▒|▒▒▒▒▒|
-|  `x`  |||||▒▒▒▒▒|
-|  `tl`  |▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒||
-|  `tm`  |▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|||
-|  `ts`  |▒▒▒▒▒|▒▒▒▒▒||||
-|  `tt`  |▒▒▒▒▒|||||
 
 
 
@@ -198,220 +179,8 @@ The pseudo selector `hover` has the following media queries available:
 .x_left2 { left: 2rem; }
 }
 
-.hover_top-2:hover { top: -2rem; }
-.hover_top-1:hover { top: -1rem; }
-.hover_top0:hover { top: 0; }
-.hover_top1:hover { top: 1rem; }
-.hover_top2:hover { top: 2rem; }
-.hover_right-2:hover { right: -2rem; }
-.hover_right-1:hover { right: -1rem; }
-.hover_right0:hover { right: 0; }
-.hover_right1:hover { right: 1rem; }
-.hover_right2:hover { right: 2rem; }
-.hover_bottom-2:hover { bottom: -2rem; }
-.hover_bottom-1:hover { bottom: -1rem; }
-.hover_bottom0:hover { bottom: 0; }
-.hover_bottom1:hover { bottom: 1rem; }
-.hover_bottom2:hover { bottom: 2rem; }
-.hover_left-2:hover { left: -2rem; }
-.hover_left-1:hover { left: -1rem; }
-.hover_left0:hover { left: 0; }
-.hover_left1:hover { left: 1rem; }
-.hover_left2:hover { left: 2rem; }
-
-
-@media (min-width: 36em) {
-.s_hover_top-2:hover { top: -2rem; }
-.s_hover_top-1:hover { top: -1rem; }
-.s_hover_top0:hover { top: 0; }
-.s_hover_top1:hover { top: 1rem; }
-.s_hover_top2:hover { top: 2rem; }
-.s_hover_right-2:hover { right: -2rem; }
-.s_hover_right-1:hover { right: -1rem; }
-.s_hover_right0:hover { right: 0; }
-.s_hover_right1:hover { right: 1rem; }
-.s_hover_right2:hover { right: 2rem; }
-.s_hover_bottom-2:hover { bottom: -2rem; }
-.s_hover_bottom-1:hover { bottom: -1rem; }
-.s_hover_bottom0:hover { bottom: 0; }
-.s_hover_bottom1:hover { bottom: 1rem; }
-.s_hover_bottom2:hover { bottom: 2rem; }
-.s_hover_left-2:hover { left: -2rem; }
-.s_hover_left-1:hover { left: -1rem; }
-.s_hover_left0:hover { left: 0; }
-.s_hover_left1:hover { left: 1rem; }
-.s_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (min-width: 48em) {
-.m_hover_top-2:hover { top: -2rem; }
-.m_hover_top-1:hover { top: -1rem; }
-.m_hover_top0:hover { top: 0; }
-.m_hover_top1:hover { top: 1rem; }
-.m_hover_top2:hover { top: 2rem; }
-.m_hover_right-2:hover { right: -2rem; }
-.m_hover_right-1:hover { right: -1rem; }
-.m_hover_right0:hover { right: 0; }
-.m_hover_right1:hover { right: 1rem; }
-.m_hover_right2:hover { right: 2rem; }
-.m_hover_bottom-2:hover { bottom: -2rem; }
-.m_hover_bottom-1:hover { bottom: -1rem; }
-.m_hover_bottom0:hover { bottom: 0; }
-.m_hover_bottom1:hover { bottom: 1rem; }
-.m_hover_bottom2:hover { bottom: 2rem; }
-.m_hover_left-2:hover { left: -2rem; }
-.m_hover_left-1:hover { left: -1rem; }
-.m_hover_left0:hover { left: 0; }
-.m_hover_left1:hover { left: 1rem; }
-.m_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (min-width: 62em) {
-.l_hover_top-2:hover { top: -2rem; }
-.l_hover_top-1:hover { top: -1rem; }
-.l_hover_top0:hover { top: 0; }
-.l_hover_top1:hover { top: 1rem; }
-.l_hover_top2:hover { top: 2rem; }
-.l_hover_right-2:hover { right: -2rem; }
-.l_hover_right-1:hover { right: -1rem; }
-.l_hover_right0:hover { right: 0; }
-.l_hover_right1:hover { right: 1rem; }
-.l_hover_right2:hover { right: 2rem; }
-.l_hover_bottom-2:hover { bottom: -2rem; }
-.l_hover_bottom-1:hover { bottom: -1rem; }
-.l_hover_bottom0:hover { bottom: 0; }
-.l_hover_bottom1:hover { bottom: 1rem; }
-.l_hover_bottom2:hover { bottom: 2rem; }
-.l_hover_left-2:hover { left: -2rem; }
-.l_hover_left-1:hover { left: -1rem; }
-.l_hover_left0:hover { left: 0; }
-.l_hover_left1:hover { left: 1rem; }
-.l_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (min-width: 75em) {
-.x_hover_top-2:hover { top: -2rem; }
-.x_hover_top-1:hover { top: -1rem; }
-.x_hover_top0:hover { top: 0; }
-.x_hover_top1:hover { top: 1rem; }
-.x_hover_top2:hover { top: 2rem; }
-.x_hover_right-2:hover { right: -2rem; }
-.x_hover_right-1:hover { right: -1rem; }
-.x_hover_right0:hover { right: 0; }
-.x_hover_right1:hover { right: 1rem; }
-.x_hover_right2:hover { right: 2rem; }
-.x_hover_bottom-2:hover { bottom: -2rem; }
-.x_hover_bottom-1:hover { bottom: -1rem; }
-.x_hover_bottom0:hover { bottom: 0; }
-.x_hover_bottom1:hover { bottom: 1rem; }
-.x_hover_bottom2:hover { bottom: 2rem; }
-.x_hover_left-2:hover { left: -2rem; }
-.x_hover_left-1:hover { left: -1rem; }
-.x_hover_left0:hover { left: 0; }
-.x_hover_left1:hover { left: 1rem; }
-.x_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (max-width: 74.99em) {
-.tl_hover_top-2:hover { top: -2rem; }
-.tl_hover_top-1:hover { top: -1rem; }
-.tl_hover_top0:hover { top: 0; }
-.tl_hover_top1:hover { top: 1rem; }
-.tl_hover_top2:hover { top: 2rem; }
-.tl_hover_right-2:hover { right: -2rem; }
-.tl_hover_right-1:hover { right: -1rem; }
-.tl_hover_right0:hover { right: 0; }
-.tl_hover_right1:hover { right: 1rem; }
-.tl_hover_right2:hover { right: 2rem; }
-.tl_hover_bottom-2:hover { bottom: -2rem; }
-.tl_hover_bottom-1:hover { bottom: -1rem; }
-.tl_hover_bottom0:hover { bottom: 0; }
-.tl_hover_bottom1:hover { bottom: 1rem; }
-.tl_hover_bottom2:hover { bottom: 2rem; }
-.tl_hover_left-2:hover { left: -2rem; }
-.tl_hover_left-1:hover { left: -1rem; }
-.tl_hover_left0:hover { left: 0; }
-.tl_hover_left1:hover { left: 1rem; }
-.tl_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (max-width: 61.99em) {
-.tm_hover_top-2:hover { top: -2rem; }
-.tm_hover_top-1:hover { top: -1rem; }
-.tm_hover_top0:hover { top: 0; }
-.tm_hover_top1:hover { top: 1rem; }
-.tm_hover_top2:hover { top: 2rem; }
-.tm_hover_right-2:hover { right: -2rem; }
-.tm_hover_right-1:hover { right: -1rem; }
-.tm_hover_right0:hover { right: 0; }
-.tm_hover_right1:hover { right: 1rem; }
-.tm_hover_right2:hover { right: 2rem; }
-.tm_hover_bottom-2:hover { bottom: -2rem; }
-.tm_hover_bottom-1:hover { bottom: -1rem; }
-.tm_hover_bottom0:hover { bottom: 0; }
-.tm_hover_bottom1:hover { bottom: 1rem; }
-.tm_hover_bottom2:hover { bottom: 2rem; }
-.tm_hover_left-2:hover { left: -2rem; }
-.tm_hover_left-1:hover { left: -1rem; }
-.tm_hover_left0:hover { left: 0; }
-.tm_hover_left1:hover { left: 1rem; }
-.tm_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (max-width: 47.99em) {
-.ts_hover_top-2:hover { top: -2rem; }
-.ts_hover_top-1:hover { top: -1rem; }
-.ts_hover_top0:hover { top: 0; }
-.ts_hover_top1:hover { top: 1rem; }
-.ts_hover_top2:hover { top: 2rem; }
-.ts_hover_right-2:hover { right: -2rem; }
-.ts_hover_right-1:hover { right: -1rem; }
-.ts_hover_right0:hover { right: 0; }
-.ts_hover_right1:hover { right: 1rem; }
-.ts_hover_right2:hover { right: 2rem; }
-.ts_hover_bottom-2:hover { bottom: -2rem; }
-.ts_hover_bottom-1:hover { bottom: -1rem; }
-.ts_hover_bottom0:hover { bottom: 0; }
-.ts_hover_bottom1:hover { bottom: 1rem; }
-.ts_hover_bottom2:hover { bottom: 2rem; }
-.ts_hover_left-2:hover { left: -2rem; }
-.ts_hover_left-1:hover { left: -1rem; }
-.ts_hover_left0:hover { left: 0; }
-.ts_hover_left1:hover { left: 1rem; }
-.ts_hover_left2:hover { left: 2rem; }
-}
-
-
-@media (max-width: 35.99em) {
-.tt_hover_top-2:hover { top: -2rem; }
-.tt_hover_top-1:hover { top: -1rem; }
-.tt_hover_top0:hover { top: 0; }
-.tt_hover_top1:hover { top: 1rem; }
-.tt_hover_top2:hover { top: 2rem; }
-.tt_hover_right-2:hover { right: -2rem; }
-.tt_hover_right-1:hover { right: -1rem; }
-.tt_hover_right0:hover { right: 0; }
-.tt_hover_right1:hover { right: 1rem; }
-.tt_hover_right2:hover { right: 2rem; }
-.tt_hover_bottom-2:hover { bottom: -2rem; }
-.tt_hover_bottom-1:hover { bottom: -1rem; }
-.tt_hover_bottom0:hover { bottom: 0; }
-.tt_hover_bottom1:hover { bottom: 1rem; }
-.tt_hover_bottom2:hover { bottom: 2rem; }
-.tt_hover_left-2:hover { left: -2rem; }
-.tt_hover_left-1:hover { left: -1rem; }
-.tt_hover_left0:hover { left: 0; }
-.tt_hover_left1:hover { left: 1rem; }
-.tt_hover_left2:hover { left: 2rem; }
-}
-
 ```
 
 - - - - -
->**note: This documentation was auto-generated from the source files.**
+_**note: This documentation was auto-generated from the source files.**_
+- - - - -

@@ -22,6 +22,5 @@ mdl = CssModule(
         '.bottom':  ['bottom'],
         '.left':    ['left']},
     values={'Offsets': vals},
-    pseudos={'hover': [UP, DOWN]},
     docstring=__doc__
 )
