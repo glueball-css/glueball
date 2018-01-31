@@ -1,4 +1,4 @@
-# module {{ mdl.name }}
+# module: {{ mdl.name }}
 {{ mdl.docstring }}
 
 {% if mdl.styles %}
@@ -28,9 +28,9 @@ A static declaration is not altered by the provided values.
 ## Dynamic properties
 The value of a dynamic property is determined by the provided values.
 
-{% for base, props in mdl.dynamic.items() %}
-+ base selector: `{{ base }}` - properties: {% for prop in props %}`{{ prop }}`{{ ", " if not loop.last }}{% endfor %}
-{% endfor %}
+| Base selector | Dynamic props |
+| ------------- | ------------- |
+{% for base, props in mdl.dynamic.items() %}| `{{ base }}` |{% for prop in props %}`{{ prop }}`{{ ", " if not loop.last }}|{% endfor %}{% endfor %}
 {% endif %}
 
 
@@ -76,5 +76,4 @@ The pseudo selector `{{ pseudo }}` has the following media queries available:
 ```
 
 - - - - -
-- - - - -
->This documentation was auto-generated from the source files.
+>**note: This documentation was auto-generated from the source files.**

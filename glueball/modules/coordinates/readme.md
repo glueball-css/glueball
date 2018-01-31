@@ -1,4 +1,4 @@
-# module Coordinates
+# module: Coordinates
 
 Top, right, bottom and left offsets.
 
@@ -12,15 +12,9 @@ Top, right, bottom and left offsets.
 ## Dynamic properties
 The value of a dynamic property is determined by the provided values.
 
-
-+ base selector: `.top` - properties: `top`
-
-+ base selector: `.right` - properties: `right`
-
-+ base selector: `.bottom` - properties: `bottom`
-
-+ base selector: `.left` - properties: `left`
-
+| Base selector | Dynamic props |
+| ------------- | ------------- |
+| `.top` |`top`|| `.right` |`right`|| `.bottom` |`bottom`|| `.left` |`left`|
 
 
 
@@ -420,5 +414,4 @@ The pseudo selector `hover` has the following media queries available:
 ```
 
 - - - - -
-- - - - -
->This documentation was auto-generated from the source files.
+>**note: This documentation was auto-generated from the source files.**
