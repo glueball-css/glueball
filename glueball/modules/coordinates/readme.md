@@ -13,13 +13,13 @@ Top, right, bottom and left offsets.
 The value of a dynamic property is determined by the provided values.
 
 
-+ `.top`: `top`, 
++ base selector: `.top` - properties: `top`
 
-+ `.right`: `right`, 
++ base selector: `.right` - properties: `right`
 
-+ `.bottom`: `bottom`, 
++ base selector: `.bottom` - properties: `bottom`
 
-+ `.left`: `left`, 
++ base selector: `.left` - properties: `left`
 
 
 
@@ -418,3 +418,7 @@ The pseudo selector `hover` has the following media queries available:
 }
 
 ```
+
+- - - - -
+- - - - -
+>This documentation was auto-generated from the source files.

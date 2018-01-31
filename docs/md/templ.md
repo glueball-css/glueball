@@ -29,7 +29,7 @@ A static declaration is not altered by the provided values.
 The value of a dynamic property is determined by the provided values.
 
 {% for base, props in mdl.dynamic.items() %}
-+ `{{ base }}`: {% for prop in props %}`{{ prop }}`, {% endfor %}
++ base selector: `{{ base }}` - properties: {% for prop in props %}`{{ prop }}`{{ ", " if not loop.last }}{% endfor %}
 {% endfor %}
 {% endif %}
 
@@ -74,3 +74,7 @@ The pseudo selector `{{ pseudo }}` has the following media queries available:
 {{ rule.__str__() }}
 {% endfor %}
 ```
+
+- - - - -
+- - - - -
+>This documentation was auto-generated from the source files.
