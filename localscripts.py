@@ -1,4 +1,5 @@
 from docs.html.app import app
+from docs.md.mdoc import rendered
 from glueball.glueball import write_css
 from glueball.glueball import sheet
 
@@ -14,8 +15,8 @@ def print_mods(s=sheet):
 
 
 if __name__ == "__main__":
-    write_css()
-    app.run()
+    # write_css()
+    # app.run()
     # print_mods()
-
+    print(rendered)
 
