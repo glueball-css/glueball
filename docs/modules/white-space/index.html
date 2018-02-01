@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Justify content /  modules / docs / GLUEBALL</title>
+  <title>White space /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
 <body>
@@ -10,13 +10,11 @@
 
 <a href="/">HOME</a>
 
-<h2>Justify content</h2>
+<h2>White space</h2>
 
   
   
-Defines the alignment along the main axis.
-It distributes extra free space leftover when the flex items on a line are inflexible,
-or have reached their maximum size.
+White space is used to control how whitespace is rendered.
 
 
 
@@ -32,10 +30,10 @@ or have reached their maximum size.
   <ul>
   
     <li>
-      <code>.jc</code>
+      <code>.ws</code>
       <ul>
         
-          <li><code>justify-content</code></li>
+          <li><code>white-space</code></li>
         
       </ul>
     </li>
@@ -50,38 +48,20 @@ or have reached their maximum size.
   
     <div>
       
-      <div class="d-ib w30p"><code>fs</code></div>
-      <div class="d-ib w30p"><code>flex-start</code></div>
+      <div class="d-ib w30p"><code>n</code></div>
+      <div class="d-ib w30p"><code>normal</code></div>
     </div>
   
     <div>
       
-      <div class="d-ib w30p"><code>fe</code></div>
-      <div class="d-ib w30p"><code>flex-end</code></div>
+      <div class="d-ib w30p"><code>nw</code></div>
+      <div class="d-ib w30p"><code>nowrap</code></div>
     </div>
   
     <div>
       
-      <div class="d-ib w30p"><code>c</code></div>
-      <div class="d-ib w30p"><code>center</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>sb</code></div>
-      <div class="d-ib w30p"><code>space-between</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>sa</code></div>
-      <div class="d-ib w30p"><code>space-around</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>se</code></div>
-      <div class="d-ib w30p"><code>space-evenly</code></div>
+      <div class="d-ib w30p"><code>p</code></div>
+      <div class="d-ib w30p"><code>pre</code></div>
     </div>
   
 
@@ -372,51 +352,36 @@ or have reached their maximum size.
 
 <h3>CSS rules</h3>
 <pre><code>
-.jc-fs { justify-content: flex-start; }
-.jc-fe { justify-content: flex-end; }
-.jc-c { justify-content: center; }
-.jc-sb { justify-content: space-between; }
-.jc-sa { justify-content: space-around; }
-.jc-se { justify-content: space-evenly; }
+.ws-n { white-space: normal; }
+.ws-nw { white-space: nowrap; }
+.ws-p { white-space: pre; }
 
 
 @media (min-width: 36em) {
-.s_jc-fs { justify-content: flex-start; }
-.s_jc-fe { justify-content: flex-end; }
-.s_jc-c { justify-content: center; }
-.s_jc-sb { justify-content: space-between; }
-.s_jc-sa { justify-content: space-around; }
-.s_jc-se { justify-content: space-evenly; }
+.s_ws-n { white-space: normal; }
+.s_ws-nw { white-space: nowrap; }
+.s_ws-p { white-space: pre; }
 }
 
 
 @media (min-width: 48em) {
-.m_jc-fs { justify-content: flex-start; }
-.m_jc-fe { justify-content: flex-end; }
-.m_jc-c { justify-content: center; }
-.m_jc-sb { justify-content: space-between; }
-.m_jc-sa { justify-content: space-around; }
-.m_jc-se { justify-content: space-evenly; }
+.m_ws-n { white-space: normal; }
+.m_ws-nw { white-space: nowrap; }
+.m_ws-p { white-space: pre; }
 }
 
 
 @media (min-width: 62em) {
-.l_jc-fs { justify-content: flex-start; }
-.l_jc-fe { justify-content: flex-end; }
-.l_jc-c { justify-content: center; }
-.l_jc-sb { justify-content: space-between; }
-.l_jc-sa { justify-content: space-around; }
-.l_jc-se { justify-content: space-evenly; }
+.l_ws-n { white-space: normal; }
+.l_ws-nw { white-space: nowrap; }
+.l_ws-p { white-space: pre; }
 }
 
 
 @media (min-width: 75em) {
-.x_jc-fs { justify-content: flex-start; }
-.x_jc-fe { justify-content: flex-end; }
-.x_jc-c { justify-content: center; }
-.x_jc-sb { justify-content: space-between; }
-.x_jc-sa { justify-content: space-around; }
-.x_jc-se { justify-content: space-evenly; }
+.x_ws-n { white-space: normal; }
+.x_ws-nw { white-space: nowrap; }
+.x_ws-p { white-space: pre; }
 }
 </code></pre>
 
