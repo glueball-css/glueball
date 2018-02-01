@@ -1,0 +1,318 @@
+# module: Color
+
+Full spectrum of hsla colors for font
+
+
+
+
+
+
+
+
+## Dynamic properties
+The value of a dynamic property is determined by the provided values.
+
+| Base selector | Dynamic props |
+| ------------- | ------------- |
+| `.` |`color`|
+
+
+
+
+
+## Provided values
+The following sets of values determine the dynamic properties and selectors.
+
+### Colors
+
+Selector  | Value
+--------- | ---------
+`red-92` | `hsl(0, 100%, 92%)`
+`red-70` | `hsl(0, 100%, 70%)`
+`red` | `hsl(0, 100%, 50%)`
+`red-25` | `hsl(0, 100%, 25%)`
+`red60-92` | `hsl(0, 60%, 92%)`
+`red60-70` | `hsl(0, 60%, 70%)`
+`red60` | `hsl(0, 60%, 50%)`
+`red60-25` | `hsl(0, 60%, 25%)`
+`carrot-92` | `hsl(30, 100%, 92%)`
+`carrot-70` | `hsl(30, 100%, 70%)`
+`carrot` | `hsl(30, 100%, 50%)`
+`carrot-25` | `hsl(30, 100%, 25%)`
+`carrot60-92` | `hsl(30, 60%, 92%)`
+`carrot60-70` | `hsl(30, 60%, 70%)`
+`carrot60` | `hsl(30, 60%, 50%)`
+`carrot60-25` | `hsl(30, 60%, 25%)`
+`yellow-92` | `hsl(60, 100%, 92%)`
+`yellow-70` | `hsl(60, 100%, 70%)`
+`yellow` | `hsl(60, 100%, 50%)`
+`yellow-25` | `hsl(60, 100%, 25%)`
+`yellow60-92` | `hsl(60, 60%, 92%)`
+`yellow60-70` | `hsl(60, 60%, 70%)`
+`yellow60` | `hsl(60, 60%, 50%)`
+`yellow60-25` | `hsl(60, 60%, 25%)`
+`inchworm-92` | `hsl(90, 100%, 92%)`
+`inchworm-70` | `hsl(90, 100%, 70%)`
+`inchworm` | `hsl(90, 100%, 50%)`
+`inchworm-25` | `hsl(90, 100%, 25%)`
+`inchworm60-92` | `hsl(90, 60%, 92%)`
+`inchworm60-70` | `hsl(90, 60%, 70%)`
+`inchworm60` | `hsl(90, 60%, 50%)`
+`inchworm60-25` | `hsl(90, 60%, 25%)`
+`lime-92` | `hsl(120, 100%, 92%)`
+`lime-70` | `hsl(120, 100%, 70%)`
+`lime` | `hsl(120, 100%, 50%)`
+`lime-25` | `hsl(120, 100%, 25%)`
+`lime60-92` | `hsl(120, 60%, 92%)`
+`lime60-70` | `hsl(120, 60%, 70%)`
+`lime60` | `hsl(120, 60%, 50%)`
+`lime60-25` | `hsl(120, 60%, 25%)`
+`cadmium-92` | `hsl(150, 100%, 92%)`
+`cadmium-70` | `hsl(150, 100%, 70%)`
+`cadmium` | `hsl(150, 100%, 50%)`
+`cadmium-25` | `hsl(150, 100%, 25%)`
+`cadmium60-92` | `hsl(150, 60%, 92%)`
+`cadmium60-70` | `hsl(150, 60%, 70%)`
+`cadmium60` | `hsl(150, 60%, 50%)`
+`cadmium60-25` | `hsl(150, 60%, 25%)`
+`cyan-92` | `hsl(180, 100%, 92%)`
+`cyan-70` | `hsl(180, 100%, 70%)`
+`cyan` | `hsl(180, 100%, 50%)`
+`cyan-25` | `hsl(180, 100%, 25%)`
+`cyan60-92` | `hsl(180, 60%, 92%)`
+`cyan60-70` | `hsl(180, 60%, 70%)`
+`cyan60` | `hsl(180, 60%, 50%)`
+`cyan60-25` | `hsl(180, 60%, 25%)`
+`cobalt-92` | `hsl(210, 100%, 92%)`
+`cobalt-70` | `hsl(210, 100%, 70%)`
+`cobalt` | `hsl(210, 100%, 50%)`
+`cobalt-25` | `hsl(210, 100%, 25%)`
+`cobalt60-92` | `hsl(210, 60%, 92%)`
+`cobalt60-70` | `hsl(210, 60%, 70%)`
+`cobalt60` | `hsl(210, 60%, 50%)`
+`cobalt60-25` | `hsl(210, 60%, 25%)`
+`blue-92` | `hsl(240, 100%, 92%)`
+`blue-70` | `hsl(240, 100%, 70%)`
+`blue` | `hsl(240, 100%, 50%)`
+`blue-25` | `hsl(240, 100%, 25%)`
+`blue60-92` | `hsl(240, 60%, 92%)`
+`blue60-70` | `hsl(240, 60%, 70%)`
+`blue60` | `hsl(240, 60%, 50%)`
+`blue60-25` | `hsl(240, 60%, 25%)`
+`mauve-92` | `hsl(270, 100%, 92%)`
+`mauve-70` | `hsl(270, 100%, 70%)`
+`mauve` | `hsl(270, 100%, 50%)`
+`mauve-25` | `hsl(270, 100%, 25%)`
+`mauve60-92` | `hsl(270, 60%, 92%)`
+`mauve60-70` | `hsl(270, 60%, 70%)`
+`mauve60` | `hsl(270, 60%, 50%)`
+`mauve60-25` | `hsl(270, 60%, 25%)`
+`magenta-92` | `hsl(300, 100%, 92%)`
+`magenta-70` | `hsl(300, 100%, 70%)`
+`magenta` | `hsl(300, 100%, 50%)`
+`magenta-25` | `hsl(300, 100%, 25%)`
+`magenta60-92` | `hsl(300, 60%, 92%)`
+`magenta60-70` | `hsl(300, 60%, 70%)`
+`magenta60` | `hsl(300, 60%, 50%)`
+`magenta60-25` | `hsl(300, 60%, 25%)`
+`cerise-92` | `hsl(330, 100%, 92%)`
+`cerise-70` | `hsl(330, 100%, 70%)`
+`cerise` | `hsl(330, 100%, 50%)`
+`cerise-25` | `hsl(330, 100%, 25%)`
+`cerise60-92` | `hsl(330, 60%, 92%)`
+`cerise60-70` | `hsl(330, 60%, 70%)`
+`cerise60` | `hsl(330, 60%, 50%)`
+`cerise60-25` | `hsl(330, 60%, 25%)`
+`gray-98` | `hsl(0, 0%, 98%)`
+`gray-95` | `hsl(0, 0%, 95%)`
+`gray-90` | `hsl(0, 0%, 90%)`
+`gray-80` | `hsl(0, 0%, 80%)`
+`gray` | `hsl(0, 0%, 50%)`
+`gray-65` | `hsl(0, 0%, 65%)`
+`gray-35` | `hsl(0, 0%, 35%)`
+`gray-20` | `hsl(0, 0%, 20%)`
+`gray-10` | `hsl(0, 0%, 10%)`
+`gray-5` | `hsl(0, 0%, 5%)`
+`black` | `hsl(0, 0%, 0%)`
+`black-90a` | `hsla(0, 0%, 0%, 0.90)`
+`black-80a` | `hsla(0, 0%, 0%, 0.80)`
+`black-70a` | `hsla(0, 0%, 0%, 0.70)`
+`black-60a` | `hsla(0, 0%, 0%, 0.60)`
+`black-50a` | `hsla(0, 0%, 0%, 0.50)`
+`black-40a` | `hsla(0, 0%, 0%, 0.40)`
+`black-30a` | `hsla(0, 0%, 0%, 0.30)`
+`black-20a` | `hsla(0, 0%, 0%, 0.20)`
+`black-10a` | `hsla(0, 0%, 0%, 0.10)`
+`black-5a` | `hsla(0, 0%, 0%, 0.05)`
+`black-2a` | `hsla(0, 0%, 0%, 0.02)`
+`white` | `hsl(0, 0%, 100%)`
+`white-90a` | `hsla(0, 0%, 100%, 0.90)`
+`white-80a` | `hsla(0, 0%, 100%, 0.80)`
+`white-70a` | `hsla(0, 0%, 100%, 0.70)`
+`white-60a` | `hsla(0, 0%, 100%, 0.60)`
+`white-50a` | `hsla(0, 0%, 100%, 0.50)`
+`white-40a` | `hsla(0, 0%, 100%, 0.40)`
+`white-30a` | `hsla(0, 0%, 100%, 0.30)`
+`white-20a` | `hsla(0, 0%, 100%, 0.20)`
+`white-10a` | `hsla(0, 0%, 100%, 0.10)`
+`white-5a` | `hsla(0, 0%, 100%, 0.05)`
+`white-2a` | `hsla(0, 0%, 100%, 0.02)`
+
+
+
+
+
+## Media
+
+
+
+
+
+| Prefix  |  >0 |  >36 |  >48 |  >62 |  >75 | 
+| :------:  |  :---------: |  :---------: |  :---------: |  :---------: |  :---------: | 
+|  (none)  |▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
+
+
+
+
+
+
+## CSS rules
+```css
+
+.red-92 { color: hsl(0, 100%, 92%); }
+.red-70 { color: hsl(0, 100%, 70%); }
+.red { color: hsl(0, 100%, 50%); }
+.red-25 { color: hsl(0, 100%, 25%); }
+.red60-92 { color: hsl(0, 60%, 92%); }
+.red60-70 { color: hsl(0, 60%, 70%); }
+.red60 { color: hsl(0, 60%, 50%); }
+.red60-25 { color: hsl(0, 60%, 25%); }
+.carrot-92 { color: hsl(30, 100%, 92%); }
+.carrot-70 { color: hsl(30, 100%, 70%); }
+.carrot { color: hsl(30, 100%, 50%); }
+.carrot-25 { color: hsl(30, 100%, 25%); }
+.carrot60-92 { color: hsl(30, 60%, 92%); }
+.carrot60-70 { color: hsl(30, 60%, 70%); }
+.carrot60 { color: hsl(30, 60%, 50%); }
+.carrot60-25 { color: hsl(30, 60%, 25%); }
+.yellow-92 { color: hsl(60, 100%, 92%); }
+.yellow-70 { color: hsl(60, 100%, 70%); }
+.yellow { color: hsl(60, 100%, 50%); }
+.yellow-25 { color: hsl(60, 100%, 25%); }
+.yellow60-92 { color: hsl(60, 60%, 92%); }
+.yellow60-70 { color: hsl(60, 60%, 70%); }
+.yellow60 { color: hsl(60, 60%, 50%); }
+.yellow60-25 { color: hsl(60, 60%, 25%); }
+.inchworm-92 { color: hsl(90, 100%, 92%); }
+.inchworm-70 { color: hsl(90, 100%, 70%); }
+.inchworm { color: hsl(90, 100%, 50%); }
+.inchworm-25 { color: hsl(90, 100%, 25%); }
+.inchworm60-92 { color: hsl(90, 60%, 92%); }
+.inchworm60-70 { color: hsl(90, 60%, 70%); }
+.inchworm60 { color: hsl(90, 60%, 50%); }
+.inchworm60-25 { color: hsl(90, 60%, 25%); }
+.lime-92 { color: hsl(120, 100%, 92%); }
+.lime-70 { color: hsl(120, 100%, 70%); }
+.lime { color: hsl(120, 100%, 50%); }
+.lime-25 { color: hsl(120, 100%, 25%); }
+.lime60-92 { color: hsl(120, 60%, 92%); }
+.lime60-70 { color: hsl(120, 60%, 70%); }
+.lime60 { color: hsl(120, 60%, 50%); }
+.lime60-25 { color: hsl(120, 60%, 25%); }
+.cadmium-92 { color: hsl(150, 100%, 92%); }
+.cadmium-70 { color: hsl(150, 100%, 70%); }
+.cadmium { color: hsl(150, 100%, 50%); }
+.cadmium-25 { color: hsl(150, 100%, 25%); }
+.cadmium60-92 { color: hsl(150, 60%, 92%); }
+.cadmium60-70 { color: hsl(150, 60%, 70%); }
+.cadmium60 { color: hsl(150, 60%, 50%); }
+.cadmium60-25 { color: hsl(150, 60%, 25%); }
+.cyan-92 { color: hsl(180, 100%, 92%); }
+.cyan-70 { color: hsl(180, 100%, 70%); }
+.cyan { color: hsl(180, 100%, 50%); }
+.cyan-25 { color: hsl(180, 100%, 25%); }
+.cyan60-92 { color: hsl(180, 60%, 92%); }
+.cyan60-70 { color: hsl(180, 60%, 70%); }
+.cyan60 { color: hsl(180, 60%, 50%); }
+.cyan60-25 { color: hsl(180, 60%, 25%); }
+.cobalt-92 { color: hsl(210, 100%, 92%); }
+.cobalt-70 { color: hsl(210, 100%, 70%); }
+.cobalt { color: hsl(210, 100%, 50%); }
+.cobalt-25 { color: hsl(210, 100%, 25%); }
+.cobalt60-92 { color: hsl(210, 60%, 92%); }
+.cobalt60-70 { color: hsl(210, 60%, 70%); }
+.cobalt60 { color: hsl(210, 60%, 50%); }
+.cobalt60-25 { color: hsl(210, 60%, 25%); }
+.blue-92 { color: hsl(240, 100%, 92%); }
+.blue-70 { color: hsl(240, 100%, 70%); }
+.blue { color: hsl(240, 100%, 50%); }
+.blue-25 { color: hsl(240, 100%, 25%); }
+.blue60-92 { color: hsl(240, 60%, 92%); }
+.blue60-70 { color: hsl(240, 60%, 70%); }
+.blue60 { color: hsl(240, 60%, 50%); }
+.blue60-25 { color: hsl(240, 60%, 25%); }
+.mauve-92 { color: hsl(270, 100%, 92%); }
+.mauve-70 { color: hsl(270, 100%, 70%); }
+.mauve { color: hsl(270, 100%, 50%); }
+.mauve-25 { color: hsl(270, 100%, 25%); }
+.mauve60-92 { color: hsl(270, 60%, 92%); }
+.mauve60-70 { color: hsl(270, 60%, 70%); }
+.mauve60 { color: hsl(270, 60%, 50%); }
+.mauve60-25 { color: hsl(270, 60%, 25%); }
+.magenta-92 { color: hsl(300, 100%, 92%); }
+.magenta-70 { color: hsl(300, 100%, 70%); }
+.magenta { color: hsl(300, 100%, 50%); }
+.magenta-25 { color: hsl(300, 100%, 25%); }
+.magenta60-92 { color: hsl(300, 60%, 92%); }
+.magenta60-70 { color: hsl(300, 60%, 70%); }
+.magenta60 { color: hsl(300, 60%, 50%); }
+.magenta60-25 { color: hsl(300, 60%, 25%); }
+.cerise-92 { color: hsl(330, 100%, 92%); }
+.cerise-70 { color: hsl(330, 100%, 70%); }
+.cerise { color: hsl(330, 100%, 50%); }
+.cerise-25 { color: hsl(330, 100%, 25%); }
+.cerise60-92 { color: hsl(330, 60%, 92%); }
+.cerise60-70 { color: hsl(330, 60%, 70%); }
+.cerise60 { color: hsl(330, 60%, 50%); }
+.cerise60-25 { color: hsl(330, 60%, 25%); }
+.gray-98 { color: hsl(0, 0%, 98%); }
+.gray-95 { color: hsl(0, 0%, 95%); }
+.gray-90 { color: hsl(0, 0%, 90%); }
+.gray-80 { color: hsl(0, 0%, 80%); }
+.gray { color: hsl(0, 0%, 50%); }
+.gray-65 { color: hsl(0, 0%, 65%); }
+.gray-35 { color: hsl(0, 0%, 35%); }
+.gray-20 { color: hsl(0, 0%, 20%); }
+.gray-10 { color: hsl(0, 0%, 10%); }
+.gray-5 { color: hsl(0, 0%, 5%); }
+.black { color: hsl(0, 0%, 0%); }
+.black-90a { color: hsla(0, 0%, 0%, 0.90); }
+.black-80a { color: hsla(0, 0%, 0%, 0.80); }
+.black-70a { color: hsla(0, 0%, 0%, 0.70); }
+.black-60a { color: hsla(0, 0%, 0%, 0.60); }
+.black-50a { color: hsla(0, 0%, 0%, 0.50); }
+.black-40a { color: hsla(0, 0%, 0%, 0.40); }
+.black-30a { color: hsla(0, 0%, 0%, 0.30); }
+.black-20a { color: hsla(0, 0%, 0%, 0.20); }
+.black-10a { color: hsla(0, 0%, 0%, 0.10); }
+.black-5a { color: hsla(0, 0%, 0%, 0.05); }
+.black-2a { color: hsla(0, 0%, 0%, 0.02); }
+.white { color: hsl(0, 0%, 100%); }
+.white-90a { color: hsla(0, 0%, 100%, 0.90); }
+.white-80a { color: hsla(0, 0%, 100%, 0.80); }
+.white-70a { color: hsla(0, 0%, 100%, 0.70); }
+.white-60a { color: hsla(0, 0%, 100%, 0.60); }
+.white-50a { color: hsla(0, 0%, 100%, 0.50); }
+.white-40a { color: hsla(0, 0%, 100%, 0.40); }
+.white-30a { color: hsla(0, 0%, 100%, 0.30); }
+.white-20a { color: hsla(0, 0%, 100%, 0.20); }
+.white-10a { color: hsla(0, 0%, 100%, 0.10); }
+.white-5a { color: hsla(0, 0%, 100%, 0.05); }
+.white-2a { color: hsla(0, 0%, 100%, 0.02); }
+
+```
+
+- - - - -
+_**note: This documentation was auto-generated from the source files.**_
+- - - - -

@@ -2,8 +2,9 @@ import re
 
 import os
 
-from ..settings import DOCSITE, MODULE_DIR
+from glueball.settings import DOCSITE, MODULE_DIR
 from .stylerule import StyleRule
+from docs.md.mdoc import template
 try:
     from ..modules.defaults import BREAKPOINTS
 except ImportError:
@@ -105,6 +106,16 @@ class CssModule:
             tfile.write('/* GLUEBALL */\n')
             for line in str(self).splitlines():
                 tfile.write(line + '\n')
+
+    def write_md(self):
+        tpath = os.path.join(MODULE_DIR, self.get_slug(), 'readme.md')
+
+        # Create or clear the target file
+        open(tpath, 'w').close()
+
+        with open(tpath, "a") as tfile:
+            # Append the rules
+            tfile.write(template.render(mdl=self))
 
     def __str__(self):
         header = """
