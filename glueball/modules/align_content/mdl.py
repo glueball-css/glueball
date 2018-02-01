@@ -18,6 +18,6 @@ mdl = CssModule(
     'Align content',
     [FULL],
     dynamic={'.ac': ['align-content']},
-    values={'Alignment options': vals},
+    values=vals,
     docstring=__doc__
 )

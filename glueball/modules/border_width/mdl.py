@@ -15,6 +15,6 @@ mdl = CssModule(
         '.brw': ['border-right-width'],
         '.bbw': ['border-bottom-width'],
         '.blw': ['border-left-width']},
-    values={'Spacing': SPACING,},
+    values=SPACING,
     docstring=__doc__
 )

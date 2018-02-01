@@ -17,6 +17,6 @@ mdl = CssModule(
     'Box shadow',
     [FULL],
     dynamic={'.shadow': ['box-shadow']},
-    values={'Shadows': vals},
+    values=vals,
     docstring=__doc__
 )

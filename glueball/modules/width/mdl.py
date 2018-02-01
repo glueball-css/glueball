@@ -18,6 +18,6 @@ mdl = CssModule(
     'Width',
     [UP],
     dynamic={'.w': ['width']},
-    values={'Modifiers': SIZING, 'Percentages': PERCENTAGES, 'Fractions': fractions},
+    values=SIZING+PERCENTAGES+fractions,
     docstring=__doc__
 )

@@ -16,6 +16,6 @@ mdl = CssModule(
     'Float',
     [UP],
     dynamic={'.float': ['float']},
-    values={'Values': vals},
+    values=vals,
     docstring=__doc__
 )

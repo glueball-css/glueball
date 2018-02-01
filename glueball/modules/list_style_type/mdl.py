@@ -28,6 +28,6 @@ mdl = CssModule(
     'List style type',
     [FULL],
     dynamic={'.lst': ['list-style-type']},
-    values={'Types': list(zip(vals, vals))},
+    values=list(zip(vals, vals)),
     docstring=__doc__
 )

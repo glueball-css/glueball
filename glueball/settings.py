@@ -51,6 +51,7 @@ MODULES = (
     'border_radius',
     'border_color',
     'text_transform',
+    'white_space',
     'text_align',
     'vertical_align',
     'line_height',

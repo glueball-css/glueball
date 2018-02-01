@@ -6,7 +6,7 @@ A static declaration of "no-repeat" is implicitly included.
 from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
-values = (
+vals = (
     ('lt',  'left top'),
     ('lc',  'left center'),
     ('lb',  'left bottom'),
@@ -23,6 +23,6 @@ mdl = CssModule(
     [UP],
     static={'background-repeat': 'no-repeat'},
     dynamic={'.bgp': ['background-position']},
-    values={'Positions': values},
+    values=vals,
     docstring=__doc__
 )

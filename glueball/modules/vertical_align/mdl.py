@@ -21,6 +21,6 @@ mdl = CssModule(
     'Vertical align',
     [FULL],
     dynamic={'.va': ['vertical-align']},
-    values={'Alignment options': vals},
+    values=vals,
     docstring=__doc__
 )

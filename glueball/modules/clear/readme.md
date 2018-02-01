@@ -36,17 +36,14 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Options
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `l` | `left`
 `r` | `right`
 `b` | `bottom`
 `n` | `none`
-
 
 
 

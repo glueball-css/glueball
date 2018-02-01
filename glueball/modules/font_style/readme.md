@@ -21,15 +21,12 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Styles
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `n` | `normal`
 `i` | `italic`
-
 
 
 

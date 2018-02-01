@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Spacings
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `-2` | `-0.125em`
 `-1` | `-0.0625em`
@@ -35,7 +33,6 @@ Selector  | Value
 `3` | `0.25em`
 `4` | `0.5em`
 `n` | `normal`
-
 
 
 

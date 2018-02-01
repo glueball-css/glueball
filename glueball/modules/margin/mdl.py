@@ -21,8 +21,6 @@ mdl = CssModule(
         '.ml': ['margin-left'],
         '.mx': ['margin-left', 'margin-right'],
         '.my': ['margin-top', 'margin-bottom']},
-    values={
-        'Spacing': SPACING,
-        'Negative': NEGATIVE_SPACING},
+    values=SPACING+NEGATIVE_SPACING,
     docstring=__doc__
 )

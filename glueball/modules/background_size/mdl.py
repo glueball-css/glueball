@@ -6,14 +6,14 @@ from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
 vals = (
-    'contain',
-    'cover',
+    ('contain', 'contain'),
+    ('cover', 'cover')
 )
 
 mdl = CssModule(
     'Background size',
     [UP],
     dynamic={'.': ['background-size']},
-    values={'Sizings': list(zip(vals, vals))},
+    values=vals,
     docstring=__doc__
 )

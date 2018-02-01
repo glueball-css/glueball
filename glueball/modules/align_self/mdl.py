@@ -17,6 +17,6 @@ mdl = CssModule(
     'Align self',
     [FULL],
     dynamic={'.fxas': ['align-self']},
-    values={'Alignment options': vals},
+    values=vals,
     docstring=__doc__
 )

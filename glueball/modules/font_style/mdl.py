@@ -9,6 +9,6 @@ mdl = CssModule(
     'Font style',
     [UP],
     dynamic={'.': ['font-style']},
-    values={'Styles': [('n', 'normal'), ('i', 'italic')]},
+    values=[('n', 'normal'), ('i', 'italic')],
     docstring=__doc__
 )

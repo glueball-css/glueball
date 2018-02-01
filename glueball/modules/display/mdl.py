@@ -5,7 +5,7 @@ Controls display property
 from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
-values = [
+vals = [
     ('n',       'none'),
     ('i',       'inline'),
     ('b',       'block'),
@@ -25,6 +25,6 @@ mdl = CssModule(
     'Display',
     [UP, DOWN],
     dynamic={'.d': ['display']},
-    values={'Display options': values},
+    values=vals,
     docstring=__doc__
 )

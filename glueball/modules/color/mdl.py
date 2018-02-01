@@ -10,6 +10,6 @@ mdl = CssModule(
     'Color',
     [FULL],
     dynamic={'.': ['color']},
-    values={'Colors': [(c.get_selector(), str(c)) for c in SPECTRUM]},
+    values=[(c.get_selector(), str(c)) for c in SPECTRUM],
     docstring=__doc__
 )

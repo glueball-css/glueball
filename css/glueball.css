@@ -1192,6 +1192,42 @@ documentation: http://glueball.io/docs/module/justify_content
 .jc-sa { justify-content: space-around; }
 .jc-se { justify-content: space-evenly; }
 
+@media (min-width: 36em) {
+.s_jc-fs { justify-content: flex-start; }
+.s_jc-fe { justify-content: flex-end; }
+.s_jc-c { justify-content: center; }
+.s_jc-sb { justify-content: space-between; }
+.s_jc-sa { justify-content: space-around; }
+.s_jc-se { justify-content: space-evenly; }
+}
+
+@media (min-width: 48em) {
+.m_jc-fs { justify-content: flex-start; }
+.m_jc-fe { justify-content: flex-end; }
+.m_jc-c { justify-content: center; }
+.m_jc-sb { justify-content: space-between; }
+.m_jc-sa { justify-content: space-around; }
+.m_jc-se { justify-content: space-evenly; }
+}
+
+@media (min-width: 62em) {
+.l_jc-fs { justify-content: flex-start; }
+.l_jc-fe { justify-content: flex-end; }
+.l_jc-c { justify-content: center; }
+.l_jc-sb { justify-content: space-between; }
+.l_jc-sa { justify-content: space-around; }
+.l_jc-se { justify-content: space-evenly; }
+}
+
+@media (min-width: 75em) {
+.x_jc-fs { justify-content: flex-start; }
+.x_jc-fe { justify-content: flex-end; }
+.x_jc-c { justify-content: center; }
+.x_jc-sb { justify-content: space-between; }
+.x_jc-sa { justify-content: space-around; }
+.x_jc-se { justify-content: space-evenly; }
+}
+
 /*
 module FLEX DIRECTION
 
@@ -1329,12 +1365,12 @@ documentation: http://glueball.io/docs/module/flex_wrap
 .fw-wr { flex-wrap: wrap-reverse; }
 
 /*
-module BORDER BOX
+module BOX SIZING
 
 Border box for relevant elements
 
 
-documentation: http://glueball.io/docs/module/border_box
+documentation: http://glueball.io/docs/module/box_sizing
 */
 
 html, body, div, article, aside, section, main, nav, footer, header, form, fieldset, legend, pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, figcaption, figure, textarea, table, td, th, tr, input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
@@ -4993,6 +5029,43 @@ documentation: http://glueball.io/docs/module/text_transform
 .tt-c { text-transform: capitalize; }
 .tt-u { text-transform: uppercase; }
 .tt-l { text-transform: lowercase; }
+
+/*
+module WHITE SPACE
+
+White space is used to control how whitespace is rendered.
+
+
+documentation: http://glueball.io/docs/module/white_space
+*/
+
+.ws-n { white-space: normal; }
+.ws-nw { white-space: nowrap; }
+.ws-p { white-space: pre; }
+
+@media (min-width: 36em) {
+.s_ws-n { white-space: normal; }
+.s_ws-nw { white-space: nowrap; }
+.s_ws-p { white-space: pre; }
+}
+
+@media (min-width: 48em) {
+.m_ws-n { white-space: normal; }
+.m_ws-nw { white-space: nowrap; }
+.m_ws-p { white-space: pre; }
+}
+
+@media (min-width: 62em) {
+.l_ws-n { white-space: normal; }
+.l_ws-nw { white-space: nowrap; }
+.l_ws-p { white-space: pre; }
+}
+
+@media (min-width: 75em) {
+.x_ws-n { white-space: normal; }
+.x_ws-nw { white-space: nowrap; }
+.x_ws-p { white-space: pre; }
+}
 
 /*
 module TEXT ALIGN

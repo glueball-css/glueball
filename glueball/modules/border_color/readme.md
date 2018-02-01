@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Colors
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `red-92` | `hsl(0, 100%, 92%)`
 `red-70` | `hsl(0, 100%, 70%)`
@@ -157,7 +155,6 @@ Selector  | Value
 `white-10a` | `hsla(0, 0%, 100%, 0.10)`
 `white-5a` | `hsla(0, 0%, 100%, 0.05)`
 `white-2a` | `hsla(0, 0%, 100%, 0.02)`
-
 
 
 

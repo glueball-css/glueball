@@ -21,6 +21,6 @@ mdl = CssModule(
         '.right':   ['right'],
         '.bottom':  ['bottom'],
         '.left':    ['left']},
-    values={'Offsets': vals},
+    values=vals,
     docstring=__doc__
 )

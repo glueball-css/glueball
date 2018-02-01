@@ -20,6 +20,6 @@ mdl = CssModule(
     'Letter spacing',
     [FULL],
     dynamic={'.ls': ['letter-spacing']},
-    values={'Spacings': vals},
+    values=vals,
     docstring=__doc__
 )

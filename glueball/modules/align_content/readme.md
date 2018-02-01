@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Alignment options
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `fs` | `flex-start`
 `fe` | `flex-end`
@@ -33,7 +31,6 @@ Selector  | Value
 `sb` | `space-between`
 `sa` | `space-around`
 `s` | `stretch`
-
 
 
 

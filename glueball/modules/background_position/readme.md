@@ -29,11 +29,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Positions
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `lt` | `left top`
 `lc` | `left center`
@@ -44,7 +42,6 @@ Selector  | Value
 `ct` | `center top`
 `cc` | `center center`
 `cb` | `center bottom`
-
 
 
 

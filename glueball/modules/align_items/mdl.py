@@ -17,6 +17,6 @@ mdl = CssModule(
     'Align items',
     [FULL],
     dynamic={'.ai': ['align-items']},
-    values={'Alignment options': vals},
+    values=vals,
     docstring=__doc__
 )

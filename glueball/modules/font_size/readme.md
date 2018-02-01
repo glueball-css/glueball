@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Type scales
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `1` | `.75rem`
 `2` | `.875rem`
@@ -36,7 +34,6 @@ Selector  | Value
 `7` | `2.75rem`
 `8` | `3.75rem`
 `9` | `5rem`
-
 
 
 

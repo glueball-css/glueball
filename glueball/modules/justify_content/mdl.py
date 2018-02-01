@@ -18,8 +18,8 @@ vals = [
 
 mdl = CssModule(
     'Justify content',
-    [FULL],
+    [UP],
     dynamic={'.jc': ['justify-content']},
-    values={'Distributions': vals},
+    values=vals,
     docstring=__doc__
 )

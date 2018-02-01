@@ -1,5 +1,4 @@
 import re
-
 import os
 
 from glueball.settings import DOCSITE, MODULE_DIR
@@ -22,7 +21,7 @@ class CssModule:
     styles:         Iterable of arguments to create StyleRules (that will be used without modification)
     static:         Dict of declations which will be applied unchanged to the dynamic selector
     dynamic:        Dict of base selector + list of props which form declarations with the different values
-    values:         Dict with two-item iterables which get apppied to base selector and dynamic props
+    values:         List of two-item tuples: a selector suffix and a value for the dynamic properties
     pseudos:        Dictionary of {pseudo: media list}
     """
     def __init__(self,
@@ -32,7 +31,7 @@ class CssModule:
                  styles=None,
                  static=None,
                  dynamic=None,
-                 values={},
+                 values=(),
                  pseudos=None,
                  docstring=''):
         self.name = name
@@ -51,7 +50,7 @@ class CssModule:
 
         self.static = static or {}
         self.dynamic = dynamic or {}
-        self.values = {k: [(str(t[0]), str(t[1])) for t in v] for k, v in values.items()}
+        self.values = [(str(sfx), str(val)) for sfx, val in values]
         self.pseudos = pseudos or {}
         self.docstring = docstring
 
@@ -72,12 +71,10 @@ class CssModule:
 
         # Generate the dynamic rules
         for sel, props in self.dynamic.items():
-            for vals in self.values.values():
-                # vals is a tuple of two-item tuples: [0] selector suffices and [1] declaration values
-                for val in vals:
-                    decl = {prop: str(val[1]) for prop in props}
-                    decl.update(self.static)  # add the static declarations
-                    root_rules.append(StyleRule(sel, decl, pseudo, str(val[0])))
+            for sfx, val in self.values:
+                decl = {prop: val for prop in props}
+                decl.update(self.static)  # add the static declarations
+                root_rules.append(StyleRule(sel, decl, pseudo, sfx))
         return root_rules
 
     def get_all_rules(self):

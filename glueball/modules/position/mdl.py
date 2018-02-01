@@ -16,6 +16,6 @@ mdl = CssModule(
     'Position',
     [UP],
     dynamic={'.': ['position']},
-    values={'Values': list(zip(vals, vals))},
+    values=list(zip(vals, vals)),
     docstring=__doc__
 )

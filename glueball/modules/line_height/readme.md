@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Heights
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `-2` | `0.75`
 `-1` | `0.875`
@@ -34,7 +32,6 @@ Selector  | Value
 `3` | `1.25`
 `4` | `1.5`
 `n` | `normal`
-
 
 
 

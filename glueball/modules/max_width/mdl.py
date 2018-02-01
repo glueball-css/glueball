@@ -10,6 +10,6 @@ mdl = CssModule(
     'Max width',
     [FULL],
     dynamic={'.mw': ['max-width']},
-    values={'Modifiers': SIZING, 'Percentages': PERCENTAGES},
+    values=SIZING+PERCENTAGES,
     docstring=__doc__
 )

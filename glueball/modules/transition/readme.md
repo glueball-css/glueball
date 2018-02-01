@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Speeds
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `1` | `all 0.1s cubic-bezier(.25, .8, .25, 1)`
 `2` | `all 0.2s cubic-bezier(.25, .8, .25, 1)`
@@ -36,7 +34,6 @@ Selector  | Value
 `7` | `all 1.0s cubic-bezier(.25, .8, .25, 1)`
 `8` | `all 2.0s cubic-bezier(.25, .8, .25, 1)`
 `9` | `all 4.0s cubic-bezier(.25, .8, .25, 1)`
-
 
 
 

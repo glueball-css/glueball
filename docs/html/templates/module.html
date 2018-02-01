@@ -52,18 +52,14 @@
 
 {% if mdl.values %}
   <h3>Provided values</h3>
-  {% for name, vals in mdl.values.items() %}
-    <h4>{{ name }}</h4>
-    {% for sel, value in vals %}
-      <div>
-        {% if value[:3] == 'hsl' %}
-          <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: {{ value }}"></div>
-        {% endif %}
-        <div style="display: inline-block; width: 30%"><code>{{ sel }}</code></div>
-        <div style="display: inline-block; width: 30%"><code>{{ value }}</code></div>
-
-      </div>
-    {% endfor %}
+  {% for sfx, val in mdl.values %}
+    <div>
+      {% if val[:3] == 'hsl' %}
+        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: {{ val }}"></div>
+      {% endif %}
+      <div class="d-ib w30p"><code>{{ sfx }}</code></div>
+      <div class="d-ib w30p"><code>{{ val }}</code></div>
+    </div>
   {% endfor %}
 {% endif %}
 

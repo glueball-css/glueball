@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Display options
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `n` | `none`
 `i` | `inline`
@@ -40,7 +38,6 @@ Selector  | Value
 `tcolg` | `table-column-group`
 `f` | `flex`
 `if` | `inline-flex`
-
 
 
 

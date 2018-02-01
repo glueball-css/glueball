@@ -16,6 +16,6 @@ mdl = CssModule(
     'Text transform',
     [FULL],
     dynamic={'.tt': ['text-transform']},
-    values={'Case options': vals},
+    values=vals,
     docstring=__doc__
 )

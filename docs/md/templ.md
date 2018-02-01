@@ -37,14 +37,11 @@ The value of a dynamic property is determined by the provided values.
 
 {% if mdl.values %}
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
-{% for name, vals in mdl.values.items() %}
-### {{ name }}
+The following values determine the dynamic properties and selectors.
 
-Selector  | Value
+Suffix  | Value
 --------- | ---------
-{% for sel, value in vals %}`{{sel}}` | `{{ value }}`
-{% endfor %}
+{% for sfx, val in mdl.values %}`{{sfx}}` | `{{ val }}`
 {% endfor %}
 {% endif %}
 

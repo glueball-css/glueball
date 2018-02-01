@@ -17,6 +17,6 @@ mdl = CssModule(
     'Flex direction',
     [FULL],
     dynamic={'.fd': ['flex-direction']},
-    values={'Directions': vals},
+    values=vals,
     docstring=__doc__
 )

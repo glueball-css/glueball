@@ -25,6 +25,6 @@ mdl = CssModule(
     [FULL],
     styles=styles,
     dynamic={'.tbs': ['border-spacing']},
-    values={'Spacing': SPACING},
+    values=SPACING,
     docstring=__doc__
 )

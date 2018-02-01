@@ -9,6 +9,6 @@ mdl = CssModule(
     'Font weight',
     [UP],
     dynamic={'.weight': ['font-weight']},
-    values={'Weights': WEIGHT},
+    values=WEIGHT,
     docstring=__doc__
 )

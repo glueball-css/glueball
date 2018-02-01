@@ -10,6 +10,6 @@ mdl = CssModule(
     'Height',
     [UP],
     dynamic={'.h': ['height']},
-    values={'Modifiers': SIZING, 'Percentages': PERCENTAGES},
+    values=SIZING+PERCENTAGES,
     docstring=__doc__
 )

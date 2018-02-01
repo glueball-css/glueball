@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Weights
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `1` | `100`
 `2` | `200`
@@ -36,7 +34,6 @@ Selector  | Value
 `7` | `700`
 `8` | `800`
 `9` | `900`
-
 
 
 

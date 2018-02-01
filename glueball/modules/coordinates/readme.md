@@ -24,18 +24,15 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Offsets
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `-2` | `-2rem`
 `-1` | `-1rem`
 `0` | `0`
 `1` | `1rem`
 `2` | `2rem`
-
 
 
 

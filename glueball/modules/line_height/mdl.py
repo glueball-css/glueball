@@ -19,6 +19,6 @@ mdl = CssModule(
     'Line height',
     [FULL],
     dynamic={'.lh': ['line-height']},
-    values={'Heights': vals},
+    values=vals,
     docstring=__doc__
 )

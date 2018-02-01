@@ -21,6 +21,6 @@ mdl = CssModule(
     'Transition',
     [FULL],
     dynamic={'.t': ['transition']},
-    values={'Speeds': vals},
+    values=vals,
     docstring=__doc__
 )

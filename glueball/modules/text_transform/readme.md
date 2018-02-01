@@ -21,17 +21,14 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Case options
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `n` | `none`
 `c` | `capitalize`
 `u` | `uppercase`
 `l` | `lowercase`
-
 
 
 

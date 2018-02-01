@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Types
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `disc` | `disc`
 `none` | `none`
@@ -42,7 +40,6 @@ Selector  | Value
 `upper-greek` | `upper-greek`
 `upper-latin` | `upper-latin`
 `upper-roman` | `upper-roman`
-
 
 
 

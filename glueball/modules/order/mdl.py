@@ -12,6 +12,6 @@ mdl = CssModule(
     'Order',
     [UP],
     dynamic={'.order': ['order']},
-    values={'Order options': zip(vals, vals)},
+    values=list(zip(vals, vals)),
     docstring=__doc__
 )

@@ -22,17 +22,14 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Directions
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `row` | `row`
 `col` | `row-reverse`
 `rowr` | `column`
 `colr` | `column-reverse`
-
 
 
 

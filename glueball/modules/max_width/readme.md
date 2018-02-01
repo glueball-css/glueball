@@ -21,11 +21,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Modifiers
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `0` | `0`
 `1` | `1rem`
@@ -37,12 +35,6 @@ Selector  | Value
 `7` | `48rem`
 `8` | `64rem`
 `9` | `96rem`
-
-
-### Percentages
-
-Selector  | Value
---------- | ---------
 `10p` | `10%`
 `20p` | `20%`
 `30p` | `30%`
@@ -53,7 +45,6 @@ Selector  | Value
 `80p` | `80%`
 `90p` | `90%`
 `100p` | `100%`
-
 
 
 

@@ -10,7 +10,7 @@ mdl = CssModule(
     'Background color',
     [UP],
     dynamic={'.bgc': ['background-color']},
-    values={'Colors': [(c.get_selector(), str(c)) for c in SPECTRUM]},
+    values=[(c.get_selector(), str(c)) for c in SPECTRUM],
     pseudos={'hover': [UP]},
     docstring=__doc__,
 )

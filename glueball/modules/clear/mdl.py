@@ -23,6 +23,6 @@ mdl = CssModule(
     [FULL],
     styles=styles,
     dynamic={'.clear': ['clear']},
-    values={'Options': vals},
+    values=vals,
     docstring=__doc__
 )

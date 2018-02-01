@@ -25,11 +25,9 @@ The value of a dynamic property is determined by the provided values.
 
 
 ## Provided values
-The following sets of values determine the dynamic properties and selectors.
+The following values determine the dynamic properties and selectors.
 
-### Radii
-
-Selector  | Value
+Suffix  | Value
 --------- | ---------
 `0` | `0`
 `1` | `0.125rem`
@@ -42,7 +40,6 @@ Selector  | Value
 `8` | `16rem`
 `9` | `999rem`
 `100p` | `100%`
-
 
 
 

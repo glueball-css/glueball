@@ -21,6 +21,6 @@ mdl = CssModule(
         '.pl': ['padding-left'],
         '.px': ['padding-left', 'padding-right'],
         '.py': ['padding-top', 'padding-bottom']},
-    values={'Spacing': SPACING,},
+    values=SPACING,
     docstring=__doc__
 )

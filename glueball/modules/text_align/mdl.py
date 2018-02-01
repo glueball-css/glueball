@@ -16,6 +16,6 @@ mdl = CssModule(
     'Text align',
     [FULL],
     dynamic={'.ta': ['text-align']},
-    values={'Alingment options': vals},
+    values=vals,
     docstring=__doc__
 )

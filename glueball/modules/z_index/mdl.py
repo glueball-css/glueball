@@ -11,6 +11,6 @@ mdl = CssModule(
     'Z index',
     [UP],
     dynamic={'.z': ['z-index']},
-    values={'Values': zip(vals, vals)},
+    values=list(zip(vals, vals)),
     docstring=__doc__
 )
