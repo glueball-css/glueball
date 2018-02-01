@@ -63,7 +63,6 @@ The pseudo selector `hover` has the following media queries available:
 
 
 
-
 | Prefix  |  >0 |  >36 |  >48 |  >62 |  >75 | 
 | :------:  |  :---------: |  :---------: |  :---------: |  :---------: |  :---------: | 
 |  (none)  |▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
@@ -71,6 +70,7 @@ The pseudo selector `hover` has the following media queries available:
 |  `m`  |||▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
 |  `l`  ||||▒▒▒▒▒|▒▒▒▒▒|
 |  `x`  |||||▒▒▒▒▒|
+
 
 
 ### focus
@@ -78,7 +78,6 @@ The pseudo selector `focus` has the following media queries available:
 
 
 
-
 | Prefix  |  >0 |  >36 |  >48 |  >62 |  >75 | 
 | :------:  |  :---------: |  :---------: |  :---------: |  :---------: |  :---------: | 
 |  (none)  |▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
@@ -86,6 +85,7 @@ The pseudo selector `focus` has the following media queries available:
 |  `m`  |||▒▒▒▒▒|▒▒▒▒▒|▒▒▒▒▒|
 |  `l`  ||||▒▒▒▒▒|▒▒▒▒▒|
 |  `x`  |||||▒▒▒▒▒|
+
 
 
 

@@ -11,6 +11,9 @@ mdl = CssModule(
     [UP],
     dynamic={'.size': ['font-size']},
     values=TYPE_SCALE,
-    pseudos={'hover': [UP], 'focus': [UP]},
+    pseudos={
+        'hover': ([UP], TYPE_SCALE),
+        'focus': ([UP], TYPE_SCALE),
+    },
     docstring=__doc__
 )

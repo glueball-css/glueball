@@ -51,7 +51,10 @@ class CssModule:
         self.static = static or {}
         self.dynamic = dynamic or {}
         self.values = [(str(sfx), str(val)) for sfx, val in values]
-        self.pseudos = pseudos or {}
+        if pseudos:
+            self.pseudos = {k: (m, [(str(sfx), str(val)) for sfx, val in v]) for k, (m, v) in pseudos.items()}
+        else:
+            self.pseudos = {}
         self.docstring = docstring
 
     def get_slug(self):
@@ -61,8 +64,9 @@ class CssModule:
     def get_url(self):
         return self.get_slug().replace('_', '-')
 
-    def _make_root_rules(self, pseudo=None):
+    def _make_root_rules(self, pseudo=None, values=None):
         """Generate a list of style-rules, without media modifier"""
+        values = values or self.values
         root_rules = []
 
         # Include the rules that are not dependent on values
@@ -71,7 +75,7 @@ class CssModule:
 
         # Generate the dynamic rules
         for sel, props in self.dynamic.items():
-            for sfx, val in self.values:
+            for sfx, val in values:
                 decl = {prop: val for prop in props}
                 decl.update(self.static)  # add the static declarations
                 root_rules.append(StyleRule(sel, decl, pseudo, sfx))
@@ -84,8 +88,8 @@ class CssModule:
         rules = self._breakpoints.all_media_rules(self.media, self._make_root_rules())
 
         # Generate for every pseudo selector together with own media modifiers
-        for pseudo, media in self.pseudos.items():
-            rules.extend(self._breakpoints.all_media_rules(media, self._make_root_rules(pseudo)))
+        for pseudo, (media, values) in self.pseudos.items():
+            rules.extend(self._breakpoints.all_media_rules(media, self._make_root_rules(pseudo, values)))
         return rules
 
     def print_rules(self):

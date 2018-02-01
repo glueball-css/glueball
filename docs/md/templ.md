@@ -56,12 +56,12 @@ Suffix  | Value
 {% if mdl.pseudos %}
 ## Pseudo selectors
 The following pseudo selectors are available:
-{% for pseudo, pseudo_media in mdl.pseudos.items() %}
+{% for pseudo, (pseudo_media, vals) in mdl.pseudos.items() %}
 ### {{ pseudo }}
 The pseudo selector `{{ pseudo }}` has the following media queries available:
 {% set bps = mdl._breakpoints.bp_table(pseudo_media) %}
-
 {% include 'docs/md/media-table.md' %}
+
 {% endfor %}
 {% endif %}
 

@@ -81,11 +81,11 @@
 
 {% if mdl.pseudos %}
   <h3>Pseudo selectors</h3>
-  {% for pseudo, pseudo_media in mdl.pseudos.items() %}
+  {% for pseudo, (psmedia, psvals) in mdl.pseudos.items() %}
     <h4>{{ pseudo }}</h4>
     <table>
       <caption></caption>
-      {% set bps = mdl._breakpoints.bp_table(pseudo_media) %}
+      {% set bps = mdl._breakpoints.bp_table(psmedia) %}
       {% include 'includes/media-table.html' %}
     </table>
   {% endfor %}
