@@ -1,6 +1,8 @@
 import re
 
-from ..settings import DOCSITE
+import os
+
+from ..settings import DOCSITE, MODULE_DIR
 from .stylerule import StyleRule
 try:
     from ..modules.defaults import BREAKPOINTS
@@ -90,6 +92,19 @@ class CssModule:
 
     def print_rules(self):
         return print(self.get_all_rules())
+
+    def write_css(self):
+        """Create a .css stylesheet file"""
+        tpath = os.path.join(MODULE_DIR, self.get_slug(), self.get_url() + '.css')
+
+        # Create or clear the target file
+        open(tpath, 'w').close()
+
+        with open(tpath, "a") as tfile:
+            # Append the rules
+            tfile.write('/* GLUEBALL */\n')
+            for line in str(self).splitlines():
+                tfile.write(line + '\n')
 
     def __str__(self):
         header = """

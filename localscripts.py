@@ -14,9 +14,13 @@ def print_mods(s=sheet):
             print(k, v, vals)
 
 
+mdl = sheet.modules[1]
+
 if __name__ == "__main__":
     # write_css()
     # app.run()
     # print_mods()
-    print(rendered)
+    # print(rendered)
+    mdl.write_css()
+
 

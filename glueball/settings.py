@@ -10,6 +10,8 @@ MODULE_ROOT = 'glueball.modules'
 # This is where the .css files will be written to
 CSS_ROOT = os.path.join(DIRNAME, os.pardir, 'css')
 
+MODULE_DIR = os.path.join(DIRNAME, 'modules')
+
 # List of slugs identifying the modules
 # The CSS file and documentation site are built from the modules
 # listed here.
