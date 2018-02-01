@@ -1,0 +1,69 @@
+/* GLUEBALL */
+
+/*
+module BACKGROUND POSITION
+
+Sets the background position of images.
+A static declaration of "no-repeat" is implicitly included.
+
+
+documentation: http://glueball.io/docs/module/background_position
+*/
+
+.bgp-lt { background-position: left top; background-repeat: no-repeat; }
+.bgp-lc { background-position: left center; background-repeat: no-repeat; }
+.bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
+.bgp-rt { background-position: right top; background-repeat: no-repeat; }
+.bgp-rc { background-position: right center; background-repeat: no-repeat; }
+.bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
+.bgp-ct { background-position: center top; background-repeat: no-repeat; }
+.bgp-cc { background-position: center center; background-repeat: no-repeat; }
+.bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+
+@media (min-width: 36em) {
+.s_bgp-lt { background-position: left top; background-repeat: no-repeat; }
+.s_bgp-lc { background-position: left center; background-repeat: no-repeat; }
+.s_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
+.s_bgp-rt { background-position: right top; background-repeat: no-repeat; }
+.s_bgp-rc { background-position: right center; background-repeat: no-repeat; }
+.s_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
+.s_bgp-ct { background-position: center top; background-repeat: no-repeat; }
+.s_bgp-cc { background-position: center center; background-repeat: no-repeat; }
+.s_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+}
+
+@media (min-width: 48em) {
+.m_bgp-lt { background-position: left top; background-repeat: no-repeat; }
+.m_bgp-lc { background-position: left center; background-repeat: no-repeat; }
+.m_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
+.m_bgp-rt { background-position: right top; background-repeat: no-repeat; }
+.m_bgp-rc { background-position: right center; background-repeat: no-repeat; }
+.m_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
+.m_bgp-ct { background-position: center top; background-repeat: no-repeat; }
+.m_bgp-cc { background-position: center center; background-repeat: no-repeat; }
+.m_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+}
+
+@media (min-width: 62em) {
+.l_bgp-lt { background-position: left top; background-repeat: no-repeat; }
+.l_bgp-lc { background-position: left center; background-repeat: no-repeat; }
+.l_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
+.l_bgp-rt { background-position: right top; background-repeat: no-repeat; }
+.l_bgp-rc { background-position: right center; background-repeat: no-repeat; }
+.l_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
+.l_bgp-ct { background-position: center top; background-repeat: no-repeat; }
+.l_bgp-cc { background-position: center center; background-repeat: no-repeat; }
+.l_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+}
+
+@media (min-width: 75em) {
+.x_bgp-lt { background-position: left top; background-repeat: no-repeat; }
+.x_bgp-lc { background-position: left center; background-repeat: no-repeat; }
+.x_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
+.x_bgp-rt { background-position: right top; background-repeat: no-repeat; }
+.x_bgp-rc { background-position: right center; background-repeat: no-repeat; }
+.x_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
+.x_bgp-ct { background-position: center top; background-repeat: no-repeat; }
+.x_bgp-cc { background-position: center center; background-repeat: no-repeat; }
+.x_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+}

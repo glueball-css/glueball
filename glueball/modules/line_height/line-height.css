@@ -1,0 +1,18 @@
+/* GLUEBALL */
+
+/*
+module LINE HEIGHT
+
+Line height settings
+
+
+documentation: http://glueball.io/docs/module/line_height
+*/
+
+.lh-2 { line-height: 0.75; }
+.lh-1 { line-height: 0.875; }
+.lh1 { line-height: 1; }
+.lh2 { line-height: 1.125; }
+.lh3 { line-height: 1.25; }
+.lh4 { line-height: 1.5; }
+.lh-n { line-height: normal; }

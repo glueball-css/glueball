@@ -1,0 +1,38 @@
+/* GLUEBALL */
+
+/*
+module FLOAT
+
+Float left, right or none
+
+
+documentation: http://glueball.io/docs/module/float
+*/
+
+.float-l { float: left; }
+.float-r { float: right; }
+.float-n { float: none; }
+
+@media (min-width: 36em) {
+.s_float-l { float: left; }
+.s_float-r { float: right; }
+.s_float-n { float: none; }
+}
+
+@media (min-width: 48em) {
+.m_float-l { float: left; }
+.m_float-r { float: right; }
+.m_float-n { float: none; }
+}
+
+@media (min-width: 62em) {
+.l_float-l { float: left; }
+.l_float-r { float: right; }
+.l_float-n { float: none; }
+}
+
+@media (min-width: 75em) {
+.x_float-l { float: left; }
+.x_float-r { float: right; }
+.x_float-n { float: none; }
+}

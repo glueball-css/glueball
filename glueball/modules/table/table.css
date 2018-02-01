@@ -1,0 +1,33 @@
+/* GLUEBALL */
+
+/*
+module TABLE
+
+Captions, border collapse, table layout, empty cells and table border spacing
+
+
+documentation: http://glueball.io/docs/module/table
+*/
+
+.tcs-t { caption-side: top; }
+.tcs-b { caption-side: bottom; }
+.separate { border-collapse: separate; }
+.collapse { border-collapse: collapse; }
+.tl-a { table-layout: auto; }
+.tl-f { table-layout: fixed; }
+.tec-s { empty-cells: show; }
+.tec-h { empty-cells: hide; }
+.odd_striped-gray-95:nth-child(odd) { background-color: hsl(0, 0%, 98%); }
+.odd_striped-gray-90:nth-child(odd) { background-color: hsl(0, 0%, 95%); }
+.even_striped-gray-95:nth-child(even) { background-color: hsl(0, 0%, 98%); }
+.even_striped-gray-90:nth-child(even) { background-color: hsl(0, 0%, 95%); }
+.tbs0 { border-spacing: 0; }
+.tbs1 { border-spacing: 0.125rem; }
+.tbs2 { border-spacing: 0.25rem; }
+.tbs3 { border-spacing: 0.5rem; }
+.tbs4 { border-spacing: 1rem; }
+.tbs5 { border-spacing: 2rem; }
+.tbs6 { border-spacing: 4rem; }
+.tbs7 { border-spacing: 8rem; }
+.tbs8 { border-spacing: 16rem; }
+.tbs9 { border-spacing: 999rem; }

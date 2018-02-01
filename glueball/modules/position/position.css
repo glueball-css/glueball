@@ -1,0 +1,43 @@
+/* GLUEBALL */
+
+/*
+module POSITION
+
+Options
+
+
+documentation: http://glueball.io/docs/module/position
+*/
+
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+
+@media (min-width: 36em) {
+.s_static { position: static; }
+.s_relative { position: relative; }
+.s_absolute { position: absolute; }
+.s_fixed { position: fixed; }
+}
+
+@media (min-width: 48em) {
+.m_static { position: static; }
+.m_relative { position: relative; }
+.m_absolute { position: absolute; }
+.m_fixed { position: fixed; }
+}
+
+@media (min-width: 62em) {
+.l_static { position: static; }
+.l_relative { position: relative; }
+.l_absolute { position: absolute; }
+.l_fixed { position: fixed; }
+}
+
+@media (min-width: 75em) {
+.x_static { position: static; }
+.x_relative { position: relative; }
+.x_absolute { position: absolute; }
+.x_fixed { position: fixed; }
+}

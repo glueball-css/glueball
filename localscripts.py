@@ -14,13 +14,15 @@ def print_mods(s=sheet):
             print(k, v, vals)
 
 
-mdl = sheet.modules[1]
+def write_css_files():
+    for mdl in sheet.modules:
+        mdl.write_css()
 
 if __name__ == "__main__":
     # write_css()
     # app.run()
     # print_mods()
     # print(rendered)
-    mdl.write_css()
+    write_css_files()
 
 

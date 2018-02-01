@@ -1,0 +1,19 @@
+/* GLUEBALL */
+
+/*
+module LETTER SPACING
+
+Modifiers, also negative
+
+
+documentation: http://glueball.io/docs/module/letter_spacing
+*/
+
+.ls-2 { letter-spacing: -0.125em; }
+.ls-1 { letter-spacing: -0.0625em; }
+.ls0 { letter-spacing: 0; }
+.ls1 { letter-spacing: 0.0625em; }
+.ls2 { letter-spacing: 0.125em; }
+.ls3 { letter-spacing: 0.25em; }
+.ls4 { letter-spacing: 0.5em; }
+.ls-n { letter-spacing: normal; }

@@ -1,0 +1,16 @@
+/* GLUEBALL */
+
+/*
+module ALIGN SELF
+
+Overrides the align-items value for specific flex items.
+
+
+documentation: http://glueball.io/docs/module/align_self
+*/
+
+.fxas-fs { align-self: flex-start; }
+.fxas-fe { align-self: flex-end; }
+.fxas-c { align-self: center; }
+.fxas-b { align-self: baseline; }
+.fxas-s { align-self: stretch; }

@@ -1,0 +1,17 @@
+/* GLUEBALL */
+
+/*
+module ALIGN CONTENT
+
+Align a flex container's lines within it, when there is extra space in the cross-axis.
+
+
+documentation: http://glueball.io/docs/module/align_content
+*/
+
+.ac-fs { align-content: flex-start; }
+.ac-fe { align-content: flex-end; }
+.ac-c { align-content: center; }
+.ac-sb { align-content: space-between; }
+.ac-sa { align-content: space-around; }
+.ac-s { align-content: stretch; }

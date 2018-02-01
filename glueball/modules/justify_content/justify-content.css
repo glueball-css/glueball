@@ -1,0 +1,19 @@
+/* GLUEBALL */
+
+/*
+module JUSTIFY CONTENT
+
+Defines the alignment along the main axis.
+It distributes extra free space leftover when the flex items on a line are inflexible,
+or have reached their maximum size.
+
+
+documentation: http://glueball.io/docs/module/justify_content
+*/
+
+.jc-fs { justify-content: flex-start; }
+.jc-fe { justify-content: flex-end; }
+.jc-c { justify-content: center; }
+.jc-sb { justify-content: space-between; }
+.jc-sa { justify-content: space-around; }
+.jc-se { justify-content: space-evenly; }

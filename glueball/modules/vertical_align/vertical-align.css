@@ -1,0 +1,19 @@
+/* GLUEBALL */
+
+/*
+module VERTICAL ALIGN
+
+Vertical alignment of inline and inline-blocks inside a block-element.
+
+
+documentation: http://glueball.io/docs/module/vertical_align
+*/
+
+.va-t { vertical-align: top; }
+.va-b { vertical-align: bottom; }
+.va-tt { vertical-align: text-top; }
+.va-tb { vertical-align: text-bottom; }
+.va-m { vertical-align: middle; }
+.va-sup { vertical-align: super; }
+.va-sub { vertical-align: sub; }
+.va-base { vertical-align: baseline; }

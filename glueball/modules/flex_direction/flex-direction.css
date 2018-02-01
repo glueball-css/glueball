@@ -1,0 +1,16 @@
+/* GLUEBALL */
+
+/*
+module FLEX DIRECTION
+
+Establishes the main-axis, thus defining the direction flex items are placed
+inside the flex container.
+
+
+documentation: http://glueball.io/docs/module/flex_direction
+*/
+
+.fd-row { flex-direction: row; }
+.fd-col { flex-direction: row-reverse; }
+.fd-rowr { flex-direction: column; }
+.fd-colr { flex-direction: column-reverse; }

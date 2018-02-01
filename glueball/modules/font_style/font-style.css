@@ -1,0 +1,33 @@
+/* GLUEBALL */
+
+/*
+module FONT STYLE
+
+Normal or italic
+
+
+documentation: http://glueball.io/docs/module/font_style
+*/
+
+.n { font-style: normal; }
+.i { font-style: italic; }
+
+@media (min-width: 36em) {
+.s_n { font-style: normal; }
+.s_i { font-style: italic; }
+}
+
+@media (min-width: 48em) {
+.m_n { font-style: normal; }
+.m_i { font-style: italic; }
+}
+
+@media (min-width: 62em) {
+.l_n { font-style: normal; }
+.l_i { font-style: italic; }
+}
+
+@media (min-width: 75em) {
+.x_n { font-style: normal; }
+.x_i { font-style: italic; }
+}

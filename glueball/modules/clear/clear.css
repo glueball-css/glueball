@@ -1,0 +1,18 @@
+/* GLUEBALL */
+
+/*
+module CLEAR
+
+Options for repeating background images
+
+
+documentation: http://glueball.io/docs/module/clear
+*/
+
+.clear-fix { *zoom: 1; }
+.clear-fix:before, .c-fix:after { content: " "; display: table; }
+.clear-fix:after { clear: both; }
+.clear-l { clear: left; }
+.clear-r { clear: right; }
+.clear-b { clear: bottom; }
+.clear-n { clear: none; }

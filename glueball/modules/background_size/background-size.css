@@ -1,0 +1,33 @@
+/* GLUEBALL */
+
+/*
+module BACKGROUND SIZE
+
+Contain or cover
+
+
+documentation: http://glueball.io/docs/module/background_size
+*/
+
+.contain { background-size: contain; }
+.cover { background-size: cover; }
+
+@media (min-width: 36em) {
+.s_contain { background-size: contain; }
+.s_cover { background-size: cover; }
+}
+
+@media (min-width: 48em) {
+.m_contain { background-size: contain; }
+.m_cover { background-size: cover; }
+}
+
+@media (min-width: 62em) {
+.l_contain { background-size: contain; }
+.l_cover { background-size: cover; }
+}
+
+@media (min-width: 75em) {
+.x_contain { background-size: contain; }
+.x_cover { background-size: cover; }
+}

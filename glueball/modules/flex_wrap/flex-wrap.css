@@ -1,0 +1,15 @@
+/* GLUEBALL */
+
+/*
+module FLEX WRAP
+
+Defines whether the flex items are forced in a single line or can be flowed into multiple lines.
+If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in.
+
+
+documentation: http://glueball.io/docs/module/flex_wrap
+*/
+
+.fw-n { flex-wrap: nowrap; }
+.fw-w { flex-wrap: wrap; }
+.fw-wr { flex-wrap: wrap-reverse; }

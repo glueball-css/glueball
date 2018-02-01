@@ -1,0 +1,15 @@
+/* GLUEBALL */
+
+/*
+module TEXT TRANSFORM
+
+Control text case.
+
+
+documentation: http://glueball.io/docs/module/text_transform
+*/
+
+.tt-n { text-transform: none; }
+.tt-c { text-transform: capitalize; }
+.tt-u { text-transform: uppercase; }
+.tt-l { text-transform: lowercase; }

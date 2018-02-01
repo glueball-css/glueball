@@ -12,7 +12,7 @@ styles = [
     'input[type="url"], .border-box', {'box-sizing': 'border-box'})]
 
 mdl = CssModule(
-    'Border box',
+    'Box sizing',
     [FULL],
     styles=styles,
     docstring=__doc__

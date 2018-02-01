@@ -1,0 +1,141 @@
+/* GLUEBALL */
+
+/*
+module BORDER COLOR
+
+Full spectrum of hsla colors for border
+
+
+documentation: http://glueball.io/docs/module/border_color
+*/
+
+.bc-red-92 { border-color: hsl(0, 100%, 92%); }
+.bc-red-70 { border-color: hsl(0, 100%, 70%); }
+.bc-red { border-color: hsl(0, 100%, 50%); }
+.bc-red-25 { border-color: hsl(0, 100%, 25%); }
+.bc-red60-92 { border-color: hsl(0, 60%, 92%); }
+.bc-red60-70 { border-color: hsl(0, 60%, 70%); }
+.bc-red60 { border-color: hsl(0, 60%, 50%); }
+.bc-red60-25 { border-color: hsl(0, 60%, 25%); }
+.bc-carrot-92 { border-color: hsl(30, 100%, 92%); }
+.bc-carrot-70 { border-color: hsl(30, 100%, 70%); }
+.bc-carrot { border-color: hsl(30, 100%, 50%); }
+.bc-carrot-25 { border-color: hsl(30, 100%, 25%); }
+.bc-carrot60-92 { border-color: hsl(30, 60%, 92%); }
+.bc-carrot60-70 { border-color: hsl(30, 60%, 70%); }
+.bc-carrot60 { border-color: hsl(30, 60%, 50%); }
+.bc-carrot60-25 { border-color: hsl(30, 60%, 25%); }
+.bc-yellow-92 { border-color: hsl(60, 100%, 92%); }
+.bc-yellow-70 { border-color: hsl(60, 100%, 70%); }
+.bc-yellow { border-color: hsl(60, 100%, 50%); }
+.bc-yellow-25 { border-color: hsl(60, 100%, 25%); }
+.bc-yellow60-92 { border-color: hsl(60, 60%, 92%); }
+.bc-yellow60-70 { border-color: hsl(60, 60%, 70%); }
+.bc-yellow60 { border-color: hsl(60, 60%, 50%); }
+.bc-yellow60-25 { border-color: hsl(60, 60%, 25%); }
+.bc-inchworm-92 { border-color: hsl(90, 100%, 92%); }
+.bc-inchworm-70 { border-color: hsl(90, 100%, 70%); }
+.bc-inchworm { border-color: hsl(90, 100%, 50%); }
+.bc-inchworm-25 { border-color: hsl(90, 100%, 25%); }
+.bc-inchworm60-92 { border-color: hsl(90, 60%, 92%); }
+.bc-inchworm60-70 { border-color: hsl(90, 60%, 70%); }
+.bc-inchworm60 { border-color: hsl(90, 60%, 50%); }
+.bc-inchworm60-25 { border-color: hsl(90, 60%, 25%); }
+.bc-lime-92 { border-color: hsl(120, 100%, 92%); }
+.bc-lime-70 { border-color: hsl(120, 100%, 70%); }
+.bc-lime { border-color: hsl(120, 100%, 50%); }
+.bc-lime-25 { border-color: hsl(120, 100%, 25%); }
+.bc-lime60-92 { border-color: hsl(120, 60%, 92%); }
+.bc-lime60-70 { border-color: hsl(120, 60%, 70%); }
+.bc-lime60 { border-color: hsl(120, 60%, 50%); }
+.bc-lime60-25 { border-color: hsl(120, 60%, 25%); }
+.bc-cadmium-92 { border-color: hsl(150, 100%, 92%); }
+.bc-cadmium-70 { border-color: hsl(150, 100%, 70%); }
+.bc-cadmium { border-color: hsl(150, 100%, 50%); }
+.bc-cadmium-25 { border-color: hsl(150, 100%, 25%); }
+.bc-cadmium60-92 { border-color: hsl(150, 60%, 92%); }
+.bc-cadmium60-70 { border-color: hsl(150, 60%, 70%); }
+.bc-cadmium60 { border-color: hsl(150, 60%, 50%); }
+.bc-cadmium60-25 { border-color: hsl(150, 60%, 25%); }
+.bc-cyan-92 { border-color: hsl(180, 100%, 92%); }
+.bc-cyan-70 { border-color: hsl(180, 100%, 70%); }
+.bc-cyan { border-color: hsl(180, 100%, 50%); }
+.bc-cyan-25 { border-color: hsl(180, 100%, 25%); }
+.bc-cyan60-92 { border-color: hsl(180, 60%, 92%); }
+.bc-cyan60-70 { border-color: hsl(180, 60%, 70%); }
+.bc-cyan60 { border-color: hsl(180, 60%, 50%); }
+.bc-cyan60-25 { border-color: hsl(180, 60%, 25%); }
+.bc-cobalt-92 { border-color: hsl(210, 100%, 92%); }
+.bc-cobalt-70 { border-color: hsl(210, 100%, 70%); }
+.bc-cobalt { border-color: hsl(210, 100%, 50%); }
+.bc-cobalt-25 { border-color: hsl(210, 100%, 25%); }
+.bc-cobalt60-92 { border-color: hsl(210, 60%, 92%); }
+.bc-cobalt60-70 { border-color: hsl(210, 60%, 70%); }
+.bc-cobalt60 { border-color: hsl(210, 60%, 50%); }
+.bc-cobalt60-25 { border-color: hsl(210, 60%, 25%); }
+.bc-blue-92 { border-color: hsl(240, 100%, 92%); }
+.bc-blue-70 { border-color: hsl(240, 100%, 70%); }
+.bc-blue { border-color: hsl(240, 100%, 50%); }
+.bc-blue-25 { border-color: hsl(240, 100%, 25%); }
+.bc-blue60-92 { border-color: hsl(240, 60%, 92%); }
+.bc-blue60-70 { border-color: hsl(240, 60%, 70%); }
+.bc-blue60 { border-color: hsl(240, 60%, 50%); }
+.bc-blue60-25 { border-color: hsl(240, 60%, 25%); }
+.bc-mauve-92 { border-color: hsl(270, 100%, 92%); }
+.bc-mauve-70 { border-color: hsl(270, 100%, 70%); }
+.bc-mauve { border-color: hsl(270, 100%, 50%); }
+.bc-mauve-25 { border-color: hsl(270, 100%, 25%); }
+.bc-mauve60-92 { border-color: hsl(270, 60%, 92%); }
+.bc-mauve60-70 { border-color: hsl(270, 60%, 70%); }
+.bc-mauve60 { border-color: hsl(270, 60%, 50%); }
+.bc-mauve60-25 { border-color: hsl(270, 60%, 25%); }
+.bc-magenta-92 { border-color: hsl(300, 100%, 92%); }
+.bc-magenta-70 { border-color: hsl(300, 100%, 70%); }
+.bc-magenta { border-color: hsl(300, 100%, 50%); }
+.bc-magenta-25 { border-color: hsl(300, 100%, 25%); }
+.bc-magenta60-92 { border-color: hsl(300, 60%, 92%); }
+.bc-magenta60-70 { border-color: hsl(300, 60%, 70%); }
+.bc-magenta60 { border-color: hsl(300, 60%, 50%); }
+.bc-magenta60-25 { border-color: hsl(300, 60%, 25%); }
+.bc-cerise-92 { border-color: hsl(330, 100%, 92%); }
+.bc-cerise-70 { border-color: hsl(330, 100%, 70%); }
+.bc-cerise { border-color: hsl(330, 100%, 50%); }
+.bc-cerise-25 { border-color: hsl(330, 100%, 25%); }
+.bc-cerise60-92 { border-color: hsl(330, 60%, 92%); }
+.bc-cerise60-70 { border-color: hsl(330, 60%, 70%); }
+.bc-cerise60 { border-color: hsl(330, 60%, 50%); }
+.bc-cerise60-25 { border-color: hsl(330, 60%, 25%); }
+.bc-gray-98 { border-color: hsl(0, 0%, 98%); }
+.bc-gray-95 { border-color: hsl(0, 0%, 95%); }
+.bc-gray-90 { border-color: hsl(0, 0%, 90%); }
+.bc-gray-80 { border-color: hsl(0, 0%, 80%); }
+.bc-gray { border-color: hsl(0, 0%, 50%); }
+.bc-gray-65 { border-color: hsl(0, 0%, 65%); }
+.bc-gray-35 { border-color: hsl(0, 0%, 35%); }
+.bc-gray-20 { border-color: hsl(0, 0%, 20%); }
+.bc-gray-10 { border-color: hsl(0, 0%, 10%); }
+.bc-gray-5 { border-color: hsl(0, 0%, 5%); }
+.bc-black { border-color: hsl(0, 0%, 0%); }
+.bc-black-90a { border-color: hsla(0, 0%, 0%, 0.90); }
+.bc-black-80a { border-color: hsla(0, 0%, 0%, 0.80); }
+.bc-black-70a { border-color: hsla(0, 0%, 0%, 0.70); }
+.bc-black-60a { border-color: hsla(0, 0%, 0%, 0.60); }
+.bc-black-50a { border-color: hsla(0, 0%, 0%, 0.50); }
+.bc-black-40a { border-color: hsla(0, 0%, 0%, 0.40); }
+.bc-black-30a { border-color: hsla(0, 0%, 0%, 0.30); }
+.bc-black-20a { border-color: hsla(0, 0%, 0%, 0.20); }
+.bc-black-10a { border-color: hsla(0, 0%, 0%, 0.10); }
+.bc-black-5a { border-color: hsla(0, 0%, 0%, 0.05); }
+.bc-black-2a { border-color: hsla(0, 0%, 0%, 0.02); }
+.bc-white { border-color: hsl(0, 0%, 100%); }
+.bc-white-90a { border-color: hsla(0, 0%, 100%, 0.90); }
+.bc-white-80a { border-color: hsla(0, 0%, 100%, 0.80); }
+.bc-white-70a { border-color: hsla(0, 0%, 100%, 0.70); }
+.bc-white-60a { border-color: hsla(0, 0%, 100%, 0.60); }
+.bc-white-50a { border-color: hsla(0, 0%, 100%, 0.50); }
+.bc-white-40a { border-color: hsla(0, 0%, 100%, 0.40); }
+.bc-white-30a { border-color: hsla(0, 0%, 100%, 0.30); }
+.bc-white-20a { border-color: hsla(0, 0%, 100%, 0.20); }
+.bc-white-10a { border-color: hsla(0, 0%, 100%, 0.10); }
+.bc-white-5a { border-color: hsla(0, 0%, 100%, 0.05); }
+.bc-white-2a { border-color: hsla(0, 0%, 100%, 0.02); }

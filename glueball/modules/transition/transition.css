@@ -1,0 +1,20 @@
+/* GLUEBALL */
+
+/*
+module TRANSITION
+
+Various speeds for all transitions
+
+
+documentation: http://glueball.io/docs/module/transition
+*/
+
+.t1 { transition: all 0.1s cubic-bezier(.25, .8, .25, 1); }
+.t2 { transition: all 0.2s cubic-bezier(.25, .8, .25, 1); }
+.t3 { transition: all 0.3s cubic-bezier(.25, .8, .25, 1); }
+.t4 { transition: all 0.4s cubic-bezier(.25, .8, .25, 1); }
+.t5 { transition: all 0.5s cubic-bezier(.25, .8, .25, 1); }
+.t6 { transition: all 0.7s cubic-bezier(.25, .8, .25, 1); }
+.t7 { transition: all 1.0s cubic-bezier(.25, .8, .25, 1); }
+.t8 { transition: all 2.0s cubic-bezier(.25, .8, .25, 1); }
+.t9 { transition: all 4.0s cubic-bezier(.25, .8, .25, 1); }

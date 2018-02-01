@@ -1,0 +1,14 @@
+/* GLUEBALL */
+
+/*
+module BACKGROUND REPEAT
+
+Options for repeating background images
+
+
+documentation: http://glueball.io/docs/module/background_repeat
+*/
+
+.bgr-n { background-repeat: no-repeat; }
+.bgr-x { background-repeat: repeat-x; }
+.bgr-y { background-repeat: repeat-y; }

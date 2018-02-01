@@ -1,0 +1,15 @@
+/* GLUEBALL */
+
+/*
+module TEXT ALIGN
+
+Horizontal alignment of inline and inline-blocks inside a block-element.
+
+
+documentation: http://glueball.io/docs/module/text_align
+*/
+
+.ta-l { text-align: left; }
+.ta-r { text-align: right; }
+.ta-c { text-align: center; }
+.ta-j { text-align: justify; }
