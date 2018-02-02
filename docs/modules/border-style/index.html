@@ -5,125 +5,157 @@
   <title>Border style /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>Border style</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>Border style</h2>
   
   
+    <p class="size4">
 Style for all borders and individual borders
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.bs</code>
-      <ul>
-        
-          <li><code>border-style</code></li>
-        
-      </ul>
-    </li>
-  
-    <li>
-      <code>.bts</code>
-      <ul>
-        
-          <li><code>border-top-style</code></li>
-        
-      </ul>
-    </li>
-  
-    <li>
-      <code>.brs</code>
-      <ul>
-        
-          <li><code>border-right-style</code></li>
-        
-      </ul>
-    </li>
-  
-    <li>
-      <code>.bbs</code>
-      <ul>
-        
-          <li><code>border-bottom-style</code></li>
-        
-      </ul>
-    </li>
-  
-    <li>
-      <code>.bls</code>
-      <ul>
-        
-          <li><code>border-left-style</code></li>
-        
-      </ul>
-    </li>
-  
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
 
 
-
-
-  <h3>Provided values</h3>
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
   
-    <div>
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.bs</code></td>
+            <td><code>border-style</code></td>
+          </tr>
+        
+          <tr>
+            <td><code>.bts</code></td>
+            <td><code>border-top-style</code></td>
+          </tr>
+        
+          <tr>
+            <td><code>.brs</code></td>
+            <td><code>border-right-style</code></td>
+          </tr>
+        
+          <tr>
+            <td><code>.bbs</code></td>
+            <td><code>border-bottom-style</code></td>
+          </tr>
+        
+          <tr>
+            <td><code>.bls</code></td>
+            <td><code>border-left-style</code></td>
+          </tr>
+        
+      </table>
+    </section>
+  
+
+  
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
       
-      <div class="d-ib w30p"><code>n</code></div>
-      <div class="d-ib w30p"><code>none</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>dash</code></div>
-      <div class="d-ib w30p"><code>dashed</code></div>
-    </div>
+
+
+<thead>
+  <tr>
   
-    <div>
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
+
+
+
+<tbody>
+
+  <tr>
+  
+    <td>
+      <code>n</code>
+    </td>
+    <td>
+      <code>none</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>dash</code>
+    </td>
+    <td>
+      <code>dashed</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>dot</code>
+    </td>
+    <td>
+      <code>dotted</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>s</code>
+    </td>
+    <td>
+      <code>   solid</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
+  
+
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
       
-      <div class="d-ib w30p"><code>dot</code></div>
-      <div class="d-ib w30p"><code>dotted</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>s</code></div>
-      <div class="d-ib w30p"><code>   solid</code></div>
-    </div>
-  
-
-
-
-<h3>Examples</h3>
-
-  
-  <p>No examples yet.</p>
-
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  
-  
-  
+      
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -387,13 +419,13 @@ Style for all borders and individual borders
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .bs-n { border-style: none; }
 .bs-dash { border-style: dashed; }
 .bs-dot { border-style: dotted; }

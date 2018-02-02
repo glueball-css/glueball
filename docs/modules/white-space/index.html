@@ -5,83 +5,127 @@
   <title>White space /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>White space</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>White space</h2>
   
   
+    <p class="size4">
 White space is used to control how whitespace is rendered.
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.ws</code>
-      <ul>
+
+
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.ws</code></td>
+            <td><code>white-space</code></td>
+          </tr>
         
-          <li><code>white-space</code></li>
-        
-      </ul>
-    </li>
+      </table>
+    </section>
   
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
 
-
-
-
-  <h3>Provided values</h3>
   
-    <div>
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
       
-      <div class="d-ib w30p"><code>n</code></div>
-      <div class="d-ib w30p"><code>normal</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>nw</code></div>
-      <div class="d-ib w30p"><code>nowrap</code></div>
-    </div>
+
+
+<thead>
+  <tr>
   
-    <div>
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
+
+
+
+<tbody>
+
+  <tr>
+  
+    <td>
+      <code>n</code>
+    </td>
+    <td>
+      <code>normal</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>nw</code>
+    </td>
+    <td>
+      <code>nowrap</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>p</code>
+    </td>
+    <td>
+      <code>pre</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
+  
+
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
       
-      <div class="d-ib w30p"><code>p</code></div>
-      <div class="d-ib w30p"><code>pre</code></div>
-    </div>
-  
-
-
-
-<h3>Examples</h3>
-
-  
-  <p>No examples yet.</p>
-
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  
-  
-  
+      
+      
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -345,13 +389,13 @@ White space is used to control how whitespace is rendered.
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .ws-n { white-space: normal; }
 .ws-nw { white-space: nowrap; }
 .ws-p { white-space: pre; }

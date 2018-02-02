@@ -5,1105 +5,2180 @@
   <title>Border color /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>Border color</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>Border color</h2>
   
   
+    <p class="size4">
 Full spectrum of hsla colors for border
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.bc</code>
-      <ul>
+
+
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.bc</code></td>
+            <td><code>border-color</code></td>
+          </tr>
         
-          <li><code>border-color</code></li>
-        
-      </ul>
-    </li>
+      </table>
+    </section>
   
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
+
+  
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
+      
+      
+
+
+<thead>
+  <tr>
+  
+    <th class="h2 w3">swatch
+    </th>
+  
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
 
 
 
+<tbody>
 
-  <h3>Provided values</h3>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>red-92</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>red-70</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>red</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>red-25</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>red60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>red60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>red60</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>red60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot-92</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot-70</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot-25</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot60</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(30, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>carrot60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(30, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow-92</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow-70</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow-25</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow60</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(60, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>yellow60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(60, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm-92</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm-70</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm-25</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm60</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(90, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>inchworm60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(90, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>lime-92</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>lime-70</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>lime</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>lime-25</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>lime60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>lime60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>lime60</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(120, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>lime60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(120, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium-92</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium-70</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium-25</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium60</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(150, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cadmium60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(150, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan-92</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan-70</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan-25</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan60</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(180, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cyan60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(180, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt-92</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt-70</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt-25</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt60</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(210, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cobalt60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(210, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>blue-92</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>blue-70</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>blue</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>blue-25</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>blue60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>blue60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>blue60</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(240, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>blue60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(240, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve-92</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve-70</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve-25</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve60</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(270, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>mauve60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(270, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta-92</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta-70</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta-25</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta60</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(300, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>magenta60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(300, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 100%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise-92</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 100%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 100%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise-70</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 100%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 100%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 100%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 100%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise-25</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 100%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 60%, 92%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise60-92</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 60%, 92%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 60%, 70%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise60-70</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 60%, 70%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 60%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise60</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 60%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(330, 60%, 25%)"></div>
-      
-      <div class="d-ib w30p"><code>cerise60-25</code></div>
-      <div class="d-ib w30p"><code>hsl(330, 60%, 25%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 98%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-98</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 98%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 95%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-95</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 95%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 90%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-90</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 90%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 80%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-80</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 80%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 50%)"></div>
-      
-      <div class="d-ib w30p"><code>gray</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 50%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 65%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-65</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 65%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 35%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-35</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 35%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 20%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-20</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 20%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 10%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-10</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 10%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 5%)"></div>
-      
-      <div class="d-ib w30p"><code>gray-5</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 5%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 0%)"></div>
-      
-      <div class="d-ib w30p"><code>black</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 0%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.90)"></div>
-      
-      <div class="d-ib w30p"><code>black-90a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.90)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.80)"></div>
-      
-      <div class="d-ib w30p"><code>black-80a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.80)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.70)"></div>
-      
-      <div class="d-ib w30p"><code>black-70a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.70)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.60)"></div>
-      
-      <div class="d-ib w30p"><code>black-60a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.60)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.50)"></div>
-      
-      <div class="d-ib w30p"><code>black-50a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.50)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.40)"></div>
-      
-      <div class="d-ib w30p"><code>black-40a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.40)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.30)"></div>
-      
-      <div class="d-ib w30p"><code>black-30a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.30)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.20)"></div>
-      
-      <div class="d-ib w30p"><code>black-20a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.20)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.10)"></div>
-      
-      <div class="d-ib w30p"><code>black-10a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.10)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.05)"></div>
-      
-      <div class="d-ib w30p"><code>black-5a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.05)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 0%, 0.02)"></div>
-      
-      <div class="d-ib w30p"><code>black-2a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 0%, 0.02)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsl(0, 0%, 100%)"></div>
-      
-      <div class="d-ib w30p"><code>white</code></div>
-      <div class="d-ib w30p"><code>hsl(0, 0%, 100%)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.90)"></div>
-      
-      <div class="d-ib w30p"><code>white-90a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.90)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.80)"></div>
-      
-      <div class="d-ib w30p"><code>white-80a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.80)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.70)"></div>
-      
-      <div class="d-ib w30p"><code>white-70a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.70)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.60)"></div>
-      
-      <div class="d-ib w30p"><code>white-60a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.60)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.50)"></div>
-      
-      <div class="d-ib w30p"><code>white-50a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.50)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.40)"></div>
-      
-      <div class="d-ib w30p"><code>white-40a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.40)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.30)"></div>
-      
-      <div class="d-ib w30p"><code>white-30a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.30)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.20)"></div>
-      
-      <div class="d-ib w30p"><code>white-20a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.20)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.10)"></div>
-      
-      <div class="d-ib w30p"><code>white-10a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.10)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.05)"></div>
-      
-      <div class="d-ib w30p"><code>white-5a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.05)</code></div>
-    </div>
-  
-    <div>
-      
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: hsla(0, 0%, 100%, 0.02)"></div>
-      
-      <div class="d-ib w30p"><code>white-2a</code></div>
-      <div class="d-ib w30p"><code>hsla(0, 0%, 100%, 0.02)</code></div>
-    </div>
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>red-92</code>
+    </td>
+    <td>
+      <code>hsl(0, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>red-70</code>
+    </td>
+    <td>
+      <code>hsl(0, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>red</code>
+    </td>
+    <td>
+      <code>hsl(0, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>red-25</code>
+    </td>
+    <td>
+      <code>hsl(0, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>red60-92</code>
+    </td>
+    <td>
+      <code>hsl(0, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>red60-70</code>
+    </td>
+    <td>
+      <code>hsl(0, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>red60</code>
+    </td>
+    <td>
+      <code>hsl(0, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>red60-25</code>
+    </td>
+    <td>
+      <code>hsl(0, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot-92</code>
+    </td>
+    <td>
+      <code>hsl(30, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot-70</code>
+    </td>
+    <td>
+      <code>hsl(30, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot</code>
+    </td>
+    <td>
+      <code>hsl(30, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot-25</code>
+    </td>
+    <td>
+      <code>hsl(30, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot60-92</code>
+    </td>
+    <td>
+      <code>hsl(30, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot60-70</code>
+    </td>
+    <td>
+      <code>hsl(30, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot60</code>
+    </td>
+    <td>
+      <code>hsl(30, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(30, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>carrot60-25</code>
+    </td>
+    <td>
+      <code>hsl(30, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow-92</code>
+    </td>
+    <td>
+      <code>hsl(60, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow-70</code>
+    </td>
+    <td>
+      <code>hsl(60, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow</code>
+    </td>
+    <td>
+      <code>hsl(60, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow-25</code>
+    </td>
+    <td>
+      <code>hsl(60, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow60-92</code>
+    </td>
+    <td>
+      <code>hsl(60, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow60-70</code>
+    </td>
+    <td>
+      <code>hsl(60, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow60</code>
+    </td>
+    <td>
+      <code>hsl(60, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(60, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>yellow60-25</code>
+    </td>
+    <td>
+      <code>hsl(60, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm-92</code>
+    </td>
+    <td>
+      <code>hsl(90, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm-70</code>
+    </td>
+    <td>
+      <code>hsl(90, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm</code>
+    </td>
+    <td>
+      <code>hsl(90, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm-25</code>
+    </td>
+    <td>
+      <code>hsl(90, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm60-92</code>
+    </td>
+    <td>
+      <code>hsl(90, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm60-70</code>
+    </td>
+    <td>
+      <code>hsl(90, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm60</code>
+    </td>
+    <td>
+      <code>hsl(90, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(90, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>inchworm60-25</code>
+    </td>
+    <td>
+      <code>hsl(90, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>lime-92</code>
+    </td>
+    <td>
+      <code>hsl(120, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>lime-70</code>
+    </td>
+    <td>
+      <code>hsl(120, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>lime</code>
+    </td>
+    <td>
+      <code>hsl(120, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>lime-25</code>
+    </td>
+    <td>
+      <code>hsl(120, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>lime60-92</code>
+    </td>
+    <td>
+      <code>hsl(120, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>lime60-70</code>
+    </td>
+    <td>
+      <code>hsl(120, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>lime60</code>
+    </td>
+    <td>
+      <code>hsl(120, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(120, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>lime60-25</code>
+    </td>
+    <td>
+      <code>hsl(120, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium-92</code>
+    </td>
+    <td>
+      <code>hsl(150, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium-70</code>
+    </td>
+    <td>
+      <code>hsl(150, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium</code>
+    </td>
+    <td>
+      <code>hsl(150, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium-25</code>
+    </td>
+    <td>
+      <code>hsl(150, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium60-92</code>
+    </td>
+    <td>
+      <code>hsl(150, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium60-70</code>
+    </td>
+    <td>
+      <code>hsl(150, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium60</code>
+    </td>
+    <td>
+      <code>hsl(150, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(150, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cadmium60-25</code>
+    </td>
+    <td>
+      <code>hsl(150, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan-92</code>
+    </td>
+    <td>
+      <code>hsl(180, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan-70</code>
+    </td>
+    <td>
+      <code>hsl(180, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan</code>
+    </td>
+    <td>
+      <code>hsl(180, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan-25</code>
+    </td>
+    <td>
+      <code>hsl(180, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan60-92</code>
+    </td>
+    <td>
+      <code>hsl(180, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan60-70</code>
+    </td>
+    <td>
+      <code>hsl(180, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan60</code>
+    </td>
+    <td>
+      <code>hsl(180, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(180, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cyan60-25</code>
+    </td>
+    <td>
+      <code>hsl(180, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt-92</code>
+    </td>
+    <td>
+      <code>hsl(210, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt-70</code>
+    </td>
+    <td>
+      <code>hsl(210, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt</code>
+    </td>
+    <td>
+      <code>hsl(210, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt-25</code>
+    </td>
+    <td>
+      <code>hsl(210, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt60-92</code>
+    </td>
+    <td>
+      <code>hsl(210, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt60-70</code>
+    </td>
+    <td>
+      <code>hsl(210, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt60</code>
+    </td>
+    <td>
+      <code>hsl(210, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(210, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cobalt60-25</code>
+    </td>
+    <td>
+      <code>hsl(210, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>blue-92</code>
+    </td>
+    <td>
+      <code>hsl(240, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>blue-70</code>
+    </td>
+    <td>
+      <code>hsl(240, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>blue</code>
+    </td>
+    <td>
+      <code>hsl(240, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>blue-25</code>
+    </td>
+    <td>
+      <code>hsl(240, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>blue60-92</code>
+    </td>
+    <td>
+      <code>hsl(240, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>blue60-70</code>
+    </td>
+    <td>
+      <code>hsl(240, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>blue60</code>
+    </td>
+    <td>
+      <code>hsl(240, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(240, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>blue60-25</code>
+    </td>
+    <td>
+      <code>hsl(240, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve-92</code>
+    </td>
+    <td>
+      <code>hsl(270, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve-70</code>
+    </td>
+    <td>
+      <code>hsl(270, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve</code>
+    </td>
+    <td>
+      <code>hsl(270, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve-25</code>
+    </td>
+    <td>
+      <code>hsl(270, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve60-92</code>
+    </td>
+    <td>
+      <code>hsl(270, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve60-70</code>
+    </td>
+    <td>
+      <code>hsl(270, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve60</code>
+    </td>
+    <td>
+      <code>hsl(270, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(270, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>mauve60-25</code>
+    </td>
+    <td>
+      <code>hsl(270, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta-92</code>
+    </td>
+    <td>
+      <code>hsl(300, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta-70</code>
+    </td>
+    <td>
+      <code>hsl(300, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta</code>
+    </td>
+    <td>
+      <code>hsl(300, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta-25</code>
+    </td>
+    <td>
+      <code>hsl(300, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta60-92</code>
+    </td>
+    <td>
+      <code>hsl(300, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta60-70</code>
+    </td>
+    <td>
+      <code>hsl(300, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta60</code>
+    </td>
+    <td>
+      <code>hsl(300, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(300, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>magenta60-25</code>
+    </td>
+    <td>
+      <code>hsl(300, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 100%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise-92</code>
+    </td>
+    <td>
+      <code>hsl(330, 100%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 100%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise-70</code>
+    </td>
+    <td>
+      <code>hsl(330, 100%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 100%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise</code>
+    </td>
+    <td>
+      <code>hsl(330, 100%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 100%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise-25</code>
+    </td>
+    <td>
+      <code>hsl(330, 100%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 60%, 92%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise60-92</code>
+    </td>
+    <td>
+      <code>hsl(330, 60%, 92%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 60%, 70%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise60-70</code>
+    </td>
+    <td>
+      <code>hsl(330, 60%, 70%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 60%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise60</code>
+    </td>
+    <td>
+      <code>hsl(330, 60%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(330, 60%, 25%)"></div>
+    </td>
+  
+    <td>
+      <code>cerise60-25</code>
+    </td>
+    <td>
+      <code>hsl(330, 60%, 25%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 98%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-98</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 98%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 95%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-95</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 95%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 90%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-90</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 90%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 80%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-80</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 80%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 65%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-65</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 65%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 50%)"></div>
+    </td>
+  
+    <td>
+      <code>gray</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 50%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 35%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-35</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 35%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 20%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-20</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 20%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 10%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-10</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 10%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 5%)"></div>
+    </td>
+  
+    <td>
+      <code>gray-5</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 5%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 0%)"></div>
+    </td>
+  
+    <td>
+      <code>black</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 0%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.90)"></div>
+    </td>
+  
+    <td>
+      <code>black-90a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.90)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.80)"></div>
+    </td>
+  
+    <td>
+      <code>black-80a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.80)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.70)"></div>
+    </td>
+  
+    <td>
+      <code>black-70a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.70)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.60)"></div>
+    </td>
+  
+    <td>
+      <code>black-60a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.60)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.50)"></div>
+    </td>
+  
+    <td>
+      <code>black-50a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.50)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.40)"></div>
+    </td>
+  
+    <td>
+      <code>black-40a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.40)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.30)"></div>
+    </td>
+  
+    <td>
+      <code>black-30a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.30)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.20)"></div>
+    </td>
+  
+    <td>
+      <code>black-20a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.20)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.10)"></div>
+    </td>
+  
+    <td>
+      <code>black-10a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.10)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.05)"></div>
+    </td>
+  
+    <td>
+      <code>black-5a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.05)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 0%, 0.02)"></div>
+    </td>
+  
+    <td>
+      <code>black-2a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 0%, 0.02)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsl(0, 0%, 100%)"></div>
+    </td>
+  
+    <td>
+      <code>white</code>
+    </td>
+    <td>
+      <code>hsl(0, 0%, 100%)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.90)"></div>
+    </td>
+  
+    <td>
+      <code>white-90a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.90)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.80)"></div>
+    </td>
+  
+    <td>
+      <code>white-80a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.80)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.70)"></div>
+    </td>
+  
+    <td>
+      <code>white-70a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.70)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.60)"></div>
+    </td>
+  
+    <td>
+      <code>white-60a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.60)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.50)"></div>
+    </td>
+  
+    <td>
+      <code>white-50a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.50)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.40)"></div>
+    </td>
+  
+    <td>
+      <code>white-40a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.40)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.30)"></div>
+    </td>
+  
+    <td>
+      <code>white-30a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.30)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.20)"></div>
+    </td>
+  
+    <td>
+      <code>white-20a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.20)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.10)"></div>
+    </td>
+  
+    <td>
+      <code>white-10a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.10)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.05)"></div>
+    </td>
+  
+    <td>
+      <code>white-5a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.05)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td class="p0" style="background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;">
+      <div class="h2" style="background-color: hsla(0, 0%, 100%, 0.02)"></div>
+    </td>
+  
+    <td>
+      <code>white-2a</code>
+    </td>
+    <td>
+      <code>hsla(0, 0%, 100%, 0.02)</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
   
 
-
-
-<h3>Examples</h3>
-
-  
-  <p>No examples yet.</p>
-
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  
-  
-  
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
+      
+      
+      
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -1191,13 +2266,13 @@ Full spectrum of hsla colors for border
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .bc-red-92 { border-color: hsl(0, 100%, 92%); }
 .bc-red-70 { border-color: hsl(0, 100%, 70%); }
 .bc-red { border-color: hsl(0, 100%, 50%); }
@@ -1298,8 +2373,8 @@ Full spectrum of hsla colors for border
 .bc-gray-95 { border-color: hsl(0, 0%, 95%); }
 .bc-gray-90 { border-color: hsl(0, 0%, 90%); }
 .bc-gray-80 { border-color: hsl(0, 0%, 80%); }
-.bc-gray { border-color: hsl(0, 0%, 50%); }
 .bc-gray-65 { border-color: hsl(0, 0%, 65%); }
+.bc-gray { border-color: hsl(0, 0%, 50%); }
 .bc-gray-35 { border-color: hsl(0, 0%, 35%); }
 .bc-gray-20 { border-color: hsl(0, 0%, 20%); }
 .bc-gray-10 { border-color: hsl(0, 0%, 10%); }

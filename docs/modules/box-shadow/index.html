@@ -5,95 +5,147 @@
   <title>Box shadow /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>Box shadow</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>Box shadow</h2>
   
   
+    <p class="size4">
 Box shadows equal to Google&#39;s Material Design
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.shadow</code>
-      <ul>
+
+
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.shadow</code></td>
+            <td><code>box-shadow</code></td>
+          </tr>
         
-          <li><code>box-shadow</code></li>
-        
-      </ul>
-    </li>
+      </table>
+    </section>
   
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
 
-
-
-
-  <h3>Provided values</h3>
   
-    <div>
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
       
-      <div class="d-ib w30p"><code>1</code></div>
-      <div class="d-ib w30p"><code>0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>2</code></div>
-      <div class="d-ib w30p"><code>0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)</code></div>
-    </div>
+
+
+<thead>
+  <tr>
   
-    <div>
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
+
+
+
+<tbody>
+
+  <tr>
+  
+    <td>
+      <code>1</code>
+    </td>
+    <td>
+      <code>0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>2</code>
+    </td>
+    <td>
+      <code>0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>3</code>
+    </td>
+    <td>
+      <code>0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>4</code>
+    </td>
+    <td>
+      <code>0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>5</code>
+    </td>
+    <td>
+      <code>0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22)</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
+  
+
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
       
-      <div class="d-ib w30p"><code>3</code></div>
-      <div class="d-ib w30p"><code>0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>4</code></div>
-      <div class="d-ib w30p"><code>0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>5</code></div>
-      <div class="d-ib w30p"><code>0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22)</code></div>
-    </div>
-  
-
-
-
-<h3>Examples</h3>
-
-  
-  <p>No examples yet.</p>
-
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  
-  
-  
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -181,13 +233,13 @@ Box shadows equal to Google&#39;s Material Design
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .shadow1 { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 .shadow2 { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 .shadow3 { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }

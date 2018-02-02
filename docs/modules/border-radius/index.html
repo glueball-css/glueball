@@ -5,167 +5,227 @@
   <title>Border radius /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>Border radius</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>Border radius</h2>
   
   
+    <p class="size4">
 Radius for every corner and individual corners
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.br</code>
-      <ul>
+
+
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.br</code></td>
+            <td><code>border-radius</code></td>
+          </tr>
         
-          <li><code>border-radius</code></li>
+          <tr>
+            <td><code>.btrr</code></td>
+            <td><code>border-top-right-radius</code></td>
+          </tr>
         
-      </ul>
-    </li>
-  
-    <li>
-      <code>.btrr</code>
-      <ul>
+          <tr>
+            <td><code>.bbrr</code></td>
+            <td><code>border-bottom-right-radius</code></td>
+          </tr>
         
-          <li><code>border-top-right-radius</code></li>
+          <tr>
+            <td><code>.bblr</code></td>
+            <td><code>border-bottom-left-radius</code></td>
+          </tr>
         
-      </ul>
-    </li>
-  
-    <li>
-      <code>.bbrr</code>
-      <ul>
+          <tr>
+            <td><code>.btlr</code></td>
+            <td><code>border-top-left-radius</code></td>
+          </tr>
         
-          <li><code>border-bottom-right-radius</code></li>
-        
-      </ul>
-    </li>
+      </table>
+    </section>
   
-    <li>
-      <code>.bblr</code>
-      <ul>
-        
-          <li><code>border-bottom-left-radius</code></li>
-        
-      </ul>
-    </li>
+
   
-    <li>
-      <code>.btlr</code>
-      <ul>
-        
-          <li><code>border-top-left-radius</code></li>
-        
-      </ul>
-    </li>
-  
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
-
-
-
-
-  <h3>Provided values</h3>
-  
-    <div>
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
       
-      <div class="d-ib w30p"><code>0</code></div>
-      <div class="d-ib w30p"><code>0</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>1</code></div>
-      <div class="d-ib w30p"><code>0.125rem</code></div>
-    </div>
+
+
+<thead>
+  <tr>
   
-    <div>
-      
-      <div class="d-ib w30p"><code>2</code></div>
-      <div class="d-ib w30p"><code>0.25rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>3</code></div>
-      <div class="d-ib w30p"><code>0.5rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>4</code></div>
-      <div class="d-ib w30p"><code>1rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>5</code></div>
-      <div class="d-ib w30p"><code>2rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>6</code></div>
-      <div class="d-ib w30p"><code>4rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>7</code></div>
-      <div class="d-ib w30p"><code>8rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>8</code></div>
-      <div class="d-ib w30p"><code>16rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>9</code></div>
-      <div class="d-ib w30p"><code>999rem</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>100p</code></div>
-      <div class="d-ib w30p"><code>100%</code></div>
-    </div>
-  
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
 
 
 
-<h3>Examples</h3>
+<tbody>
 
+  <tr>
   
-  <p>No examples yet.</p>
+    <td>
+      <code>0</code>
+    </td>
+    <td>
+      <code>0</code>
+    </td>
+  </tr>
 
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
+  <tr>
   
+    <td>
+      <code>1</code>
+    </td>
+    <td>
+      <code>0.125rem</code>
+    </td>
+  </tr>
+
+  <tr>
   
+    <td>
+      <code>2</code>
+    </td>
+    <td>
+      <code>0.25rem</code>
+    </td>
+  </tr>
+
+  <tr>
   
+    <td>
+      <code>3</code>
+    </td>
+    <td>
+      <code>0.5rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>4</code>
+    </td>
+    <td>
+      <code>1rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>5</code>
+    </td>
+    <td>
+      <code>2rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>6</code>
+    </td>
+    <td>
+      <code>4rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>7</code>
+    </td>
+    <td>
+      <code>8rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>8</code>
+    </td>
+    <td>
+      <code>16rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>9</code>
+    </td>
+    <td>
+      <code>999rem</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>100p</code>
+    </td>
+    <td>
+      <code>100%</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
+  
+
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
+      
+      
+      
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -253,13 +313,13 @@ Radius for every corner and individual corners
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .br0 { border-radius: 0; }
 .br1 { border-radius: 0.125rem; }
 .br2 { border-radius: 0.25rem; }

@@ -5,113 +5,177 @@
   <title>Vertical align /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>Vertical align</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>Vertical align</h2>
   
   
+    <p class="size4">
 Vertical alignment of inline and inline-blocks inside a block-element.
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.va</code>
-      <ul>
+
+
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.va</code></td>
+            <td><code>vertical-align</code></td>
+          </tr>
         
-          <li><code>vertical-align</code></li>
-        
-      </ul>
-    </li>
+      </table>
+    </section>
   
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
 
-
-
-
-  <h3>Provided values</h3>
   
-    <div>
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
       
-      <div class="d-ib w30p"><code>t</code></div>
-      <div class="d-ib w30p"><code>top</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>b</code></div>
-      <div class="d-ib w30p"><code>bottom</code></div>
-    </div>
+
+
+<thead>
+  <tr>
   
-    <div>
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
+
+
+
+<tbody>
+
+  <tr>
+  
+    <td>
+      <code>t</code>
+    </td>
+    <td>
+      <code>top</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>b</code>
+    </td>
+    <td>
+      <code>bottom</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>tt</code>
+    </td>
+    <td>
+      <code>text-top</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>tb</code>
+    </td>
+    <td>
+      <code>text-bottom</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>m</code>
+    </td>
+    <td>
+      <code>middle</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>sup</code>
+    </td>
+    <td>
+      <code>super</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>sub</code>
+    </td>
+    <td>
+      <code>sub</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>base</code>
+    </td>
+    <td>
+      <code>baseline</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
+  
+
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
       
-      <div class="d-ib w30p"><code>tt</code></div>
-      <div class="d-ib w30p"><code>text-top</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>tb</code></div>
-      <div class="d-ib w30p"><code>text-bottom</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>m</code></div>
-      <div class="d-ib w30p"><code>middle</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>sup</code></div>
-      <div class="d-ib w30p"><code>super</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>sub</code></div>
-      <div class="d-ib w30p"><code>sub</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>base</code></div>
-      <div class="d-ib w30p"><code>baseline</code></div>
-    </div>
-  
-
-
-
-<h3>Examples</h3>
-
-  
-  <p>No examples yet.</p>
-
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  
-  
-  
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -199,13 +263,13 @@ Vertical alignment of inline and inline-blocks inside a block-element.
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .va-t { vertical-align: top; }
 .va-b { vertical-align: bottom; }
 .va-tt { vertical-align: text-top; }

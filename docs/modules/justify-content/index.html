@@ -5,103 +5,159 @@
   <title>Justify content /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
-<body>
+<body class="lh4 sans">
 <div style="max-width: 48em; margin-left: auto; margin-right: auto;">
 
-<a href="/">HOME</a>
 
-<h2>Justify content</h2>
 
+  <a href="/">HOME</a>
+  <a href="/docs/">Docs</a>
+
+  <h2>Justify content</h2>
   
   
+    <p class="size4">
 Defines the alignment along the main axis.
 It distributes extra free space leftover when the flex items on a line are inflexible,
 or have reached their maximum size.
-
-
-
-
-
-
-
-
-
-
-
-  <h3>Dynamic properties</h3>
-  <ul>
+</p>
   
-    <li>
-      <code>.jc</code>
-      <ul>
+
+
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  
+  
+  <p class="i">No examples yet.</p>
+  
+
+
+  
+
+  
+
+  
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          
+          <tr>
+            <td><code>.jc</code></td>
+            <td><code>justify-content</code></td>
+          </tr>
         
-          <li><code>justify-content</code></li>
-        
-      </ul>
-    </li>
+      </table>
+    </section>
   
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
 
-
-
-
-  <h3>Provided values</h3>
   
-    <div>
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
       
-      <div class="d-ib w30p"><code>fs</code></div>
-      <div class="d-ib w30p"><code>flex-start</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>fe</code></div>
-      <div class="d-ib w30p"><code>flex-end</code></div>
-    </div>
+
+
+<thead>
+  <tr>
   
-    <div>
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
+
+
+
+<tbody>
+
+  <tr>
+  
+    <td>
+      <code>fs</code>
+    </td>
+    <td>
+      <code>flex-start</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>fe</code>
+    </td>
+    <td>
+      <code>flex-end</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>c</code>
+    </td>
+    <td>
+      <code>center</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>sb</code>
+    </td>
+    <td>
+      <code>space-between</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>sa</code>
+    </td>
+    <td>
+      <code>space-around</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>se</code>
+    </td>
+    <td>
+      <code>space-evenly</code>
+    </td>
+  </tr>
+
+</tbody>
+      </table>
+    </section>
+  
+
+  <section>
+    <h3>Media</h3>
+    <table>
+      <caption></caption>
       
-      <div class="d-ib w30p"><code>c</code></div>
-      <div class="d-ib w30p"><code>center</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>sb</code></div>
-      <div class="d-ib w30p"><code>space-between</code></div>
-    </div>
-  
-    <div>
       
-      <div class="d-ib w30p"><code>sa</code></div>
-      <div class="d-ib w30p"><code>space-around</code></div>
-    </div>
-  
-    <div>
-      
-      <div class="d-ib w30p"><code>se</code></div>
-      <div class="d-ib w30p"><code>space-evenly</code></div>
-    </div>
-  
-
-
-
-<h3>Examples</h3>
-
-  
-  <p>No examples yet.</p>
-
-
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  
-  
-  
 
 <tbody>
   <tr class="even_striped-gray-90">
@@ -365,13 +421,13 @@ or have reached their maximum size.
     </tr>
   
 </tbody>
-</table>
+    </table>
+  </section>
 
+  
 
-
-
-<h3>CSS rules</h3>
-<pre><code>
+  <h3>CSS rules</h3>
+<pre class="size1 lh4"><code>
 .jc-fs { justify-content: flex-start; }
 .jc-fe { justify-content: flex-end; }
 .jc-c { justify-content: center; }
