@@ -1,99 +1,132 @@
 {% extends "base.html" %}
 
+{% set cbo_precode = "size1 lh4" %}
+
 {% block title %}{{ mdl.name }} /  modules / docs / {{ super() }}{% endblock %}
 
 {% block body %}
-<a href="{{ url_for('home') }}">HOME</a>
-
-<h2>{{ mdl.name }}</h2>
-{% block intro %}
-  {{ mdl.docstring }}
-{% endblock %}
-
-{% if mdl.styles %}
-  <h3>Basic styles</h3>
-  <pre><code>{% for style in mdl.styles %}
-  {{ style.__str__() }}{% endfor %}</code></pre>
-  <p>
-    The basic styles do not depend on the provided values.
-    They do however adhere to the breakpoints and pseudo selectors.
-  </p>
-{% endif %}
 
 
-{% if mdl.static %}
-  <h3>Static declarations</h3>
-  <ul>
-    {% for prop, val in mdl.static.items() %}
-      <li><code>{{ prop }}: {{ val }};</code></li>
-    {% endfor %}
-  </ul>
-  <p>A static declaration is not altered by the provided values.</p>
-{% endif %}
+  <a href="{{ url_for('home') }}">HOME</a>
+  <a href="{{ url_for('docs') }}">Docs</a>
 
+  <h2>{{ mdl.name }}</h2>
+  {% block intro %}
+    <p class="size4">{{ mdl.docstring }}</p>
+  {% endblock %}
 
-{% if mdl.dynamic %}
-  <h3>Dynamic properties</h3>
-  <ul>
-  {% for base, props in mdl.dynamic.items() %}
-    <li>
-      <code>{{ base }}</code>
-      <ul>
-        {% for prop in props %}
-          <li><code>{{ prop }}</code></li>
+  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  {% block examples %}
+  <p class="i">No examples yet.</p>
+  {% endblock %}
+
+  {% if mdl.styles %}
+    <section>
+      <h3>Basic styles</h3>
+      <p>
+        The basic style rules do not depend on the provided values.
+        They do however adhere to the breakpoints and pseudo selectors.
+      </p>
+<pre class="{{ cbo_precode }}"><code>{% for style in mdl.styles %}
+{{ style.__str__() }}{% endfor %}</code></pre>
+    </section>
+  {% endif %}
+
+  {% if mdl.static %}
+    <section>
+      <h3>Static declarations</h3>
+      <p>
+        A static declaration is not altered by the provided values. They form
+        a declaration block together with the dynamic properties + values.
+      </p>
+      <table>
+        <tr>
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          {% for prop, val in mdl.static.items() %}
+            <td><code>{{ prop }}</code></td>
+            <td><code>{{ val }}</code></td>
+          {% endfor %}
+        </tr>
+      </table>
+    </section>
+  {% endif %}
+
+  {% if mdl.dynamic %}
+    <section>
+      <h3>Dynamic properties</h3>
+        <p>
+          Dynamic properties combine with every single one of the module values to make
+          declarations. They form declaration blocks together with the optional static
+          declarations.
+        </p>
+        <table>
+          <tr>
+            <th>base selector</th>
+            <th>properties</th>
+          </tr>
+          {% for base, props in mdl.dynamic.items() %}
+          <tr>
+            <td><code>{{ base }}</code></td>
+            <td>{% for prop in props %}<code>{{ prop }}</code>{% if not loop.last %}, {% endif %}{% endfor %}</td>
+          </tr>
         {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-  </ul>
-  <p>The value of a dynamic property is determined by the provided values.</p>
-{% endif %}
+      </table>
+    </section>
+  {% endif %}
 
+  {% if mdl.values %}
+    <section>
+      <h3>Module values</h3>
+      <p>
+        The module values consist each of a suffix and a value. The suffix is attached to the
+        base selector and the value forms a declaration with every dynamic property.
+      </p>
+      <table>
+      {% set vals = mdl.values %}
+      {% include 'includes/value-table.html' %}
+      </table>
+    </section>
+  {% endif %}
 
-{% if mdl.values %}
-  <h3>Provided values</h3>
-  {% for sfx, val in mdl.values %}
-    <div>
-      {% if val[:3] == 'hsl' %}
-        <div class="d-ib h1 w1 mr4 bs-s bw1 bc-black" style="background-color: {{ val }}"></div>
-      {% endif %}
-      <div class="d-ib w30p"><code>{{ sfx }}</code></div>
-      <div class="d-ib w30p"><code>{{ val }}</code></div>
-    </div>
-  {% endfor %}
-{% endif %}
-
-
-<h3>Examples</h3>
-{% block examples %}
-  <p>No examples yet.</p>
-{% endblock %}
-
-
-<h3>Media</h3>
-
-<table>
-  <caption></caption>
-  {% set media = mdl._breakpoints.media_table() %}
-  {% set bps = mdl._breakpoints.bp_table(mdl.media) %}
-  {% include 'includes/media-table.html' %}
-</table>
-
-{% if mdl.pseudos %}
-  <h3>Pseudo selectors</h3>
-  {% for pseudo, (psmedia, psvals) in mdl.pseudos.items() %}
-    <h4>{{ pseudo }}</h4>
+  <section>
+    <h3>Media</h3>
     <table>
       <caption></caption>
-      {% set bps = mdl._breakpoints.bp_table(psmedia) %}
+      {% set media = mdl._breakpoints.media_table() %}
+      {% set bps = mdl._breakpoints.bp_table(mdl.media) %}
       {% include 'includes/media-table.html' %}
     </table>
-  {% endfor %}
-{% endif %}
+  </section>
 
+  {% if mdl.pseudos %}
+    {% for pseudo, (psmedia, psvals) in mdl.pseudos.items() %}
+      {% set ps = pseudo_lookup[pseudo] %}
+      <h3>pseudo: {{ ps }}</h3>
+      <p>Some words about this selector</p>
+      <table>
+        <caption>Media prefixes for {{ ps }}</caption>
+        {% set bps = mdl._breakpoints.bp_table(psmedia) %}
+        {% include 'includes/media-table.html' %}
+      </table>
 
-<h3>CSS rules</h3>
-<pre><code>{% for rule in mdl.get_all_rules() %}
+      {% if psvals == mdl.values %}
+        <p>Values are equal to the module values listed above.</p>
+      {% else %}
+        <table>
+          <caption>Values for {{ ps }}</caption>
+          {% set vals = psvals %}
+          {% include 'includes/value-table.html' %}
+        </table>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  <h3>CSS rules</h3>
+<pre class="{{ cbo_precode }}"><code>{% for rule in mdl.get_all_rules() %}
 {{ rule.__str__() }}
 {% endfor %}</code></pre>
 {% endblock %}
+

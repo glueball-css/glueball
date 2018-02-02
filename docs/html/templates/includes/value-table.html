@@ -1,0 +1,39 @@
+
+{% set checker = "background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0px;" %}
+
+<thead>
+  <tr>
+  {% if vals[0][1][:3] == 'hsl' %}
+    <th class="h2 w3">swatch
+    </th>
+  {% endif %}
+    <th>
+      suffix
+    </th>
+    <th>
+      value
+    </th>
+  </tr>
+</thead>
+
+
+
+<tbody>
+{% for sfx, val in vals %}
+  <tr>
+  {% if val[:3] == 'hsl' %}
+    <td class="p0" style="{{ checker }}">
+      <div class="h2" style="background-color: {{ val }}"></div>
+    </td>
+  {% endif %}
+    <td>
+      <code>{{ sfx }}</code>
+    </td>
+    <td>
+      <code>{{ val }}</code>
+    </td>
+  </tr>
+{% endfor %}
+</tbody>

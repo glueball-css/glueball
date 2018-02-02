@@ -125,8 +125,8 @@ Suffix  | Value
 `gray-95` | `hsl(0, 0%, 95%)`
 `gray-90` | `hsl(0, 0%, 90%)`
 `gray-80` | `hsl(0, 0%, 80%)`
-`gray` | `hsl(0, 0%, 50%)`
 `gray-65` | `hsl(0, 0%, 65%)`
+`gray` | `hsl(0, 0%, 50%)`
 `gray-35` | `hsl(0, 0%, 35%)`
 `gray-20` | `hsl(0, 0%, 20%)`
 `gray-10` | `hsl(0, 0%, 10%)`
@@ -277,8 +277,8 @@ Suffix  | Value
 .bc-gray-95 { border-color: hsl(0, 0%, 95%); }
 .bc-gray-90 { border-color: hsl(0, 0%, 90%); }
 .bc-gray-80 { border-color: hsl(0, 0%, 80%); }
-.bc-gray { border-color: hsl(0, 0%, 50%); }
 .bc-gray-65 { border-color: hsl(0, 0%, 65%); }
+.bc-gray { border-color: hsl(0, 0%, 50%); }
 .bc-gray-35 { border-color: hsl(0, 0%, 35%); }
 .bc-gray-20 { border-color: hsl(0, 0%, 20%); }
 .bc-gray-10 { border-color: hsl(0, 0%, 10%); }

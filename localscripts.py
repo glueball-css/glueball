@@ -1,6 +1,5 @@
 from docs.html.app import app
 # from docs.md.mdoc import rendered
-from glueball.glueball import write_css
 from glueball.glueball import sheet
 
 
@@ -28,7 +27,7 @@ def write_md_files():
 
 
 if __name__ == "__main__":
-    # write_css()  # General css file
+    # sheet.write_css()  # General css file
     app.run()
     # print_mods()
     # print(rendered)

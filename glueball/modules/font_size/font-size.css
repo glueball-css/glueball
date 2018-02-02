@@ -66,117 +66,117 @@ documentation: http://glueball.io/docs/module/font_size
 .x_size8 { font-size: 3.75rem; }
 .x_size9 { font-size: 5rem; }
 }
-.hover_size1:hover { font-size: .75rem; }
-.hover_size2:hover { font-size: .875rem; }
-.hover_size3:hover { font-size: 1rem; }
-.hover_size4:hover { font-size: 1.25rem; }
-.hover_size5:hover { font-size: 1.5rem; }
-.hover_size6:hover { font-size: 2rem; }
-.hover_size7:hover { font-size: 2.75rem; }
-.hover_size8:hover { font-size: 3.75rem; }
-.hover_size9:hover { font-size: 5rem; }
+.hvr_size1:hover { font-size: .75rem; }
+.hvr_size2:hover { font-size: .875rem; }
+.hvr_size3:hover { font-size: 1rem; }
+.hvr_size4:hover { font-size: 1.25rem; }
+.hvr_size5:hover { font-size: 1.5rem; }
+.hvr_size6:hover { font-size: 2rem; }
+.hvr_size7:hover { font-size: 2.75rem; }
+.hvr_size8:hover { font-size: 3.75rem; }
+.hvr_size9:hover { font-size: 5rem; }
 
 @media (min-width: 36em) {
-.s_hover_size1:hover { font-size: .75rem; }
-.s_hover_size2:hover { font-size: .875rem; }
-.s_hover_size3:hover { font-size: 1rem; }
-.s_hover_size4:hover { font-size: 1.25rem; }
-.s_hover_size5:hover { font-size: 1.5rem; }
-.s_hover_size6:hover { font-size: 2rem; }
-.s_hover_size7:hover { font-size: 2.75rem; }
-.s_hover_size8:hover { font-size: 3.75rem; }
-.s_hover_size9:hover { font-size: 5rem; }
+.s_hvr_size1:hover { font-size: .75rem; }
+.s_hvr_size2:hover { font-size: .875rem; }
+.s_hvr_size3:hover { font-size: 1rem; }
+.s_hvr_size4:hover { font-size: 1.25rem; }
+.s_hvr_size5:hover { font-size: 1.5rem; }
+.s_hvr_size6:hover { font-size: 2rem; }
+.s_hvr_size7:hover { font-size: 2.75rem; }
+.s_hvr_size8:hover { font-size: 3.75rem; }
+.s_hvr_size9:hover { font-size: 5rem; }
 }
 
 @media (min-width: 48em) {
-.m_hover_size1:hover { font-size: .75rem; }
-.m_hover_size2:hover { font-size: .875rem; }
-.m_hover_size3:hover { font-size: 1rem; }
-.m_hover_size4:hover { font-size: 1.25rem; }
-.m_hover_size5:hover { font-size: 1.5rem; }
-.m_hover_size6:hover { font-size: 2rem; }
-.m_hover_size7:hover { font-size: 2.75rem; }
-.m_hover_size8:hover { font-size: 3.75rem; }
-.m_hover_size9:hover { font-size: 5rem; }
+.m_hvr_size1:hover { font-size: .75rem; }
+.m_hvr_size2:hover { font-size: .875rem; }
+.m_hvr_size3:hover { font-size: 1rem; }
+.m_hvr_size4:hover { font-size: 1.25rem; }
+.m_hvr_size5:hover { font-size: 1.5rem; }
+.m_hvr_size6:hover { font-size: 2rem; }
+.m_hvr_size7:hover { font-size: 2.75rem; }
+.m_hvr_size8:hover { font-size: 3.75rem; }
+.m_hvr_size9:hover { font-size: 5rem; }
 }
 
 @media (min-width: 62em) {
-.l_hover_size1:hover { font-size: .75rem; }
-.l_hover_size2:hover { font-size: .875rem; }
-.l_hover_size3:hover { font-size: 1rem; }
-.l_hover_size4:hover { font-size: 1.25rem; }
-.l_hover_size5:hover { font-size: 1.5rem; }
-.l_hover_size6:hover { font-size: 2rem; }
-.l_hover_size7:hover { font-size: 2.75rem; }
-.l_hover_size8:hover { font-size: 3.75rem; }
-.l_hover_size9:hover { font-size: 5rem; }
+.l_hvr_size1:hover { font-size: .75rem; }
+.l_hvr_size2:hover { font-size: .875rem; }
+.l_hvr_size3:hover { font-size: 1rem; }
+.l_hvr_size4:hover { font-size: 1.25rem; }
+.l_hvr_size5:hover { font-size: 1.5rem; }
+.l_hvr_size6:hover { font-size: 2rem; }
+.l_hvr_size7:hover { font-size: 2.75rem; }
+.l_hvr_size8:hover { font-size: 3.75rem; }
+.l_hvr_size9:hover { font-size: 5rem; }
 }
 
 @media (min-width: 75em) {
-.x_hover_size1:hover { font-size: .75rem; }
-.x_hover_size2:hover { font-size: .875rem; }
-.x_hover_size3:hover { font-size: 1rem; }
-.x_hover_size4:hover { font-size: 1.25rem; }
-.x_hover_size5:hover { font-size: 1.5rem; }
-.x_hover_size6:hover { font-size: 2rem; }
-.x_hover_size7:hover { font-size: 2.75rem; }
-.x_hover_size8:hover { font-size: 3.75rem; }
-.x_hover_size9:hover { font-size: 5rem; }
+.x_hvr_size1:hover { font-size: .75rem; }
+.x_hvr_size2:hover { font-size: .875rem; }
+.x_hvr_size3:hover { font-size: 1rem; }
+.x_hvr_size4:hover { font-size: 1.25rem; }
+.x_hvr_size5:hover { font-size: 1.5rem; }
+.x_hvr_size6:hover { font-size: 2rem; }
+.x_hvr_size7:hover { font-size: 2.75rem; }
+.x_hvr_size8:hover { font-size: 3.75rem; }
+.x_hvr_size9:hover { font-size: 5rem; }
 }
-.focus_size1:focus { font-size: .75rem; }
-.focus_size2:focus { font-size: .875rem; }
-.focus_size3:focus { font-size: 1rem; }
-.focus_size4:focus { font-size: 1.25rem; }
-.focus_size5:focus { font-size: 1.5rem; }
-.focus_size6:focus { font-size: 2rem; }
-.focus_size7:focus { font-size: 2.75rem; }
-.focus_size8:focus { font-size: 3.75rem; }
-.focus_size9:focus { font-size: 5rem; }
+.fcs_size1:focus { font-size: .75rem; }
+.fcs_size2:focus { font-size: .875rem; }
+.fcs_size3:focus { font-size: 1rem; }
+.fcs_size4:focus { font-size: 1.25rem; }
+.fcs_size5:focus { font-size: 1.5rem; }
+.fcs_size6:focus { font-size: 2rem; }
+.fcs_size7:focus { font-size: 2.75rem; }
+.fcs_size8:focus { font-size: 3.75rem; }
+.fcs_size9:focus { font-size: 5rem; }
 
 @media (min-width: 36em) {
-.s_focus_size1:focus { font-size: .75rem; }
-.s_focus_size2:focus { font-size: .875rem; }
-.s_focus_size3:focus { font-size: 1rem; }
-.s_focus_size4:focus { font-size: 1.25rem; }
-.s_focus_size5:focus { font-size: 1.5rem; }
-.s_focus_size6:focus { font-size: 2rem; }
-.s_focus_size7:focus { font-size: 2.75rem; }
-.s_focus_size8:focus { font-size: 3.75rem; }
-.s_focus_size9:focus { font-size: 5rem; }
+.s_fcs_size1:focus { font-size: .75rem; }
+.s_fcs_size2:focus { font-size: .875rem; }
+.s_fcs_size3:focus { font-size: 1rem; }
+.s_fcs_size4:focus { font-size: 1.25rem; }
+.s_fcs_size5:focus { font-size: 1.5rem; }
+.s_fcs_size6:focus { font-size: 2rem; }
+.s_fcs_size7:focus { font-size: 2.75rem; }
+.s_fcs_size8:focus { font-size: 3.75rem; }
+.s_fcs_size9:focus { font-size: 5rem; }
 }
 
 @media (min-width: 48em) {
-.m_focus_size1:focus { font-size: .75rem; }
-.m_focus_size2:focus { font-size: .875rem; }
-.m_focus_size3:focus { font-size: 1rem; }
-.m_focus_size4:focus { font-size: 1.25rem; }
-.m_focus_size5:focus { font-size: 1.5rem; }
-.m_focus_size6:focus { font-size: 2rem; }
-.m_focus_size7:focus { font-size: 2.75rem; }
-.m_focus_size8:focus { font-size: 3.75rem; }
-.m_focus_size9:focus { font-size: 5rem; }
+.m_fcs_size1:focus { font-size: .75rem; }
+.m_fcs_size2:focus { font-size: .875rem; }
+.m_fcs_size3:focus { font-size: 1rem; }
+.m_fcs_size4:focus { font-size: 1.25rem; }
+.m_fcs_size5:focus { font-size: 1.5rem; }
+.m_fcs_size6:focus { font-size: 2rem; }
+.m_fcs_size7:focus { font-size: 2.75rem; }
+.m_fcs_size8:focus { font-size: 3.75rem; }
+.m_fcs_size9:focus { font-size: 5rem; }
 }
 
 @media (min-width: 62em) {
-.l_focus_size1:focus { font-size: .75rem; }
-.l_focus_size2:focus { font-size: .875rem; }
-.l_focus_size3:focus { font-size: 1rem; }
-.l_focus_size4:focus { font-size: 1.25rem; }
-.l_focus_size5:focus { font-size: 1.5rem; }
-.l_focus_size6:focus { font-size: 2rem; }
-.l_focus_size7:focus { font-size: 2.75rem; }
-.l_focus_size8:focus { font-size: 3.75rem; }
-.l_focus_size9:focus { font-size: 5rem; }
+.l_fcs_size1:focus { font-size: .75rem; }
+.l_fcs_size2:focus { font-size: .875rem; }
+.l_fcs_size3:focus { font-size: 1rem; }
+.l_fcs_size4:focus { font-size: 1.25rem; }
+.l_fcs_size5:focus { font-size: 1.5rem; }
+.l_fcs_size6:focus { font-size: 2rem; }
+.l_fcs_size7:focus { font-size: 2.75rem; }
+.l_fcs_size8:focus { font-size: 3.75rem; }
+.l_fcs_size9:focus { font-size: 5rem; }
 }
 
 @media (min-width: 75em) {
-.x_focus_size1:focus { font-size: .75rem; }
-.x_focus_size2:focus { font-size: .875rem; }
-.x_focus_size3:focus { font-size: 1rem; }
-.x_focus_size4:focus { font-size: 1.25rem; }
-.x_focus_size5:focus { font-size: 1.5rem; }
-.x_focus_size6:focus { font-size: 2rem; }
-.x_focus_size7:focus { font-size: 2.75rem; }
-.x_focus_size8:focus { font-size: 3.75rem; }
-.x_focus_size9:focus { font-size: 5rem; }
+.x_fcs_size1:focus { font-size: .75rem; }
+.x_fcs_size2:focus { font-size: .875rem; }
+.x_fcs_size3:focus { font-size: 1rem; }
+.x_fcs_size4:focus { font-size: 1.25rem; }
+.x_fcs_size5:focus { font-size: 1.5rem; }
+.x_fcs_size6:focus { font-size: 2rem; }
+.x_fcs_size7:focus { font-size: 2.75rem; }
+.x_fcs_size8:focus { font-size: 3.75rem; }
+.x_fcs_size9:focus { font-size: 5rem; }
 }

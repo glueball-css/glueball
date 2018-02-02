@@ -109,8 +109,8 @@ documentation: http://glueball.io/docs/module/background_color
 .bgc-gray-95 { background-color: hsl(0, 0%, 95%); }
 .bgc-gray-90 { background-color: hsl(0, 0%, 90%); }
 .bgc-gray-80 { background-color: hsl(0, 0%, 80%); }
-.bgc-gray { background-color: hsl(0, 0%, 50%); }
 .bgc-gray-65 { background-color: hsl(0, 0%, 65%); }
+.bgc-gray { background-color: hsl(0, 0%, 50%); }
 .bgc-gray-35 { background-color: hsl(0, 0%, 35%); }
 .bgc-gray-20 { background-color: hsl(0, 0%, 20%); }
 .bgc-gray-10 { background-color: hsl(0, 0%, 10%); }
@@ -241,8 +241,8 @@ documentation: http://glueball.io/docs/module/background_color
 .s_bgc-gray-95 { background-color: hsl(0, 0%, 95%); }
 .s_bgc-gray-90 { background-color: hsl(0, 0%, 90%); }
 .s_bgc-gray-80 { background-color: hsl(0, 0%, 80%); }
-.s_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .s_bgc-gray-65 { background-color: hsl(0, 0%, 65%); }
+.s_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .s_bgc-gray-35 { background-color: hsl(0, 0%, 35%); }
 .s_bgc-gray-20 { background-color: hsl(0, 0%, 20%); }
 .s_bgc-gray-10 { background-color: hsl(0, 0%, 10%); }
@@ -374,8 +374,8 @@ documentation: http://glueball.io/docs/module/background_color
 .m_bgc-gray-95 { background-color: hsl(0, 0%, 95%); }
 .m_bgc-gray-90 { background-color: hsl(0, 0%, 90%); }
 .m_bgc-gray-80 { background-color: hsl(0, 0%, 80%); }
-.m_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .m_bgc-gray-65 { background-color: hsl(0, 0%, 65%); }
+.m_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .m_bgc-gray-35 { background-color: hsl(0, 0%, 35%); }
 .m_bgc-gray-20 { background-color: hsl(0, 0%, 20%); }
 .m_bgc-gray-10 { background-color: hsl(0, 0%, 10%); }
@@ -507,8 +507,8 @@ documentation: http://glueball.io/docs/module/background_color
 .l_bgc-gray-95 { background-color: hsl(0, 0%, 95%); }
 .l_bgc-gray-90 { background-color: hsl(0, 0%, 90%); }
 .l_bgc-gray-80 { background-color: hsl(0, 0%, 80%); }
-.l_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .l_bgc-gray-65 { background-color: hsl(0, 0%, 65%); }
+.l_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .l_bgc-gray-35 { background-color: hsl(0, 0%, 35%); }
 .l_bgc-gray-20 { background-color: hsl(0, 0%, 20%); }
 .l_bgc-gray-10 { background-color: hsl(0, 0%, 10%); }
@@ -640,8 +640,8 @@ documentation: http://glueball.io/docs/module/background_color
 .x_bgc-gray-95 { background-color: hsl(0, 0%, 95%); }
 .x_bgc-gray-90 { background-color: hsl(0, 0%, 90%); }
 .x_bgc-gray-80 { background-color: hsl(0, 0%, 80%); }
-.x_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .x_bgc-gray-65 { background-color: hsl(0, 0%, 65%); }
+.x_bgc-gray { background-color: hsl(0, 0%, 50%); }
 .x_bgc-gray-35 { background-color: hsl(0, 0%, 35%); }
 .x_bgc-gray-20 { background-color: hsl(0, 0%, 20%); }
 .x_bgc-gray-10 { background-color: hsl(0, 0%, 10%); }
@@ -671,665 +671,685 @@ documentation: http://glueball.io/docs/module/background_color
 .x_bgc-white-5a { background-color: hsla(0, 0%, 100%, 0.05); }
 .x_bgc-white-2a { background-color: hsla(0, 0%, 100%, 0.02); }
 }
-.hover_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
-.hover_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
-.hover_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
-.hover_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
-.hover_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
-.hover_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
-.hover_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
-.hover_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
-.hover_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
-.hover_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
-.hover_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
-.hover_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
-.hover_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
-.hover_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
-.hover_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
-.hover_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
-.hover_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
-.hover_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
-.hover_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
-.hover_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
-.hover_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
-.hover_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
-.hover_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
-.hover_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
-.hover_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
-.hover_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
-.hover_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
-.hover_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
-.hover_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
-.hover_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
-.hover_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
-.hover_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
-.hover_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
-.hover_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
-.hover_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
-.hover_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
-.hover_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
-.hover_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
-.hover_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
-.hover_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
-.hover_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
-.hover_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
-.hover_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
-.hover_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
-.hover_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
-.hover_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
-.hover_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
-.hover_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
-.hover_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
-.hover_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
-.hover_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
-.hover_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
-.hover_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
-.hover_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
-.hover_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
-.hover_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
-.hover_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
-.hover_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
-.hover_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
-.hover_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
-.hover_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
-.hover_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
-.hover_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
-.hover_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
-.hover_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
-.hover_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
-.hover_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
-.hover_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
-.hover_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
-.hover_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
-.hover_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
-.hover_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
-.hover_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
-.hover_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
-.hover_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
-.hover_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
-.hover_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
-.hover_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
-.hover_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
-.hover_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
-.hover_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
-.hover_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
-.hover_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
-.hover_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
-.hover_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
-.hover_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
-.hover_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
-.hover_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
-.hover_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
-.hover_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
-.hover_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
-.hover_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
-.hover_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
-.hover_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
-.hover_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
-.hover_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
-.hover_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
-.hover_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
-.hover_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
-.hover_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
-.hover_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
-.hover_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
-.hover_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
-.hover_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
-.hover_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
-.hover_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
-.hover_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
-.hover_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
-.hover_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
-.hover_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
-.hover_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
-.hover_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
-.hover_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
-.hover_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
-.hover_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
-.hover_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
-.hover_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
-.hover_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
-.hover_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
-.hover_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
-.hover_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
-.hover_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
-.hover_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
-.hover_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
-.hover_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
-.hover_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
-.hover_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
-.hover_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
-.hover_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
-.hover_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
+.hvr_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
+.hvr_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
+.hvr_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
+.hvr_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
+.hvr_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
+.hvr_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
+.hvr_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
+.hvr_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
+.hvr_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
+.hvr_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
+.hvr_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
+.hvr_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
+.hvr_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
+.hvr_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
+.hvr_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
+.hvr_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
+.hvr_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
+.hvr_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
+.hvr_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
+.hvr_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
+.hvr_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
+.hvr_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
+.hvr_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
+.hvr_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
+.hvr_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
+.hvr_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
+.hvr_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
+.hvr_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
+.hvr_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
+.hvr_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
+.hvr_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
+.hvr_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
+.hvr_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
+.hvr_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
+.hvr_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
+.hvr_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
+.hvr_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
+.hvr_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
+.hvr_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
+.hvr_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
+.hvr_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
+.hvr_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
+.hvr_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
+.hvr_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
+.hvr_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
+.hvr_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
+.hvr_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
+.hvr_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
+.hvr_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
+.hvr_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
+.hvr_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
+.hvr_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
+.hvr_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
+.hvr_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
+.hvr_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
+.hvr_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
+.hvr_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
+.hvr_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
+.hvr_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
+.hvr_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
+.hvr_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
+.hvr_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
+.hvr_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
+.hvr_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
+.hvr_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
+.hvr_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
+.hvr_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
+.hvr_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
+.hvr_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
+.hvr_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
+.hvr_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
+.hvr_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
+.hvr_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
+.hvr_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
+.hvr_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
+.hvr_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
+.hvr_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
+.hvr_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
+.hvr_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
+.hvr_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
+.hvr_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
+.hvr_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
+.hvr_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
+.hvr_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
+.hvr_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
+.hvr_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
+.hvr_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
+.hvr_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
+.hvr_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
+.hvr_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
+.hvr_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
+.hvr_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
+.hvr_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
+.hvr_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
+.hvr_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
+.hvr_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
+.hvr_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
+.hvr_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
+.hvr_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
+.hvr_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
+.hvr_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
+.hvr_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
+.hvr_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
+.hvr_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
+.hvr_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
+.hvr_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
+.hvr_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
+.hvr_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
+.hvr_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
+.hvr_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
+.hvr_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
+.hvr_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
+.hvr_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
+.hvr_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
+.hvr_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
+.hvr_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
+.hvr_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
+.hvr_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
+.hvr_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
+.hvr_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
+.hvr_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
+.hvr_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
+.hvr_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
+.hvr_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
+.hvr_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
+.hvr_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
+.hvr_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
+.hvr_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
+.hvr_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
+.hvr_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
 
 @media (min-width: 36em) {
-.s_hover_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
-.s_hover_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
-.s_hover_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
-.s_hover_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
-.s_hover_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
-.s_hover_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
-.s_hover_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
-.s_hover_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
-.s_hover_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
-.s_hover_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
-.s_hover_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
-.s_hover_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
-.s_hover_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
-.s_hover_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
-.s_hover_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
-.s_hover_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
-.s_hover_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
-.s_hover_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
-.s_hover_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
-.s_hover_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
-.s_hover_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
-.s_hover_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
-.s_hover_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
-.s_hover_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
-.s_hover_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
-.s_hover_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
-.s_hover_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
-.s_hover_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
-.s_hover_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
-.s_hover_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
-.s_hover_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
-.s_hover_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
-.s_hover_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
-.s_hover_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
-.s_hover_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
-.s_hover_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
-.s_hover_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
-.s_hover_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
-.s_hover_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
-.s_hover_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
-.s_hover_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
-.s_hover_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
-.s_hover_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
-.s_hover_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
-.s_hover_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
-.s_hover_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
-.s_hover_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
-.s_hover_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
-.s_hover_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
-.s_hover_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
-.s_hover_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
-.s_hover_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
-.s_hover_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
-.s_hover_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
-.s_hover_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
-.s_hover_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
-.s_hover_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
-.s_hover_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
-.s_hover_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
-.s_hover_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
-.s_hover_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
-.s_hover_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
-.s_hover_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
-.s_hover_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
-.s_hover_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
-.s_hover_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
-.s_hover_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
-.s_hover_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
-.s_hover_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
-.s_hover_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
-.s_hover_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
-.s_hover_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
-.s_hover_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
-.s_hover_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
-.s_hover_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
-.s_hover_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
-.s_hover_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
-.s_hover_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
-.s_hover_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
-.s_hover_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
-.s_hover_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
-.s_hover_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
-.s_hover_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
-.s_hover_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
-.s_hover_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
-.s_hover_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
-.s_hover_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
-.s_hover_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
-.s_hover_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
-.s_hover_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
-.s_hover_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
-.s_hover_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
-.s_hover_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
-.s_hover_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
-.s_hover_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
-.s_hover_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
-.s_hover_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
-.s_hover_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
-.s_hover_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
-.s_hover_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
-.s_hover_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
-.s_hover_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
-.s_hover_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
-.s_hover_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
-.s_hover_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
-.s_hover_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
-.s_hover_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
-.s_hover_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
-.s_hover_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
-.s_hover_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
-.s_hover_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
-.s_hover_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
-.s_hover_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
-.s_hover_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
-.s_hover_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
-.s_hover_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
-.s_hover_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
-.s_hover_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
-.s_hover_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
-.s_hover_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
-.s_hover_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
-.s_hover_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
-.s_hover_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
-.s_hover_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
-.s_hover_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
-.s_hover_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
-.s_hover_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
-.s_hover_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
-.s_hover_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
-.s_hover_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
+.s_hvr_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
+.s_hvr_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
+.s_hvr_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
+.s_hvr_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
+.s_hvr_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
+.s_hvr_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
+.s_hvr_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
+.s_hvr_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
+.s_hvr_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
+.s_hvr_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
+.s_hvr_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
+.s_hvr_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
+.s_hvr_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
+.s_hvr_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
+.s_hvr_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
+.s_hvr_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
+.s_hvr_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
+.s_hvr_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
+.s_hvr_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
+.s_hvr_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
+.s_hvr_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
+.s_hvr_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
+.s_hvr_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
+.s_hvr_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
+.s_hvr_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
+.s_hvr_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
+.s_hvr_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
+.s_hvr_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
+.s_hvr_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
+.s_hvr_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
+.s_hvr_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
+.s_hvr_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
+.s_hvr_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
+.s_hvr_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
+.s_hvr_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
+.s_hvr_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
+.s_hvr_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
+.s_hvr_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
+.s_hvr_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
+.s_hvr_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
+.s_hvr_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
+.s_hvr_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
+.s_hvr_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
+.s_hvr_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
+.s_hvr_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
+.s_hvr_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
+.s_hvr_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
+.s_hvr_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
+.s_hvr_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
+.s_hvr_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
+.s_hvr_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
+.s_hvr_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
+.s_hvr_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
+.s_hvr_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
+.s_hvr_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
+.s_hvr_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
+.s_hvr_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
+.s_hvr_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
+.s_hvr_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
+.s_hvr_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
+.s_hvr_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
+.s_hvr_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
+.s_hvr_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
+.s_hvr_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
+.s_hvr_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
+.s_hvr_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
+.s_hvr_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
+.s_hvr_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
+.s_hvr_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
+.s_hvr_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
+.s_hvr_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
+.s_hvr_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
+.s_hvr_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
+.s_hvr_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
+.s_hvr_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
+.s_hvr_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
+.s_hvr_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
+.s_hvr_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
+.s_hvr_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
+.s_hvr_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
+.s_hvr_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
+.s_hvr_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
+.s_hvr_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
+.s_hvr_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
+.s_hvr_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
+.s_hvr_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
+.s_hvr_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
+.s_hvr_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
+.s_hvr_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
+.s_hvr_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
+.s_hvr_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
+.s_hvr_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
+.s_hvr_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
+.s_hvr_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
+.s_hvr_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
+.s_hvr_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
+.s_hvr_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
+.s_hvr_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
+.s_hvr_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
+.s_hvr_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
+.s_hvr_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
+.s_hvr_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
+.s_hvr_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
+.s_hvr_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
+.s_hvr_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
+.s_hvr_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
+.s_hvr_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
+.s_hvr_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
+.s_hvr_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
+.s_hvr_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
+.s_hvr_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
+.s_hvr_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
+.s_hvr_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
+.s_hvr_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
+.s_hvr_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
+.s_hvr_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
+.s_hvr_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
+.s_hvr_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
+.s_hvr_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
+.s_hvr_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
+.s_hvr_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
+.s_hvr_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
+.s_hvr_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
+.s_hvr_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
+.s_hvr_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
+.s_hvr_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
+.s_hvr_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
+.s_hvr_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
+.s_hvr_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
+.s_hvr_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
 }
 
 @media (min-width: 48em) {
-.m_hover_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
-.m_hover_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
-.m_hover_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
-.m_hover_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
-.m_hover_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
-.m_hover_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
-.m_hover_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
-.m_hover_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
-.m_hover_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
-.m_hover_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
-.m_hover_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
-.m_hover_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
-.m_hover_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
-.m_hover_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
-.m_hover_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
-.m_hover_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
-.m_hover_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
-.m_hover_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
-.m_hover_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
-.m_hover_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
-.m_hover_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
-.m_hover_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
-.m_hover_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
-.m_hover_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
-.m_hover_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
-.m_hover_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
-.m_hover_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
-.m_hover_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
-.m_hover_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
-.m_hover_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
-.m_hover_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
-.m_hover_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
-.m_hover_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
-.m_hover_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
-.m_hover_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
-.m_hover_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
-.m_hover_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
-.m_hover_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
-.m_hover_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
-.m_hover_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
-.m_hover_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
-.m_hover_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
-.m_hover_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
-.m_hover_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
-.m_hover_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
-.m_hover_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
-.m_hover_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
-.m_hover_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
-.m_hover_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
-.m_hover_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
-.m_hover_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
-.m_hover_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
-.m_hover_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
-.m_hover_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
-.m_hover_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
-.m_hover_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
-.m_hover_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
-.m_hover_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
-.m_hover_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
-.m_hover_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
-.m_hover_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
-.m_hover_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
-.m_hover_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
-.m_hover_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
-.m_hover_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
-.m_hover_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
-.m_hover_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
-.m_hover_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
-.m_hover_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
-.m_hover_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
-.m_hover_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
-.m_hover_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
-.m_hover_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
-.m_hover_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
-.m_hover_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
-.m_hover_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
-.m_hover_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
-.m_hover_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
-.m_hover_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
-.m_hover_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
-.m_hover_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
-.m_hover_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
-.m_hover_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
-.m_hover_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
-.m_hover_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
-.m_hover_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
-.m_hover_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
-.m_hover_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
-.m_hover_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
-.m_hover_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
-.m_hover_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
-.m_hover_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
-.m_hover_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
-.m_hover_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
-.m_hover_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
-.m_hover_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
-.m_hover_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
-.m_hover_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
-.m_hover_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
-.m_hover_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
-.m_hover_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
-.m_hover_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
-.m_hover_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
-.m_hover_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
-.m_hover_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
-.m_hover_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
-.m_hover_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
-.m_hover_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
-.m_hover_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
-.m_hover_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
-.m_hover_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
-.m_hover_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
-.m_hover_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
-.m_hover_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
-.m_hover_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
-.m_hover_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
-.m_hover_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
-.m_hover_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
-.m_hover_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
-.m_hover_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
-.m_hover_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
-.m_hover_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
-.m_hover_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
-.m_hover_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
-.m_hover_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
-.m_hover_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
-.m_hover_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
-.m_hover_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
-.m_hover_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
-.m_hover_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
+.m_hvr_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
+.m_hvr_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
+.m_hvr_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
+.m_hvr_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
+.m_hvr_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
+.m_hvr_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
+.m_hvr_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
+.m_hvr_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
+.m_hvr_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
+.m_hvr_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
+.m_hvr_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
+.m_hvr_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
+.m_hvr_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
+.m_hvr_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
+.m_hvr_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
+.m_hvr_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
+.m_hvr_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
+.m_hvr_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
+.m_hvr_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
+.m_hvr_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
+.m_hvr_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
+.m_hvr_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
+.m_hvr_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
+.m_hvr_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
+.m_hvr_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
+.m_hvr_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
+.m_hvr_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
+.m_hvr_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
+.m_hvr_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
+.m_hvr_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
+.m_hvr_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
+.m_hvr_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
+.m_hvr_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
+.m_hvr_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
+.m_hvr_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
+.m_hvr_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
+.m_hvr_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
+.m_hvr_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
+.m_hvr_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
+.m_hvr_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
+.m_hvr_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
+.m_hvr_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
+.m_hvr_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
+.m_hvr_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
+.m_hvr_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
+.m_hvr_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
+.m_hvr_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
+.m_hvr_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
+.m_hvr_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
+.m_hvr_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
+.m_hvr_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
+.m_hvr_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
+.m_hvr_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
+.m_hvr_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
+.m_hvr_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
+.m_hvr_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
+.m_hvr_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
+.m_hvr_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
+.m_hvr_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
+.m_hvr_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
+.m_hvr_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
+.m_hvr_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
+.m_hvr_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
+.m_hvr_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
+.m_hvr_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
+.m_hvr_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
+.m_hvr_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
+.m_hvr_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
+.m_hvr_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
+.m_hvr_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
+.m_hvr_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
+.m_hvr_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
+.m_hvr_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
+.m_hvr_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
+.m_hvr_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
+.m_hvr_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
+.m_hvr_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
+.m_hvr_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
+.m_hvr_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
+.m_hvr_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
+.m_hvr_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
+.m_hvr_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
+.m_hvr_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
+.m_hvr_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
+.m_hvr_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
+.m_hvr_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
+.m_hvr_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
+.m_hvr_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
+.m_hvr_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
+.m_hvr_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
+.m_hvr_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
+.m_hvr_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
+.m_hvr_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
+.m_hvr_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
+.m_hvr_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
+.m_hvr_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
+.m_hvr_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
+.m_hvr_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
+.m_hvr_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
+.m_hvr_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
+.m_hvr_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
+.m_hvr_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
+.m_hvr_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
+.m_hvr_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
+.m_hvr_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
+.m_hvr_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
+.m_hvr_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
+.m_hvr_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
+.m_hvr_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
+.m_hvr_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
+.m_hvr_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
+.m_hvr_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
+.m_hvr_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
+.m_hvr_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
+.m_hvr_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
+.m_hvr_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
+.m_hvr_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
+.m_hvr_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
+.m_hvr_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
+.m_hvr_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
+.m_hvr_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
+.m_hvr_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
+.m_hvr_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
+.m_hvr_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
+.m_hvr_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
+.m_hvr_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
+.m_hvr_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
+.m_hvr_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
+.m_hvr_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
+.m_hvr_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
 }
 
 @media (min-width: 62em) {
-.l_hover_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
-.l_hover_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
-.l_hover_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
-.l_hover_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
-.l_hover_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
-.l_hover_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
-.l_hover_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
-.l_hover_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
-.l_hover_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
-.l_hover_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
-.l_hover_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
-.l_hover_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
-.l_hover_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
-.l_hover_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
-.l_hover_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
-.l_hover_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
-.l_hover_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
-.l_hover_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
-.l_hover_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
-.l_hover_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
-.l_hover_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
-.l_hover_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
-.l_hover_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
-.l_hover_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
-.l_hover_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
-.l_hover_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
-.l_hover_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
-.l_hover_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
-.l_hover_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
-.l_hover_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
-.l_hover_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
-.l_hover_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
-.l_hover_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
-.l_hover_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
-.l_hover_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
-.l_hover_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
-.l_hover_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
-.l_hover_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
-.l_hover_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
-.l_hover_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
-.l_hover_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
-.l_hover_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
-.l_hover_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
-.l_hover_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
-.l_hover_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
-.l_hover_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
-.l_hover_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
-.l_hover_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
-.l_hover_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
-.l_hover_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
-.l_hover_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
-.l_hover_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
-.l_hover_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
-.l_hover_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
-.l_hover_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
-.l_hover_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
-.l_hover_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
-.l_hover_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
-.l_hover_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
-.l_hover_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
-.l_hover_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
-.l_hover_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
-.l_hover_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
-.l_hover_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
-.l_hover_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
-.l_hover_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
-.l_hover_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
-.l_hover_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
-.l_hover_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
-.l_hover_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
-.l_hover_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
-.l_hover_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
-.l_hover_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
-.l_hover_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
-.l_hover_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
-.l_hover_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
-.l_hover_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
-.l_hover_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
-.l_hover_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
-.l_hover_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
-.l_hover_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
-.l_hover_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
-.l_hover_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
-.l_hover_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
-.l_hover_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
-.l_hover_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
-.l_hover_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
-.l_hover_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
-.l_hover_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
-.l_hover_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
-.l_hover_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
-.l_hover_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
-.l_hover_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
-.l_hover_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
-.l_hover_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
-.l_hover_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
-.l_hover_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
-.l_hover_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
-.l_hover_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
-.l_hover_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
-.l_hover_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
-.l_hover_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
-.l_hover_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
-.l_hover_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
-.l_hover_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
-.l_hover_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
-.l_hover_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
-.l_hover_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
-.l_hover_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
-.l_hover_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
-.l_hover_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
-.l_hover_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
-.l_hover_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
-.l_hover_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
-.l_hover_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
-.l_hover_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
-.l_hover_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
-.l_hover_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
-.l_hover_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
-.l_hover_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
-.l_hover_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
-.l_hover_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
-.l_hover_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
-.l_hover_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
-.l_hover_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
-.l_hover_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
-.l_hover_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
-.l_hover_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
-.l_hover_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
-.l_hover_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
+.l_hvr_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
+.l_hvr_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
+.l_hvr_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
+.l_hvr_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
+.l_hvr_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
+.l_hvr_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
+.l_hvr_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
+.l_hvr_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
+.l_hvr_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
+.l_hvr_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
+.l_hvr_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
+.l_hvr_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
+.l_hvr_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
+.l_hvr_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
+.l_hvr_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
+.l_hvr_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
+.l_hvr_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
+.l_hvr_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
+.l_hvr_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
+.l_hvr_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
+.l_hvr_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
+.l_hvr_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
+.l_hvr_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
+.l_hvr_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
+.l_hvr_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
+.l_hvr_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
+.l_hvr_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
+.l_hvr_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
+.l_hvr_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
+.l_hvr_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
+.l_hvr_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
+.l_hvr_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
+.l_hvr_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
+.l_hvr_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
+.l_hvr_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
+.l_hvr_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
+.l_hvr_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
+.l_hvr_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
+.l_hvr_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
+.l_hvr_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
+.l_hvr_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
+.l_hvr_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
+.l_hvr_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
+.l_hvr_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
+.l_hvr_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
+.l_hvr_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
+.l_hvr_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
+.l_hvr_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
+.l_hvr_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
+.l_hvr_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
+.l_hvr_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
+.l_hvr_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
+.l_hvr_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
+.l_hvr_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
+.l_hvr_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
+.l_hvr_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
+.l_hvr_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
+.l_hvr_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
+.l_hvr_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
+.l_hvr_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
+.l_hvr_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
+.l_hvr_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
+.l_hvr_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
+.l_hvr_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
+.l_hvr_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
+.l_hvr_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
+.l_hvr_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
+.l_hvr_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
+.l_hvr_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
+.l_hvr_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
+.l_hvr_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
+.l_hvr_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
+.l_hvr_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
+.l_hvr_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
+.l_hvr_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
+.l_hvr_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
+.l_hvr_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
+.l_hvr_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
+.l_hvr_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
+.l_hvr_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
+.l_hvr_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
+.l_hvr_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
+.l_hvr_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
+.l_hvr_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
+.l_hvr_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
+.l_hvr_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
+.l_hvr_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
+.l_hvr_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
+.l_hvr_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
+.l_hvr_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
+.l_hvr_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
+.l_hvr_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
+.l_hvr_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
+.l_hvr_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
+.l_hvr_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
+.l_hvr_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
+.l_hvr_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
+.l_hvr_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
+.l_hvr_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
+.l_hvr_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
+.l_hvr_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
+.l_hvr_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
+.l_hvr_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
+.l_hvr_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
+.l_hvr_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
+.l_hvr_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
+.l_hvr_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
+.l_hvr_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
+.l_hvr_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
+.l_hvr_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
+.l_hvr_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
+.l_hvr_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
+.l_hvr_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
+.l_hvr_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
+.l_hvr_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
+.l_hvr_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
+.l_hvr_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
+.l_hvr_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
+.l_hvr_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
+.l_hvr_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
+.l_hvr_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
+.l_hvr_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
+.l_hvr_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
+.l_hvr_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
+.l_hvr_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
+.l_hvr_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
+.l_hvr_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
+.l_hvr_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
+.l_hvr_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
+.l_hvr_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
 }
 
 @media (min-width: 75em) {
-.x_hover_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
-.x_hover_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
-.x_hover_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
-.x_hover_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
-.x_hover_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
-.x_hover_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
-.x_hover_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
-.x_hover_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
-.x_hover_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
-.x_hover_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
-.x_hover_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
-.x_hover_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
-.x_hover_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
-.x_hover_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
-.x_hover_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
-.x_hover_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
-.x_hover_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
-.x_hover_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
-.x_hover_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
-.x_hover_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
-.x_hover_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
-.x_hover_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
-.x_hover_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
-.x_hover_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
-.x_hover_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
-.x_hover_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
-.x_hover_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
-.x_hover_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
-.x_hover_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
-.x_hover_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
-.x_hover_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
-.x_hover_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
-.x_hover_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
-.x_hover_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
-.x_hover_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
-.x_hover_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
-.x_hover_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
-.x_hover_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
-.x_hover_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
-.x_hover_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
-.x_hover_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
-.x_hover_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
-.x_hover_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
-.x_hover_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
-.x_hover_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
-.x_hover_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
-.x_hover_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
-.x_hover_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
-.x_hover_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
-.x_hover_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
-.x_hover_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
-.x_hover_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
-.x_hover_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
-.x_hover_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
-.x_hover_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
-.x_hover_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
-.x_hover_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
-.x_hover_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
-.x_hover_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
-.x_hover_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
-.x_hover_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
-.x_hover_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
-.x_hover_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
-.x_hover_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
-.x_hover_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
-.x_hover_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
-.x_hover_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
-.x_hover_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
-.x_hover_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
-.x_hover_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
-.x_hover_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
-.x_hover_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
-.x_hover_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
-.x_hover_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
-.x_hover_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
-.x_hover_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
-.x_hover_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
-.x_hover_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
-.x_hover_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
-.x_hover_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
-.x_hover_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
-.x_hover_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
-.x_hover_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
-.x_hover_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
-.x_hover_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
-.x_hover_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
-.x_hover_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
-.x_hover_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
-.x_hover_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
-.x_hover_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
-.x_hover_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
-.x_hover_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
-.x_hover_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
-.x_hover_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
-.x_hover_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
-.x_hover_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
-.x_hover_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
-.x_hover_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
-.x_hover_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
-.x_hover_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
-.x_hover_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
-.x_hover_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
-.x_hover_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
-.x_hover_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
-.x_hover_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
-.x_hover_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
-.x_hover_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
-.x_hover_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
-.x_hover_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
-.x_hover_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
-.x_hover_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
-.x_hover_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
-.x_hover_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
-.x_hover_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
-.x_hover_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
-.x_hover_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
-.x_hover_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
-.x_hover_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
-.x_hover_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
-.x_hover_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
-.x_hover_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
-.x_hover_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
-.x_hover_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
-.x_hover_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
-.x_hover_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
-.x_hover_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
-.x_hover_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
-.x_hover_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
-.x_hover_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
-.x_hover_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
+.x_hvr_bgc-red-92:hover { background-color: hsl(0, 100%, 92%); }
+.x_hvr_bgc-red-70:hover { background-color: hsl(0, 100%, 70%); }
+.x_hvr_bgc-red:hover { background-color: hsl(0, 100%, 50%); }
+.x_hvr_bgc-red-25:hover { background-color: hsl(0, 100%, 25%); }
+.x_hvr_bgc-red60-92:hover { background-color: hsl(0, 60%, 92%); }
+.x_hvr_bgc-red60-70:hover { background-color: hsl(0, 60%, 70%); }
+.x_hvr_bgc-red60:hover { background-color: hsl(0, 60%, 50%); }
+.x_hvr_bgc-red60-25:hover { background-color: hsl(0, 60%, 25%); }
+.x_hvr_bgc-carrot-92:hover { background-color: hsl(30, 100%, 92%); }
+.x_hvr_bgc-carrot-70:hover { background-color: hsl(30, 100%, 70%); }
+.x_hvr_bgc-carrot:hover { background-color: hsl(30, 100%, 50%); }
+.x_hvr_bgc-carrot-25:hover { background-color: hsl(30, 100%, 25%); }
+.x_hvr_bgc-carrot60-92:hover { background-color: hsl(30, 60%, 92%); }
+.x_hvr_bgc-carrot60-70:hover { background-color: hsl(30, 60%, 70%); }
+.x_hvr_bgc-carrot60:hover { background-color: hsl(30, 60%, 50%); }
+.x_hvr_bgc-carrot60-25:hover { background-color: hsl(30, 60%, 25%); }
+.x_hvr_bgc-yellow-92:hover { background-color: hsl(60, 100%, 92%); }
+.x_hvr_bgc-yellow-70:hover { background-color: hsl(60, 100%, 70%); }
+.x_hvr_bgc-yellow:hover { background-color: hsl(60, 100%, 50%); }
+.x_hvr_bgc-yellow-25:hover { background-color: hsl(60, 100%, 25%); }
+.x_hvr_bgc-yellow60-92:hover { background-color: hsl(60, 60%, 92%); }
+.x_hvr_bgc-yellow60-70:hover { background-color: hsl(60, 60%, 70%); }
+.x_hvr_bgc-yellow60:hover { background-color: hsl(60, 60%, 50%); }
+.x_hvr_bgc-yellow60-25:hover { background-color: hsl(60, 60%, 25%); }
+.x_hvr_bgc-inchworm-92:hover { background-color: hsl(90, 100%, 92%); }
+.x_hvr_bgc-inchworm-70:hover { background-color: hsl(90, 100%, 70%); }
+.x_hvr_bgc-inchworm:hover { background-color: hsl(90, 100%, 50%); }
+.x_hvr_bgc-inchworm-25:hover { background-color: hsl(90, 100%, 25%); }
+.x_hvr_bgc-inchworm60-92:hover { background-color: hsl(90, 60%, 92%); }
+.x_hvr_bgc-inchworm60-70:hover { background-color: hsl(90, 60%, 70%); }
+.x_hvr_bgc-inchworm60:hover { background-color: hsl(90, 60%, 50%); }
+.x_hvr_bgc-inchworm60-25:hover { background-color: hsl(90, 60%, 25%); }
+.x_hvr_bgc-lime-92:hover { background-color: hsl(120, 100%, 92%); }
+.x_hvr_bgc-lime-70:hover { background-color: hsl(120, 100%, 70%); }
+.x_hvr_bgc-lime:hover { background-color: hsl(120, 100%, 50%); }
+.x_hvr_bgc-lime-25:hover { background-color: hsl(120, 100%, 25%); }
+.x_hvr_bgc-lime60-92:hover { background-color: hsl(120, 60%, 92%); }
+.x_hvr_bgc-lime60-70:hover { background-color: hsl(120, 60%, 70%); }
+.x_hvr_bgc-lime60:hover { background-color: hsl(120, 60%, 50%); }
+.x_hvr_bgc-lime60-25:hover { background-color: hsl(120, 60%, 25%); }
+.x_hvr_bgc-cadmium-92:hover { background-color: hsl(150, 100%, 92%); }
+.x_hvr_bgc-cadmium-70:hover { background-color: hsl(150, 100%, 70%); }
+.x_hvr_bgc-cadmium:hover { background-color: hsl(150, 100%, 50%); }
+.x_hvr_bgc-cadmium-25:hover { background-color: hsl(150, 100%, 25%); }
+.x_hvr_bgc-cadmium60-92:hover { background-color: hsl(150, 60%, 92%); }
+.x_hvr_bgc-cadmium60-70:hover { background-color: hsl(150, 60%, 70%); }
+.x_hvr_bgc-cadmium60:hover { background-color: hsl(150, 60%, 50%); }
+.x_hvr_bgc-cadmium60-25:hover { background-color: hsl(150, 60%, 25%); }
+.x_hvr_bgc-cyan-92:hover { background-color: hsl(180, 100%, 92%); }
+.x_hvr_bgc-cyan-70:hover { background-color: hsl(180, 100%, 70%); }
+.x_hvr_bgc-cyan:hover { background-color: hsl(180, 100%, 50%); }
+.x_hvr_bgc-cyan-25:hover { background-color: hsl(180, 100%, 25%); }
+.x_hvr_bgc-cyan60-92:hover { background-color: hsl(180, 60%, 92%); }
+.x_hvr_bgc-cyan60-70:hover { background-color: hsl(180, 60%, 70%); }
+.x_hvr_bgc-cyan60:hover { background-color: hsl(180, 60%, 50%); }
+.x_hvr_bgc-cyan60-25:hover { background-color: hsl(180, 60%, 25%); }
+.x_hvr_bgc-cobalt-92:hover { background-color: hsl(210, 100%, 92%); }
+.x_hvr_bgc-cobalt-70:hover { background-color: hsl(210, 100%, 70%); }
+.x_hvr_bgc-cobalt:hover { background-color: hsl(210, 100%, 50%); }
+.x_hvr_bgc-cobalt-25:hover { background-color: hsl(210, 100%, 25%); }
+.x_hvr_bgc-cobalt60-92:hover { background-color: hsl(210, 60%, 92%); }
+.x_hvr_bgc-cobalt60-70:hover { background-color: hsl(210, 60%, 70%); }
+.x_hvr_bgc-cobalt60:hover { background-color: hsl(210, 60%, 50%); }
+.x_hvr_bgc-cobalt60-25:hover { background-color: hsl(210, 60%, 25%); }
+.x_hvr_bgc-blue-92:hover { background-color: hsl(240, 100%, 92%); }
+.x_hvr_bgc-blue-70:hover { background-color: hsl(240, 100%, 70%); }
+.x_hvr_bgc-blue:hover { background-color: hsl(240, 100%, 50%); }
+.x_hvr_bgc-blue-25:hover { background-color: hsl(240, 100%, 25%); }
+.x_hvr_bgc-blue60-92:hover { background-color: hsl(240, 60%, 92%); }
+.x_hvr_bgc-blue60-70:hover { background-color: hsl(240, 60%, 70%); }
+.x_hvr_bgc-blue60:hover { background-color: hsl(240, 60%, 50%); }
+.x_hvr_bgc-blue60-25:hover { background-color: hsl(240, 60%, 25%); }
+.x_hvr_bgc-mauve-92:hover { background-color: hsl(270, 100%, 92%); }
+.x_hvr_bgc-mauve-70:hover { background-color: hsl(270, 100%, 70%); }
+.x_hvr_bgc-mauve:hover { background-color: hsl(270, 100%, 50%); }
+.x_hvr_bgc-mauve-25:hover { background-color: hsl(270, 100%, 25%); }
+.x_hvr_bgc-mauve60-92:hover { background-color: hsl(270, 60%, 92%); }
+.x_hvr_bgc-mauve60-70:hover { background-color: hsl(270, 60%, 70%); }
+.x_hvr_bgc-mauve60:hover { background-color: hsl(270, 60%, 50%); }
+.x_hvr_bgc-mauve60-25:hover { background-color: hsl(270, 60%, 25%); }
+.x_hvr_bgc-magenta-92:hover { background-color: hsl(300, 100%, 92%); }
+.x_hvr_bgc-magenta-70:hover { background-color: hsl(300, 100%, 70%); }
+.x_hvr_bgc-magenta:hover { background-color: hsl(300, 100%, 50%); }
+.x_hvr_bgc-magenta-25:hover { background-color: hsl(300, 100%, 25%); }
+.x_hvr_bgc-magenta60-92:hover { background-color: hsl(300, 60%, 92%); }
+.x_hvr_bgc-magenta60-70:hover { background-color: hsl(300, 60%, 70%); }
+.x_hvr_bgc-magenta60:hover { background-color: hsl(300, 60%, 50%); }
+.x_hvr_bgc-magenta60-25:hover { background-color: hsl(300, 60%, 25%); }
+.x_hvr_bgc-cerise-92:hover { background-color: hsl(330, 100%, 92%); }
+.x_hvr_bgc-cerise-70:hover { background-color: hsl(330, 100%, 70%); }
+.x_hvr_bgc-cerise:hover { background-color: hsl(330, 100%, 50%); }
+.x_hvr_bgc-cerise-25:hover { background-color: hsl(330, 100%, 25%); }
+.x_hvr_bgc-cerise60-92:hover { background-color: hsl(330, 60%, 92%); }
+.x_hvr_bgc-cerise60-70:hover { background-color: hsl(330, 60%, 70%); }
+.x_hvr_bgc-cerise60:hover { background-color: hsl(330, 60%, 50%); }
+.x_hvr_bgc-cerise60-25:hover { background-color: hsl(330, 60%, 25%); }
+.x_hvr_bgc-gray-98:hover { background-color: hsl(0, 0%, 98%); }
+.x_hvr_bgc-gray-95:hover { background-color: hsl(0, 0%, 95%); }
+.x_hvr_bgc-gray-90:hover { background-color: hsl(0, 0%, 90%); }
+.x_hvr_bgc-gray-80:hover { background-color: hsl(0, 0%, 80%); }
+.x_hvr_bgc-gray-65:hover { background-color: hsl(0, 0%, 65%); }
+.x_hvr_bgc-gray:hover { background-color: hsl(0, 0%, 50%); }
+.x_hvr_bgc-gray-35:hover { background-color: hsl(0, 0%, 35%); }
+.x_hvr_bgc-gray-20:hover { background-color: hsl(0, 0%, 20%); }
+.x_hvr_bgc-gray-10:hover { background-color: hsl(0, 0%, 10%); }
+.x_hvr_bgc-gray-5:hover { background-color: hsl(0, 0%, 5%); }
+.x_hvr_bgc-black:hover { background-color: hsl(0, 0%, 0%); }
+.x_hvr_bgc-black-90a:hover { background-color: hsla(0, 0%, 0%, 0.90); }
+.x_hvr_bgc-black-80a:hover { background-color: hsla(0, 0%, 0%, 0.80); }
+.x_hvr_bgc-black-70a:hover { background-color: hsla(0, 0%, 0%, 0.70); }
+.x_hvr_bgc-black-60a:hover { background-color: hsla(0, 0%, 0%, 0.60); }
+.x_hvr_bgc-black-50a:hover { background-color: hsla(0, 0%, 0%, 0.50); }
+.x_hvr_bgc-black-40a:hover { background-color: hsla(0, 0%, 0%, 0.40); }
+.x_hvr_bgc-black-30a:hover { background-color: hsla(0, 0%, 0%, 0.30); }
+.x_hvr_bgc-black-20a:hover { background-color: hsla(0, 0%, 0%, 0.20); }
+.x_hvr_bgc-black-10a:hover { background-color: hsla(0, 0%, 0%, 0.10); }
+.x_hvr_bgc-black-5a:hover { background-color: hsla(0, 0%, 0%, 0.05); }
+.x_hvr_bgc-black-2a:hover { background-color: hsla(0, 0%, 0%, 0.02); }
+.x_hvr_bgc-white:hover { background-color: hsl(0, 0%, 100%); }
+.x_hvr_bgc-white-90a:hover { background-color: hsla(0, 0%, 100%, 0.90); }
+.x_hvr_bgc-white-80a:hover { background-color: hsla(0, 0%, 100%, 0.80); }
+.x_hvr_bgc-white-70a:hover { background-color: hsla(0, 0%, 100%, 0.70); }
+.x_hvr_bgc-white-60a:hover { background-color: hsla(0, 0%, 100%, 0.60); }
+.x_hvr_bgc-white-50a:hover { background-color: hsla(0, 0%, 100%, 0.50); }
+.x_hvr_bgc-white-40a:hover { background-color: hsla(0, 0%, 100%, 0.40); }
+.x_hvr_bgc-white-30a:hover { background-color: hsla(0, 0%, 100%, 0.30); }
+.x_hvr_bgc-white-20a:hover { background-color: hsla(0, 0%, 100%, 0.20); }
+.x_hvr_bgc-white-10a:hover { background-color: hsla(0, 0%, 100%, 0.10); }
+.x_hvr_bgc-white-5a:hover { background-color: hsla(0, 0%, 100%, 0.05); }
+.x_hvr_bgc-white-2a:hover { background-color: hsla(0, 0%, 100%, 0.02); }
 }
+.odd_bgc-gray-98:nth-child(odd) { background-color: hsl(0, 0%, 98%); }
+.odd_bgc-gray-95:nth-child(odd) { background-color: hsl(0, 0%, 95%); }
+.odd_bgc-gray-90:nth-child(odd) { background-color: hsl(0, 0%, 90%); }
+.odd_bgc-gray-80:nth-child(odd) { background-color: hsl(0, 0%, 80%); }
+.odd_bgc-gray-65:nth-child(odd) { background-color: hsl(0, 0%, 65%); }
+.odd_bgc-gray:nth-child(odd) { background-color: hsl(0, 0%, 50%); }
+.odd_bgc-gray-35:nth-child(odd) { background-color: hsl(0, 0%, 35%); }
+.odd_bgc-gray-20:nth-child(odd) { background-color: hsl(0, 0%, 20%); }
+.odd_bgc-gray-10:nth-child(odd) { background-color: hsl(0, 0%, 10%); }
+.odd_bgc-gray-5:nth-child(odd) { background-color: hsl(0, 0%, 5%); }
+.evn_bgc-gray-98:nth-child(even) { background-color: hsl(0, 0%, 98%); }
+.evn_bgc-gray-95:nth-child(even) { background-color: hsl(0, 0%, 95%); }
+.evn_bgc-gray-90:nth-child(even) { background-color: hsl(0, 0%, 90%); }
+.evn_bgc-gray-80:nth-child(even) { background-color: hsl(0, 0%, 80%); }
+.evn_bgc-gray-65:nth-child(even) { background-color: hsl(0, 0%, 65%); }
+.evn_bgc-gray:nth-child(even) { background-color: hsl(0, 0%, 50%); }
+.evn_bgc-gray-35:nth-child(even) { background-color: hsl(0, 0%, 35%); }
+.evn_bgc-gray-20:nth-child(even) { background-color: hsl(0, 0%, 20%); }
+.evn_bgc-gray-10:nth-child(even) { background-color: hsl(0, 0%, 10%); }
+.evn_bgc-gray-5:nth-child(even) { background-color: hsl(0, 0%, 5%); }

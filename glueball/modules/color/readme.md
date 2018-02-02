@@ -125,8 +125,8 @@ Suffix  | Value
 `gray-95` | `hsl(0, 0%, 95%)`
 `gray-90` | `hsl(0, 0%, 90%)`
 `gray-80` | `hsl(0, 0%, 80%)`
-`gray` | `hsl(0, 0%, 50%)`
 `gray-65` | `hsl(0, 0%, 65%)`
+`gray` | `hsl(0, 0%, 50%)`
 `gray-35` | `hsl(0, 0%, 35%)`
 `gray-20` | `hsl(0, 0%, 20%)`
 `gray-10` | `hsl(0, 0%, 10%)`
@@ -277,8 +277,8 @@ Suffix  | Value
 .gray-95 { color: hsl(0, 0%, 95%); }
 .gray-90 { color: hsl(0, 0%, 90%); }
 .gray-80 { color: hsl(0, 0%, 80%); }
-.gray { color: hsl(0, 0%, 50%); }
 .gray-65 { color: hsl(0, 0%, 65%); }
+.gray { color: hsl(0, 0%, 50%); }
 .gray-35 { color: hsl(0, 0%, 35%); }
 .gray-20 { color: hsl(0, 0%, 20%); }
 .gray-10 { color: hsl(0, 0%, 10%); }

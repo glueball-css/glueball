@@ -109,8 +109,8 @@ documentation: http://glueball.io/docs/module/color
 .gray-95 { color: hsl(0, 0%, 95%); }
 .gray-90 { color: hsl(0, 0%, 90%); }
 .gray-80 { color: hsl(0, 0%, 80%); }
-.gray { color: hsl(0, 0%, 50%); }
 .gray-65 { color: hsl(0, 0%, 65%); }
+.gray { color: hsl(0, 0%, 50%); }
 .gray-35 { color: hsl(0, 0%, 35%); }
 .gray-20 { color: hsl(0, 0%, 20%); }
 .gray-10 { color: hsl(0, 0%, 10%); }

@@ -3,6 +3,7 @@ from jinja2 import TemplateNotFound
 import string
 
 from glueball.glueball import sheet
+from glueball.settings import PSEUDO_LOOKUP
 from glueball.modules.defaults import TYPE_SCALE, WEIGHT, SPECTRUM, BREAKPOINTS
 
 app = Flask(__name__)
@@ -17,7 +18,6 @@ def style_from_url(url, font_mdl=FONT_MODULE):
         for sel in style.selectors:
             if sel.base == url:
                 return style
-    return None
 
 
 def hsla_from_url(url, spectrum=SPECTRUM):
@@ -66,7 +66,7 @@ def color(color_url):
 @app.route('/docs/modules/<mdlurl>/')
 def mdl(mdlurl):
     try:
-        return render_template(MODULE_DIR+mdlurl+'.html', mdl=sheet[mdlurl])
+        return render_template(MODULE_DIR+mdlurl+'.html', mdl=sheet[mdlurl], pseudo_lookup=PSEUDO_LOOKUP)
     except TemplateNotFound:
         abort(404)
 

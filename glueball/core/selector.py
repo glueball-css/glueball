@@ -1,4 +1,4 @@
-
+from glueball.settings import PSEUDO_LOOKUP
 
 class Selector:
     """Create a css selector from a base and various modifiers.
@@ -57,5 +57,5 @@ class Selector:
                 s += '-' + self.value
         # pseudo suffix, i.e. ":hover"
         if self.pseudo:
-            s += ":" + self.pseudo
+            s += ":" + PSEUDO_LOOKUP[self.pseudo]
         return s

@@ -67,3 +67,12 @@ INCLUDES_DIR = os.path.join(DIRNAME, 'includes')
 INCLUDES = (
     'normalize.css',
 )
+
+PSEUDO_LOOKUP = {
+    'hvr': 'hover',
+    'fcs': 'focus',
+    'lst': 'last-child',
+    'fst': 'first-child',
+    'odd': 'nth-child(odd)',
+    'evn': 'nth-child(even)',
+}

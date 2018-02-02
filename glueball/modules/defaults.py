@@ -81,7 +81,7 @@ WEIGHT = list(zip(range(1, 10), range(100, 901, 100)))
 DENOMINATORS = [5, 7, 12]
 
 # Grays from various luminosities
-GRAYS = [Hsla('gray', lum=l) for l in (98, 95, 90, 80, 50, 65, 35, 20, 10, 5)]
+GRAYS = [Hsla('gray', lum=l) for l in (98, 95, 90, 80, 65, 50, 35, 20, 10, 5)]
 
 # Blacks and whites from various alpha values
 BLACKWHITE = [Hsla(h, alpha=a) for h in ['black', 'white'] for a in (100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 5, 2)]
