@@ -11,6 +11,6 @@ documentation: http://glueball.io/docs/module/flex_direction
 */
 
 .fd-row { flex-direction: row; }
-.fd-col { flex-direction: row-reverse; }
-.fd-rowr { flex-direction: column; }
+.fd-col { flex-direction: column; }
+.fd-rowr { flex-direction: row-reverse; }
 .fd-colr { flex-direction: column-reverse; }

@@ -10,19 +10,19 @@
   <a href="{{ url_for('home') }}">HOME</a>
   <a href="{{ url_for('docs') }}">Docs</a>
 
-  <h2>{{ mdl.name }}</h2>
+  <h2 class="weight1 size7 carrot-70">{{ mdl.name }}</h2>
   {% block intro %}
     <p class="size4">{{ mdl.docstring }}</p>
   {% endblock %}
 
-  <h3 class="bbs-s bc-black bw1">Examples</h3>
+  <h3 class="bbs-s bbw1">Examples</h3>
   {% block examples %}
   <p class="i">No examples yet.</p>
   {% endblock %}
 
   {% if mdl.styles %}
     <section>
-      <h3>Basic styles</h3>
+      <h3 class="bbs-s bbw1">Basic styles</h3>
       <p>
         The basic style rules do not depend on the provided values.
         They do however adhere to the breakpoints and pseudo selectors.
@@ -34,7 +34,7 @@
 
   {% if mdl.static %}
     <section>
-      <h3>Static declarations</h3>
+      <h3 class="bbs-s bbw1">Static declarations</h3>
       <p>
         A static declaration is not altered by the provided values. They form
         a declaration block together with the dynamic properties + values.
@@ -56,7 +56,7 @@
 
   {% if mdl.dynamic %}
     <section>
-      <h3>Dynamic properties</h3>
+      <h3 class="bbs-s bbw1">Dynamic properties</h3>
         <p>
           Dynamic properties combine with every single one of the module values to make
           declarations. They form declaration blocks together with the optional static
@@ -79,7 +79,7 @@
 
   {% if mdl.values %}
     <section>
-      <h3>Module values</h3>
+      <h3 class="bbs-s bbw1">Module values</h3>
       <p>
         The module values consist each of a suffix and a value. The suffix is attached to the
         base selector and the value forms a declaration with every dynamic property.
@@ -92,7 +92,7 @@
   {% endif %}
 
   <section>
-    <h3>Media</h3>
+    <h3 class="bbs-s bbw1">Media</h3>
     <table>
       <caption></caption>
       {% set media = mdl._breakpoints.media_table() %}
@@ -104,8 +104,8 @@
   {% if mdl.pseudos %}
     {% for pseudo, (psmedia, psvals) in mdl.pseudos.items() %}
       {% set ps = pseudo_lookup[pseudo] %}
-      <h3>pseudo: {{ ps }}</h3>
-      <p>Some words about this selector</p>
+      <h2 class="size6 mauve">{{ ps }}</h2>
+      <p class="size4">Some words about this selector</p>
       <table>
         <caption>Media prefixes for {{ ps }}</caption>
         {% set bps = mdl._breakpoints.bp_table(psmedia) %}
@@ -124,7 +124,7 @@
     {% endfor %}
   {% endif %}
 
-  <h3>CSS rules</h3>
+  <h3 class="bbs-s bbw1">CSS rules</h3>
 <pre class="{{ cbo_precode }}"><code>{% for rule in mdl.get_all_rules() %}
 {{ rule.__str__() }}
 {% endfor %}</code></pre>

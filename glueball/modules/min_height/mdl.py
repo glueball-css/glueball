@@ -1,5 +1,5 @@
 """
-Percentages and values for max width
+Percentages and values for minimum height
 """
 
 from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SIZING, PERCENTAGES
@@ -7,9 +7,9 @@ from ...core import CssModule
 
 
 mdl = CssModule(
-    'Max width',
+    'Min height',
     [UP],
-    dynamic={'.maxw': ['max-width']},
+    dynamic={'.minh': ['min-height']},
     values=SIZING+PERCENTAGES,
     docstring=__doc__
 )

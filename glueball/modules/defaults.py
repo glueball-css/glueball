@@ -20,21 +20,28 @@ ONLY = BREAKPOINTS.media_only  # Only specific breakpoints: 'tt', 'ss', 'mm', 'l
 UP = BREAKPOINTS.media_up      # Lower bound queries: 'tx', 'sx', 'mx', 'lx', 'xx'
 DOWN = BREAKPOINTS.media_down  # Upper bound queries: 'tx', 'tl', 'tm', 'ts', 'tt'
 
-SIZING = list(zip(range(10), (
+SIZING = list(zip(range(17), (
     '0',
     '1rem',
     '2rem',
     '4rem',
     '8rem',
+    '12rem',
     '16rem',
+    '20rem',
+    '26rem',
     '32rem',
+    '40rem',
     '48rem',
+    '56rem',
     '64rem',
-    '96rem',
+    '72rem',
+    '80rem',
 )))
 
 SPACING = list(zip(range(10), (
     '0',
+    '0.0625rem',
     '0.125rem',
     '0.25rem',
     '0.5rem',
@@ -42,11 +49,11 @@ SPACING = list(zip(range(10), (
     '2rem',
     '4rem',
     '8rem',
-    '16rem',
     '999rem',
 )))
 
 NEGATIVE_SPACING = list(zip(range(-1, -10, -1), (
+    '0.0625rem',
     '-0.125rem',
     '-0.25rem',
     '-0.5rem',
@@ -54,7 +61,6 @@ NEGATIVE_SPACING = list(zip(range(-1, -10, -1), (
     '-2rem',
     '-4rem',
     '-8rem',
-    '-16rem',
     '-999rem',
 )))
 

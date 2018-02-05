@@ -27,8 +27,8 @@ The following values determine the dynamic properties and selectors.
 Suffix  | Value
 --------- | ---------
 `row` | `row`
-`col` | `row-reverse`
-`rowr` | `column`
+`col` | `column`
+`rowr` | `row-reverse`
 `colr` | `column-reverse`
 
 
@@ -53,8 +53,8 @@ Suffix  | Value
 ```css
 
 .fd-row { flex-direction: row; }
-.fd-col { flex-direction: row-reverse; }
-.fd-rowr { flex-direction: column; }
+.fd-col { flex-direction: column; }
+.fd-rowr { flex-direction: row-reverse; }
 .fd-colr { flex-direction: column-reverse; }
 
 ```

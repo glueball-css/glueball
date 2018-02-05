@@ -27,10 +27,12 @@ def write_md_files():
 
 
 if __name__ == "__main__":
-    # sheet.write_css()  # General css file
-    app.run()
     # print_mods()
     # print(rendered)
-    # write_css_files()
-    # write_md_files()
+
+    sheet.write_css()  # General css file
+    write_css_files()
+    write_md_files()
+
+    # app.run()
 

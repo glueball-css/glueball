@@ -14,7 +14,7 @@ The value of a dynamic property is determined by the provided values.
 
 | Base selector | Dynamic props |
 | ------------- | ------------- |
-| `.fxas` |`align-self`|
+| `.as` |`align-self`|
 
 
 
@@ -52,11 +52,11 @@ Suffix  | Value
 ## CSS rules
 ```css
 
-.fxas-fs { align-self: flex-start; }
-.fxas-fe { align-self: flex-end; }
-.fxas-c { align-self: center; }
-.fxas-b { align-self: baseline; }
-.fxas-s { align-self: stretch; }
+.as-fs { align-self: flex-start; }
+.as-fe { align-self: flex-end; }
+.as-c { align-self: center; }
+.as-b { align-self: baseline; }
+.as-s { align-self: stretch; }
 
 ```
 

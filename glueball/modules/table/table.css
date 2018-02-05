@@ -22,12 +22,12 @@ documentation: http://glueball.io/docs/module/table
 .even_striped-gray-95:nth-child(even) { background-color: hsl(0, 0%, 98%); }
 .even_striped-gray-90:nth-child(even) { background-color: hsl(0, 0%, 95%); }
 .tbs0 { border-spacing: 0; }
-.tbs1 { border-spacing: 0.125rem; }
-.tbs2 { border-spacing: 0.25rem; }
-.tbs3 { border-spacing: 0.5rem; }
-.tbs4 { border-spacing: 1rem; }
-.tbs5 { border-spacing: 2rem; }
-.tbs6 { border-spacing: 4rem; }
-.tbs7 { border-spacing: 8rem; }
-.tbs8 { border-spacing: 16rem; }
+.tbs1 { border-spacing: 0.0625rem; }
+.tbs2 { border-spacing: 0.125rem; }
+.tbs3 { border-spacing: 0.25rem; }
+.tbs4 { border-spacing: 0.5rem; }
+.tbs5 { border-spacing: 1rem; }
+.tbs6 { border-spacing: 2rem; }
+.tbs7 { border-spacing: 4rem; }
+.tbs8 { border-spacing: 8rem; }
 .tbs9 { border-spacing: 999rem; }

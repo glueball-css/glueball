@@ -7,10 +7,10 @@ from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY
 from ...core import CssModule
 
 vals = [
-    ('row', 'row'),
-    ('col', 'row-reverse'),
-    ('rowr', 'column'),
-    ('colr', 'column-reverse')
+    ('row',     'row'),
+    ('col',     'column'),
+    ('rowr',    'row-reverse'),
+    ('colr',    'column-reverse')
 ]
 
 mdl = CssModule(

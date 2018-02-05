@@ -9,6 +9,7 @@ Various margin properties:
 from ..defaults import BREAKPOINTS, UP, DOWN, FULL, ONLY, SPACING, NEGATIVE_SPACING
 from ...core import CssModule
 
+vals = SPACING + NEGATIVE_SPACING + [('a', 'auto')]
 
 mdl = CssModule(
     'Margin',
@@ -21,6 +22,6 @@ mdl = CssModule(
         '.ml': ['margin-left'],
         '.mx': ['margin-left', 'margin-right'],
         '.my': ['margin-top', 'margin-bottom']},
-    values=SPACING+NEGATIVE_SPACING,
+    values=vals,
     docstring=__doc__
 )
