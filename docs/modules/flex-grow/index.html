@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Background position /  modules / docs / GLUEBALL</title>
+  <title>Flex grow /  modules / docs / GLUEBALL</title>
   <link rel="stylesheet" type="text/css" href="/static/css/glueball.css">
 </head>
 <body class="lh4 sans">
@@ -13,12 +13,11 @@
   <a href="/">HOME</a>
   <a href="/docs/">Docs</a>
 
-  <h2 class="weight1 size7 carrot-70">Background position</h2>
+  <h2 class="weight1 size7 carrot-70">Flex grow</h2>
   
   
     <p class="size4">
-Sets the background position of images.
-A static declaration of &#34;no-repeat&#34; is implicitly included.
+Flex grow.
 </p>
   
 
@@ -32,26 +31,6 @@ A static declaration of &#34;no-repeat&#34; is implicitly included.
 
   
 
-  
-    <section>
-      <h3 class="bbs-s bbw1">Static declarations</h3>
-      <p>
-        A static declaration is not altered by the provided values. They form
-        a declaration block together with the dynamic properties + values.
-      </p>
-      <table>
-        <tr>
-          <th>Property</th>
-          <th>Value</th>
-        </tr>
-        <tr>
-          
-            <td><code>background-repeat</code></td>
-            <td><code>no-repeat</code></td>
-          
-        </tr>
-      </table>
-    </section>
   
 
   
@@ -69,8 +48,8 @@ A static declaration of &#34;no-repeat&#34; is implicitly included.
           </tr>
           
           <tr>
-            <td><code>.bgp</code></td>
-            <td><code>background-position</code></td>
+            <td><code>.fg</code></td>
+            <td><code>flex-grow</code></td>
           </tr>
         
       </table>
@@ -108,90 +87,100 @@ A static declaration of &#34;no-repeat&#34; is implicitly included.
   <tr>
   
     <td>
-      <code>lt</code>
+      <code>0</code>
     </td>
     <td>
-      <code>left top</code>
-    </td>
-  </tr>
-
-  <tr>
-  
-    <td>
-      <code>lc</code>
-    </td>
-    <td>
-      <code>left center</code>
+      <code>0</code>
     </td>
   </tr>
 
   <tr>
   
     <td>
-      <code>lb</code>
+      <code>1</code>
     </td>
     <td>
-      <code>left bottom</code>
-    </td>
-  </tr>
-
-  <tr>
-  
-    <td>
-      <code>rt</code>
-    </td>
-    <td>
-      <code>right top</code>
+      <code>1</code>
     </td>
   </tr>
 
   <tr>
   
     <td>
-      <code>rc</code>
+      <code>2</code>
     </td>
     <td>
-      <code>right center</code>
-    </td>
-  </tr>
-
-  <tr>
-  
-    <td>
-      <code>rb</code>
-    </td>
-    <td>
-      <code>right bottom</code>
+      <code>2</code>
     </td>
   </tr>
 
   <tr>
   
     <td>
-      <code>ct</code>
+      <code>3</code>
     </td>
     <td>
-      <code>center top</code>
-    </td>
-  </tr>
-
-  <tr>
-  
-    <td>
-      <code>cc</code>
-    </td>
-    <td>
-      <code>center center</code>
+      <code>3</code>
     </td>
   </tr>
 
   <tr>
   
     <td>
-      <code>cb</code>
+      <code>4</code>
     </td>
     <td>
-      <code>center bottom</code>
+      <code>4</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>5</code>
+    </td>
+    <td>
+      <code>5</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>6</code>
+    </td>
+    <td>
+      <code>6</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>7</code>
+    </td>
+    <td>
+      <code>7</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>8</code>
+    </td>
+    <td>
+      <code>8</code>
+    </td>
+  </tr>
+
+  <tr>
+  
+    <td>
+      <code>9</code>
+    </td>
+    <td>
+      <code>9</code>
     </td>
   </tr>
 
@@ -477,66 +466,71 @@ A static declaration of &#34;no-repeat&#34; is implicitly included.
 
   <h3 class="bbs-s bbw1">CSS rules</h3>
 <pre class="size1 lh4"><code>
-.bgp-lt { background-position: left top; background-repeat: no-repeat; }
-.bgp-lc { background-position: left center; background-repeat: no-repeat; }
-.bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
-.bgp-rt { background-position: right top; background-repeat: no-repeat; }
-.bgp-rc { background-position: right center; background-repeat: no-repeat; }
-.bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
-.bgp-ct { background-position: center top; background-repeat: no-repeat; }
-.bgp-cc { background-position: center center; background-repeat: no-repeat; }
-.bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+.fg0 { flex-grow: 0; }
+.fg1 { flex-grow: 1; }
+.fg2 { flex-grow: 2; }
+.fg3 { flex-grow: 3; }
+.fg4 { flex-grow: 4; }
+.fg5 { flex-grow: 5; }
+.fg6 { flex-grow: 6; }
+.fg7 { flex-grow: 7; }
+.fg8 { flex-grow: 8; }
+.fg9 { flex-grow: 9; }
 
 
 @media (min-width: 36em) {
-.s_bgp-lt { background-position: left top; background-repeat: no-repeat; }
-.s_bgp-lc { background-position: left center; background-repeat: no-repeat; }
-.s_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
-.s_bgp-rt { background-position: right top; background-repeat: no-repeat; }
-.s_bgp-rc { background-position: right center; background-repeat: no-repeat; }
-.s_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
-.s_bgp-ct { background-position: center top; background-repeat: no-repeat; }
-.s_bgp-cc { background-position: center center; background-repeat: no-repeat; }
-.s_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+.s_fg0 { flex-grow: 0; }
+.s_fg1 { flex-grow: 1; }
+.s_fg2 { flex-grow: 2; }
+.s_fg3 { flex-grow: 3; }
+.s_fg4 { flex-grow: 4; }
+.s_fg5 { flex-grow: 5; }
+.s_fg6 { flex-grow: 6; }
+.s_fg7 { flex-grow: 7; }
+.s_fg8 { flex-grow: 8; }
+.s_fg9 { flex-grow: 9; }
 }
 
 
 @media (min-width: 48em) {
-.m_bgp-lt { background-position: left top; background-repeat: no-repeat; }
-.m_bgp-lc { background-position: left center; background-repeat: no-repeat; }
-.m_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
-.m_bgp-rt { background-position: right top; background-repeat: no-repeat; }
-.m_bgp-rc { background-position: right center; background-repeat: no-repeat; }
-.m_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
-.m_bgp-ct { background-position: center top; background-repeat: no-repeat; }
-.m_bgp-cc { background-position: center center; background-repeat: no-repeat; }
-.m_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+.m_fg0 { flex-grow: 0; }
+.m_fg1 { flex-grow: 1; }
+.m_fg2 { flex-grow: 2; }
+.m_fg3 { flex-grow: 3; }
+.m_fg4 { flex-grow: 4; }
+.m_fg5 { flex-grow: 5; }
+.m_fg6 { flex-grow: 6; }
+.m_fg7 { flex-grow: 7; }
+.m_fg8 { flex-grow: 8; }
+.m_fg9 { flex-grow: 9; }
 }
 
 
 @media (min-width: 62em) {
-.l_bgp-lt { background-position: left top; background-repeat: no-repeat; }
-.l_bgp-lc { background-position: left center; background-repeat: no-repeat; }
-.l_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
-.l_bgp-rt { background-position: right top; background-repeat: no-repeat; }
-.l_bgp-rc { background-position: right center; background-repeat: no-repeat; }
-.l_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
-.l_bgp-ct { background-position: center top; background-repeat: no-repeat; }
-.l_bgp-cc { background-position: center center; background-repeat: no-repeat; }
-.l_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+.l_fg0 { flex-grow: 0; }
+.l_fg1 { flex-grow: 1; }
+.l_fg2 { flex-grow: 2; }
+.l_fg3 { flex-grow: 3; }
+.l_fg4 { flex-grow: 4; }
+.l_fg5 { flex-grow: 5; }
+.l_fg6 { flex-grow: 6; }
+.l_fg7 { flex-grow: 7; }
+.l_fg8 { flex-grow: 8; }
+.l_fg9 { flex-grow: 9; }
 }
 
 
 @media (min-width: 75em) {
-.x_bgp-lt { background-position: left top; background-repeat: no-repeat; }
-.x_bgp-lc { background-position: left center; background-repeat: no-repeat; }
-.x_bgp-lb { background-position: left bottom; background-repeat: no-repeat; }
-.x_bgp-rt { background-position: right top; background-repeat: no-repeat; }
-.x_bgp-rc { background-position: right center; background-repeat: no-repeat; }
-.x_bgp-rb { background-position: right bottom; background-repeat: no-repeat; }
-.x_bgp-ct { background-position: center top; background-repeat: no-repeat; }
-.x_bgp-cc { background-position: center center; background-repeat: no-repeat; }
-.x_bgp-cb { background-position: center bottom; background-repeat: no-repeat; }
+.x_fg0 { flex-grow: 0; }
+.x_fg1 { flex-grow: 1; }
+.x_fg2 { flex-grow: 2; }
+.x_fg3 { flex-grow: 3; }
+.x_fg4 { flex-grow: 4; }
+.x_fg5 { flex-grow: 5; }
+.x_fg6 { flex-grow: 6; }
+.x_fg7 { flex-grow: 7; }
+.x_fg8 { flex-grow: 8; }
+.x_fg9 { flex-grow: 9; }
 }
 </code></pre>
 
